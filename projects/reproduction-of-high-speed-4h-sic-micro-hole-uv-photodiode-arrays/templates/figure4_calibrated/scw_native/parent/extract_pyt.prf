@@ -1,0 +1,2 @@
+set WB_tool(extract,exec_dependency) strict
+set WB_tool(extract,parallel,activate) 1

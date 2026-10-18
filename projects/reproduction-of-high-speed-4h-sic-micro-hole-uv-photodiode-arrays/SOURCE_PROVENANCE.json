@@ -1,0 +1,270 @@
+{
+  "scope": "source only; materials and generated results omitted",
+  "exports": [
+    {
+      "path": "templates/figure3/.project",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changes": "Local project paths replaced by documented preparation tokens only"
+    },
+    {
+      "path": "templates/figure3/sde_dvs.cmd",
+      "source_sha256": "4a0d3aeb6dc5eee71777d811d2e7e6b1a074bef23cd1b8b5ec6a559fe721f7bf",
+      "changes": "Local project paths replaced by documented preparation tokens only"
+    },
+    {
+      "path": "templates/figure3/sdevice_des.cmd",
+      "source_sha256": "eb67372ec147c6cbb13343ef2150866a6c2ea945119573628348fed0a68b81ff",
+      "changes": "Local project paths replaced by documented preparation tokens only"
+    },
+    {
+      "path": "templates/figure3/gtree.dat",
+      "source_sha256": "ab64d0723963c31028d4e051d50a03f80255bba064a2a7f25b68b26e47f44b3f",
+      "changes": "Local project paths replaced by documented preparation tokens only"
+    },
+    {
+      "path": "templates/figure3/gvars.dat",
+      "source_sha256": "13647a8a6ce8d6a45d24a351c0c7806b2367bcb44b81aadd7504e7c8dc12b984",
+      "changes": "Local project paths replaced by documented preparation tokens only"
+    },
+    {
+      "path": "templates/figure3/gscens.dat",
+      "source_sha256": "ea975af043db54f8a72ec60d34be7db4208aa9aba09b4be29c134b60d716960b",
+      "changes": "Local project paths replaced by documented preparation tokens only"
+    },
+    {
+      "path": "templates/figure3/gcomments.dat",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changes": "Local project paths replaced by documented preparation tokens only"
+    },
+    {
+      "path": "templates/figure3/collect_figure3.tcl",
+      "source_sha256": "04f285d49f679d1f9fa5a71394052213739ff735ee57d3bf87e2f4e9ed5305e9",
+      "changes": "Local project paths replaced by documented preparation tokens only"
+    },
+    {
+      "path": "templates/figure3/native_field_audit.tcl",
+      "source_sha256": "1d3f37526ddbad9ca739e0e1fc49012c0f55851a05392454b7fe1e831fbb676a",
+      "changes": "Local project paths replaced by documented preparation tokens only"
+    },
+    {
+      "path": "templates/figure4_baseline/.project",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changes": "Local project paths replaced by documented preparation tokens only"
+    },
+    {
+      "path": "templates/figure4_baseline/sde_dvs.cmd",
+      "source_sha256": "4a0d3aeb6dc5eee71777d811d2e7e6b1a074bef23cd1b8b5ec6a559fe721f7bf",
+      "changes": "Local project paths replaced by documented preparation tokens only"
+    },
+    {
+      "path": "templates/figure4_baseline/sdevice_des.cmd",
+      "source_sha256": "7ffc792afc5ddc5ee52c9d1f9afa0708b195fbeb30a226eb7b7c5a73d4f55ffb",
+      "changes": "Local project paths replaced by documented preparation tokens only"
+    },
+    {
+      "path": "templates/figure4_baseline/gtree.dat",
+      "source_sha256": "db9328c8231d133cd28430cceb1992e7613891e74dc371bd011dbd4ce9a7e8a5",
+      "changes": "Local project paths replaced by documented preparation tokens only"
+    },
+    {
+      "path": "templates/figure4_baseline/gvars.dat",
+      "source_sha256": "263f4db7cc72970635cd1dfa31df3913964b9adf99fa6cfeee3a2874777a05c4",
+      "changes": "Local project paths replaced by documented preparation tokens only"
+    },
+    {
+      "path": "templates/figure4_baseline/gscens.dat",
+      "source_sha256": "ea975af043db54f8a72ec60d34be7db4208aa9aba09b4be29c134b60d716960b",
+      "changes": "Local project paths replaced by documented preparation tokens only"
+    },
+    {
+      "path": "templates/figure4_baseline/gcomments.dat",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changes": "Local project paths replaced by documented preparation tokens only"
+    },
+    {
+      "path": "templates/figure4_baseline/gadvscens.dat",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changes": "Local project paths replaced by documented preparation tokens only"
+    },
+    {
+      "path": "templates/figure4_baseline/expanded/D4/pp38_des.cmd",
+      "source_sha256": "1d6febb6de78a515b7b1067995ed412372057c6b452986ff75d85ce9db594103",
+      "changes": "Local project paths replaced by documented preparation tokens only"
+    },
+    {
+      "path": "templates/figure4_baseline/expanded/D0/pp39_des.cmd",
+      "source_sha256": "87854bf305e0d9714a0a887c915ca54e8b02ecd78f975bce8a0baa3afd89949f",
+      "changes": "Local project paths replaced by documented preparation tokens only"
+    },
+    {
+      "path": "templates/figure4_baseline/expanded/D8/pp40_des.cmd",
+      "source_sha256": "a70b3781031a05ab933a2ebf55817b026ac9096f96e064d2be4d6a329e1a6923",
+      "changes": "Local project paths replaced by documented preparation tokens only"
+    },
+    {
+      "path": "templates/figure4_calibrated/.project",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changes": "Local project paths replaced by documented preparation tokens only"
+    },
+    {
+      "path": "templates/figure4_calibrated/sde_dvs.cmd",
+      "source_sha256": "4a0d3aeb6dc5eee71777d811d2e7e6b1a074bef23cd1b8b5ec6a559fe721f7bf",
+      "changes": "Local project paths replaced by documented preparation tokens only"
+    },
+    {
+      "path": "templates/figure4_calibrated/sdevice_des.cmd",
+      "source_sha256": "c451df0816d766f1f2620810aee9a89a89365bea799e5ac928376da700572e43",
+      "changes": "Local project paths replaced by documented preparation tokens only"
+    },
+    {
+      "path": "templates/figure4_calibrated/gtree.dat",
+      "source_sha256": "014740d605188c0572029759c633fe66ee1093999bde2a8e76ad261ec6698e1e",
+      "changes": "Local project paths replaced by documented preparation tokens only"
+    },
+    {
+      "path": "templates/figure4_calibrated/gvars.dat",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changes": "Local project paths replaced by documented preparation tokens only"
+    },
+    {
+      "path": "templates/figure4_calibrated/gscens.dat",
+      "source_sha256": "ea975af043db54f8a72ec60d34be7db4208aa9aba09b4be29c134b60d716960b",
+      "changes": "Local project paths replaced by documented preparation tokens only"
+    },
+    {
+      "path": "templates/figure4_calibrated/gcomments.dat",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changes": "Local project paths replaced by documented preparation tokens only"
+    },
+    {
+      "path": "templates/figure4_calibrated/gadvscens.dat",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changes": "Local project paths replaced by documented preparation tokens only"
+    },
+    {
+      "path": "templates/figure4_calibrated/expanded/D4/pp38_des.cmd",
+      "source_sha256": "f348ff78e0b297a3ad5ac2ecad1c06449044af0b9c2ea283a6577451735a931a",
+      "changes": "Local project paths replaced by documented preparation tokens only"
+    },
+    {
+      "path": "templates/figure4_calibrated/expanded/D0/pp39_des.cmd",
+      "source_sha256": "899852b7d50e5d9c264638ffb724294ab6112b299b5a7b374a24bc0fe31b5e62",
+      "changes": "Local project paths replaced by documented preparation tokens only"
+    },
+    {
+      "path": "templates/figure4_calibrated/expanded/D8/pp40_des.cmd",
+      "source_sha256": "0701373823b40b04fd605e4178cded065c4f604f5bab65360d2b2f2b35f20e13",
+      "changes": "Local project paths replaced by documented preparation tokens only"
+    },
+    {
+      "path": "templates/figure3_finite_lifetime/D0_V10/variant.cmd",
+      "source_sha256": "d3ac84d5c80a3ebd521e29348f81e357dd99f4c45861fc59c09039cec31adf9c",
+      "changes": "Local project paths replaced by documented preparation tokens only"
+    },
+    {
+      "path": "templates/figure3_finite_lifetime/D0_V15/variant.cmd",
+      "source_sha256": "a4abff3ae7553a02e697b53b5df11e75f041db18ece08d0525614f0f3fbac4ca",
+      "changes": "Local project paths replaced by documented preparation tokens only"
+    },
+    {
+      "path": "templates/figure3_finite_lifetime/D0_V20/variant.cmd",
+      "source_sha256": "09820344dad0a26efeed72ab767b84345091b51661a5c0e8fe5d0b37c4fb39dd",
+      "changes": "Local project paths replaced by documented preparation tokens only"
+    },
+    {
+      "path": "templates/figure3_finite_lifetime/D0_V5/variant.cmd",
+      "source_sha256": "328a10b9adc842dbb4ac3aa2da5810777271679873efe81bc2b530b387631fe8",
+      "changes": "Local project paths replaced by documented preparation tokens only"
+    },
+    {
+      "path": "templates/figure3_finite_lifetime/D4_V10/variant.cmd",
+      "source_sha256": "27d34dd86dc64c77bd935e574667d3c4f364caeb81615bf3c5ec00f9fd6f2031",
+      "changes": "Local project paths replaced by documented preparation tokens only"
+    },
+    {
+      "path": "templates/figure3_finite_lifetime/D4_V15/variant.cmd",
+      "source_sha256": "f1380570080a47474eea2c0124e3180ec5c812fe131674995327ae4310c4b611",
+      "changes": "Local project paths replaced by documented preparation tokens only"
+    },
+    {
+      "path": "templates/figure3_finite_lifetime/D4_V20/variant.cmd",
+      "source_sha256": "7515adbf885f1bd5ceffbac61cb4276cf59277f939744622001c6b5b1a97890e",
+      "changes": "Local project paths replaced by documented preparation tokens only"
+    },
+    {
+      "path": "templates/figure3_finite_lifetime/D4_V5/variant.cmd",
+      "source_sha256": "c4c4a5ef9353a11a7e8929a9ef153aa07159b24d2847b68aa029bf332f4a7234",
+      "changes": "Local project paths replaced by documented preparation tokens only"
+    },
+    {
+      "path": "templates/figure3_finite_lifetime/D8_V10/variant.cmd",
+      "source_sha256": "a1c8a70a53b42b87b16ad70e424d9902d35488bb35a4b5a483be64bd78fdfc07",
+      "changes": "Local project paths replaced by documented preparation tokens only"
+    },
+    {
+      "path": "templates/figure3_finite_lifetime/D8_V15/variant.cmd",
+      "source_sha256": "b174f3fdd9a44a2187016546dc9d60fc150fa895871d18e2f197800a2822917a",
+      "changes": "Local project paths replaced by documented preparation tokens only"
+    },
+    {
+      "path": "templates/figure3_finite_lifetime/D8_V20/variant.cmd",
+      "source_sha256": "9a77fe3dc0a53c50584d83e60c48620718b7f996de6d619860d6f730054fe95b",
+      "changes": "Local project paths replaced by documented preparation tokens only"
+    },
+    {
+      "path": "templates/figure3_finite_lifetime/D8_V5/variant.cmd",
+      "source_sha256": "170f22abe67a82f1ed7f6b19d24e1bab75b9fef474813ffc354e1ce3576a9f68",
+      "changes": "Local project paths replaced by documented preparation tokens only"
+    },
+    {
+      "path": "templates/figure4_calibrated/scw_native/parent/.project",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changes": "Local project paths replaced by documented preparation tokens only"
+    },
+    {
+      "path": "templates/figure4_calibrated/scw_native/parent/gtree.dat",
+      "source_sha256": "82eb02526f1a2ec92667da3fddf4e5b8fa061f82c1cdaa7e2ea9561ab314a77d",
+      "changes": "Local project paths replaced by documented preparation tokens only"
+    },
+    {
+      "path": "templates/figure4_calibrated/scw_native/parent/gvars.dat",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changes": "Local project paths replaced by documented preparation tokens only"
+    },
+    {
+      "path": "templates/figure4_calibrated/scw_native/parent/sdevice_des.cmd",
+      "source_sha256": "0358d40c860d16a008c9f80991563b05d8e5bc59c4a903b08c395a4dbef51b3a",
+      "changes": "Local project paths replaced by documented preparation tokens only"
+    },
+    {
+      "path": "templates/figure4_calibrated/scw_native/parent/extract_pyt.py",
+      "source_sha256": "615ca397a823aa9e565359184064ed08393c053b26ede87bebef61c0cce58324",
+      "changes": "Local project paths replaced by documented preparation tokens only"
+    },
+    {
+      "path": "templates/figure4_calibrated/scw_native/parent/extract_pyt.prf",
+      "source_sha256": "dd53c9a1d95dc074a2f97195dd2b81a301c2effdde08194e8ac810d8343200cf",
+      "changes": "Local project paths replaced by documented preparation tokens only"
+    },
+    {
+      "path": "templates/figure4_calibrated/scw_native/optimizer/.project",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "changes": "Local project paths replaced by documented preparation tokens only"
+    },
+    {
+      "path": "templates/figure4_calibrated/scw_native/optimizer/gtree.dat",
+      "source_sha256": "adf11fc8700919a4d4334b73861fe06ef19cc1d46639c75c27c2b6f15682d3be",
+      "changes": "Local project paths replaced by documented preparation tokens only"
+    },
+    {
+      "path": "templates/figure4_calibrated/scw_native/optimizer/scw_scw.py",
+      "source_sha256": "ad25c8ec3aa36393ee6fc7967b4c98df2d12b6f9548c6b11fcf90b9357af15c1",
+      "changes": "Project paths made relative to the SCW script directory; calibration model and controls retained"
+    },
+    {
+      "path": "templates/figure4_calibrated/scw_native/optimizer/scw_best_parameters.json",
+      "source_sha256": "4fc7f4162b0359cc29082363e008273434fbb24b82b246c20245d7c4fc484427",
+      "changes": "Local project paths replaced by documented preparation tokens only"
+    }
+  ]
+}

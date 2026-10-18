@@ -1,0 +1,78 @@
+# Copyright (C) 1994-2023 Synopsys Inc.
+# swbtree vX-2025.06, saved by gsub0
+
+# --- simulation flow
+sde sde "" {}
+sde HoleD_um "4.0" {4.0 0.0 8.0} V
+sde HoleGap_um "5.0" {5.0 9.0} V
+sde EtchDepth_um "0.220" {0.220} V
+sde Tp_um "0.200" {0.200} V
+sde Ti_um "1.000" {1.000} V
+sde Tn_um "0.500" {0.500} V
+sde Tox_um "0.045" {0.045} V
+sde Tsub_um "5.0" {5.0} V
+sde NAp "1e19" {1e19} V
+sde NDi "1e15" {1e15} V
+sde NDn "2e18" {2e18} V
+sde NDsub "1e19" {1e19} R
+sdevice sdevice "" {}
+sdevice Vr_V "20" {20} R
+# --- variables
+# --- scenarios and parameter specs
+scenario default HoleD_um ""
+scenario default HoleGap_um ""
+scenario default EtchDepth_um ""
+scenario default Tp_um ""
+scenario default Ti_um ""
+scenario default Tn_um ""
+scenario default Tox_um ""
+scenario default Tsub_um ""
+scenario default NAp ""
+scenario default NDi ""
+scenario default NDn ""
+scenario default NDsub ""
+scenario default Vr_V ""
+# --- simulation tree
+0 1 0 {} {default} 0
+1 2 1 {4.0} {default} 0
+2 3 2 {5.0} {default} 0
+3 4 3 {0.220} {default} 0
+4 5 4 {0.200} {default} 0
+5 6 5 {1.000} {default} 0
+6 7 6 {0.500} {default} 0
+7 8 7 {0.045} {default} 0
+8 9 8 {5.0} {default} 0
+9 10 9 {1e19} {default} 0
+10 11 10 {1e15} {default} 0
+11 12 11 {2e18} {default} 0
+12 13 12 {1e19} {default} 0
+13 41 13 {} {default} 0
+14 38 41 {20} {default} 0
+1 14 1 {0.0} {default} 0
+2 15 14 {9.0} {default} 0
+3 16 15 {0.220} {default} 0
+4 17 16 {0.200} {default} 0
+5 18 17 {1.000} {default} 0
+6 19 18 {0.500} {default} 0
+7 20 19 {0.045} {default} 0
+8 21 20 {5.0} {default} 0
+9 22 21 {1e19} {default} 0
+10 23 22 {1e15} {default} 0
+11 24 23 {2e18} {default} 0
+12 25 24 {1e19} {default} 0
+13 42 25 {} {default} 0
+14 39 42 {20} {default} 0
+1 26 1 {8.0} {default} 0
+2 27 26 {5.0} {default} 0
+3 28 27 {0.220} {default} 0
+4 29 28 {0.200} {default} 0
+5 30 29 {1.000} {default} 0
+6 31 30 {0.500} {default} 0
+7 32 31 {0.045} {default} 0
+8 33 32 {5.0} {default} 0
+9 34 33 {1e19} {default} 0
+10 35 34 {1e15} {default} 0
+11 36 35 {2e18} {default} 0
+12 37 36 {1e19} {default} 0
+13 43 37 {} {default} 0
+14 40 43 {20} {default} 0

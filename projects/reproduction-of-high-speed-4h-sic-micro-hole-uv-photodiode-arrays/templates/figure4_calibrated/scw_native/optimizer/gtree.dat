@@ -1,0 +1,7 @@
+# swbtree vX-2025.06
+# --- simulation flow
+scw scw "" {}
+# --- variables
+# --- scenarios and parameter specs
+# --- simulation tree
+0 1 0 {} {default} 0

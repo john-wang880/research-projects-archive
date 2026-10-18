@@ -1,0 +1,18 @@
+# Private material and optical data are intentionally outside the public source.
+*.par
+sic_uv_nk*.txt
+*refractive*.txt
+optical_inputs.json
+*.tdr
+*.sav
+*.plt
+*.out
+*.log
+*.sta
+*.err
+*.pdf
+*.zip
+local_work/
+private_inputs/
+scw_native/child_local/
+__pycache__/

@@ -1,0 +1,8 @@
+This repository contains independently authored simulation decks and scripts.
+MIT applies to those authored sources. Generated Workbench metadata retains
+its existing notices. No Synopsys runtime, material parameter library, license
+configuration, or paper PDF/figure is distributed.
+
+Research reference: Fu et al., High-Speed and Responsivity 4H-SiC 8 x 8 p-i-n
+Ultraviolet Photodiode Arrays With Micro-Hole Structures (2023).
+DOI: 10.1109/TED.2023.3286379.
