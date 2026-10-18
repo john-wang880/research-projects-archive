@@ -1,0 +1,29 @@
+[
+  {
+    "native_file": "GaN_Fig5_Clamp_Safe400_Pos5.asc",
+    "equivalent_simulated_deck": "wide_safe_400V_pos5V.cir",
+    "components_verified": 15,
+    "pin_orders_wires_nets_and_component_values_identical": true,
+    "inline_pwl_matches_verified_CIR": true,
+    "asc_sha256": "ad47387bf9aa03c130b3d4c0c83e75cf3fe3aca758ba4a5c8fc28a4383a3c253",
+    "native_LTspice_execution": "asc_native_run_records.json; native_ASC_waveform_verification.json"
+  },
+  {
+    "native_file": "GaN_Fig5_Clamp_Safe400_Neg5.asc",
+    "equivalent_simulated_deck": "wide_safe_400V_neg5V.cir",
+    "components_verified": 15,
+    "pin_orders_wires_nets_and_component_values_identical": true,
+    "inline_pwl_matches_verified_CIR": true,
+    "asc_sha256": "e6c5bf3978efe269f8be105177804626869625dee5c21363904f0834950d47e8",
+    "native_LTspice_execution": "asc_native_run_records.json; native_ASC_waveform_verification.json"
+  },
+  {
+    "native_file": "GaN_Fig5_Clamp_Default.asc",
+    "equivalent_simulated_deck": "improved_positive.cir",
+    "components_verified": 15,
+    "pin_orders_wires_nets_and_component_values_identical": true,
+    "inline_pwl_matches_verified_CIR": true,
+    "asc_sha256": "d1fec2cce45a07c42172a8e12e045056ce9826d2d5505183ff4daf69ff063ae8",
+    "native_LTspice_execution": "asc_native_run_records.json; native_ASC_waveform_verification.json"
+  }
+]

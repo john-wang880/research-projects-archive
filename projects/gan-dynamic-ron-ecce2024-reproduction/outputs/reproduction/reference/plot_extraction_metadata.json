@@ -1,0 +1,101 @@
+{
+  "source": "${PROJECT_ROOT}\\outputs\\ECCE_Europe_2024_GaN_Dynamic_Ron_Fulltext.pdf",
+  "page": 7,
+  "method": "Native PDF plotted-vector paths calibrated to grid line coordinates",
+  "warning": "Plot reconstruction only; unpublished raw experimental and simulation data are unavailable.",
+  "families": {
+    "figure13_current": {
+      "units": "A",
+      "conventional": {
+        "pdf_curve_index": 11,
+        "native_path_points": 2792,
+        "half_stroke_time_us": 0.09744624572746931,
+        "half_stroke_y_units": 0.32314523896331904
+      },
+      "proposed": {
+        "pdf_curve_index": 12,
+        "native_path_points": 3595,
+        "half_stroke_time_us": 0.09744624572746931,
+        "half_stroke_y_units": 0.32314523896331904
+      },
+      "range_us": [
+        -5.500000064964157,
+        44.49999993503478
+      ],
+      "max_plotted_current_A": {
+        "conventional": 55.32960255176383,
+        "proposed": 54.751361566168576
+      },
+      "plateau_34_to_39p5_us_A": {
+        "conventional_mean": 49.856025847043014,
+        "proposed_mean": 49.80650914964092
+      }
+    },
+    "figure13_voltage": {
+      "units": "V",
+      "conventional": {
+        "pdf_curve_index": 16,
+        "native_path_points": 7058,
+        "half_stroke_time_us": 0.09744624572746931,
+        "half_stroke_y_units": 0.02976190476190458
+      },
+      "proposed": {
+        "pdf_curve_index": 17,
+        "native_path_points": 7116,
+        "half_stroke_time_us": 0.09744624572746931,
+        "half_stroke_y_units": 0.02976190476190458
+      },
+      "range_us": [
+        -5.500000064964157,
+        44.49999993503478
+      ]
+    },
+    "figure14_current": {
+      "units": "A",
+      "conventional": {
+        "pdf_curve_index": 18,
+        "native_path_points": 8,
+        "half_stroke_time_us": 0.08736559225897989,
+        "half_stroke_y_units": 0.27281746121963385
+      },
+      "proposed": {
+        "pdf_curve_index": 19,
+        "native_path_points": 5,
+        "half_stroke_time_us": 0.08736559225897989,
+        "half_stroke_y_units": 0.27281746121963385
+      },
+      "range_us": [
+        -5.000000058243733,
+        38.49999994175534
+      ]
+    },
+    "figure14_temperature": {
+      "units": "K",
+      "conventional": {
+        "pdf_curve_index": 23,
+        "native_path_points": 52,
+        "half_stroke_time_us": 0.08736559225897989,
+        "half_stroke_y_units": 0.0333567275182327
+      },
+      "proposed": {
+        "pdf_curve_index": 24,
+        "native_path_points": 21,
+        "half_stroke_time_us": 0.08736559225897989,
+        "half_stroke_y_units": 0.0333567275182327
+      },
+      "range_us": [
+        -5.000000058243733,
+        38.49999994175534
+      ],
+      "mean_measurement_33p5_to_38p5_us": {
+        "conventional_K": 5.22230418575987,
+        "proposed_K": 2.5195677638782934,
+        "reduction_percent": 51.75371494543296
+      },
+      "at_38p5_us": {
+        "conventional_K": 6.11337836339593,
+        "proposed_K": 3.6300486235623564
+      }
+    }
+  }
+}

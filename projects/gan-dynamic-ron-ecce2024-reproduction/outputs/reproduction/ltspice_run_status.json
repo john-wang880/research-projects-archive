@@ -1,0 +1,14 @@
+[
+  {
+    "case": "conventional",
+    "exit_code": 0,
+    "elapsed_s": 1.3657636,
+    "raw_bytes": 4577443
+  },
+  {
+    "case": "proposed",
+    "exit_code": 0,
+    "elapsed_s": 1.2497704,
+    "raw_bytes": 4485544
+  }
+]

@@ -1,0 +1,12 @@
+* Isolate OFF common-source pair at negative DC, not author device
+.include models/DMG2302UK_official.lib
+Vout out 0 -5
+Vgate_top gate_top middle 0
+Vgate_bot gate_bot middle 0
+Xbtb_top out gate_top middle DMG2302UK
+Xbtb_bot 0 gate_bot middle DMG2302UK
+Rleak middle 0 100Meg
+.tran 0 0.1u 0 0.1n
+.options plotwinsize=0 reltol=1e-5
+.save V(out) V(middle) I(Vout)
+.end

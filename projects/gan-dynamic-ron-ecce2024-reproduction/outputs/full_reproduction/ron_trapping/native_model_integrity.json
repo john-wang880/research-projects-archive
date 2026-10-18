@@ -1,0 +1,29 @@
+{
+  "RonStatic_Fig10.slx": {
+    "bytes": 24893,
+    "sha256": "31521466a83a84277f1f0b1416a05e78181ada22c9ad2b50d9a6205250526ded",
+    "zip_integrity": true,
+    "integrator_blocks": 0,
+    "Fcn_blocks": 1,
+    "FromWorkspace_blocks": 0,
+    "Lookup_blocks": 0
+  },
+  "RonTrap_fig11.slx": {
+    "bytes": 48121,
+    "sha256": "fdcb0bc3b6c830ed3204151d9cdff16c9a5ccea8b13ad1074cf3fe46ddba0bcb",
+    "zip_integrity": true,
+    "integrator_blocks": 24,
+    "Fcn_blocks": 0,
+    "FromWorkspace_blocks": 0,
+    "Lookup_blocks": 0
+  },
+  "RonTrap_fig12.slx": {
+    "bytes": 42799,
+    "sha256": "9c5c6694780054f2b782f0dd8516581a5117801b1553ffeef1fdbfda9b5a4766",
+    "zip_integrity": true,
+    "integrator_blocks": 15,
+    "Fcn_blocks": 0,
+    "FromWorkspace_blocks": 0,
+    "Lookup_blocks": 0
+  }
+}

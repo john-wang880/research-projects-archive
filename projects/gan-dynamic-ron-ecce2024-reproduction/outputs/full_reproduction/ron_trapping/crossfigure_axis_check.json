@@ -1,0 +1,8 @@
+{
+  "matched_vertices": 660,
+  "figure11_vertices": 683,
+  "figure12_vertices": 662,
+  "max_same_time_Ron_difference_mOhm": 6.341723420177914e-06,
+  "RMSE_same_time_mOhm": 6.087015444872235e-06,
+  "warning": "Coincident vertices agree; vector simplification retains different total vertices. This supports sharedpublicseries, not unavailable rawdataidentity."
+}

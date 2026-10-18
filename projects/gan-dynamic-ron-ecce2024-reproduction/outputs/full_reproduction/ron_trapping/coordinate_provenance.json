@@ -1,0 +1,457 @@
+{
+  "source": "${PROJECT_ROOT}\\outputs\\ECCE_Europe_2024_GaN_Dynamic_Ron_Fulltext.pdf",
+  "sha256": "0df6d7ddf4b4bbde241b4690f0f73ed644e232a0214c3041e4f1ca166e694e3c",
+  "method": "Native PDF vector-path vertices calibrated to printed axis grid; plotted data, not unpublished raw measurements",
+  "figures": {
+    "fig10": {
+      "page": 6,
+      "conditions": [
+        95,
+        85,
+        75,
+        65,
+        55,
+        45,
+        35,
+        25,
+        15
+      ],
+      "condition_name": "Tc_C",
+      "x_name": "Id_A",
+      "x0": 183.7659839,
+      "xscale": 1.863399419999999,
+      "y0": 620.04016,
+      "yscale": 3.1549559999999928,
+      "y_offset": 40,
+      "axis_evidence": "I=0 at x183.7659839; I=10 at202.3999781; R=40 at top620.04016; R=45 at604.26538",
+      "curves": [
+        {
+          "condition": 95,
+          "pdf_curve_index": 0,
+          "vertices": 48,
+          "range": [
+            -42.271089631728046,
+            48.30740911360272
+          ],
+          "stroke_width_pt": 0.711345,
+          "half_stroke_x_units": 0.190872926213533,
+          "half_stroke_mOhm": 0.11273453575897756,
+          "color_rgb": [
+            0.0,
+            0.5882352941,
+            0.5098039216
+          ]
+        },
+        {
+          "condition": 85,
+          "pdf_curve_index": 1,
+          "vertices": 53,
+          "range": [
+            -44.474935923490875,
+            50.844448275308594
+          ],
+          "stroke_width_pt": 0.711345,
+          "half_stroke_x_units": 0.190872926213533,
+          "half_stroke_mOhm": 0.11273453575897756,
+          "color_rgb": [
+            0.6549019608,
+            0.5098039216,
+            0.1803921569
+          ]
+        },
+        {
+          "condition": 75,
+          "pdf_curve_index": 2,
+          "vertices": 53,
+          "range": [
+            -45.55471501046193,
+            50.94699946311567
+          ],
+          "stroke_width_pt": 0.711345,
+          "half_stroke_x_units": 0.190872926213533,
+          "half_stroke_mOhm": 0.11273453575897756,
+          "color_rgb": [
+            0.2745098039,
+            0.3921568627,
+            0.6666666667
+          ]
+        },
+        {
+          "condition": 65,
+          "pdf_curve_index": 3,
+          "vertices": 53,
+          "range": [
+            -46.79525567429878,
+            50.936169842276776
+          ],
+          "stroke_width_pt": 0.711345,
+          "half_stroke_x_units": 0.190872926213533,
+          "half_stroke_mOhm": 0.11273453575897756,
+          "color_rgb": [
+            0.8745098039,
+            0.6078431373,
+            0.1058823529
+          ]
+        },
+        {
+          "condition": 55,
+          "pdf_curve_index": 4,
+          "vertices": 53,
+          "range": [
+            -47.63330056265127,
+            50.953769089565384
+          ],
+          "stroke_width_pt": 0.711345,
+          "half_stroke_x_units": 0.190872926213533,
+          "half_stroke_mOhm": 0.11273453575897756,
+          "color_rgb": [
+            0.6392156863,
+            0.062745098,
+            0.4862745098
+          ]
+        },
+        {
+          "condition": 45,
+          "pdf_curve_index": 5,
+          "vertices": 53,
+          "range": [
+            -48.45293792049697,
+            50.97462946442263
+          ],
+          "stroke_width_pt": 0.711345,
+          "half_stroke_x_units": 0.190872926213533,
+          "half_stroke_mOhm": 0.11273453575897756,
+          "color_rgb": [
+            0.137254902,
+            0.631372549,
+            0.8784313725
+          ]
+        },
+        {
+          "condition": 35,
+          "pdf_curve_index": 6,
+          "vertices": 53,
+          "range": [
+            -49.61938705881966,
+            51.081933133595165
+          ],
+          "stroke_width_pt": 0.711345,
+          "half_stroke_x_units": 0.190872926213533,
+          "half_stroke_mOhm": 0.11273453575897756,
+          "color_rgb": [
+            0.5490196078,
+            0.7137254902,
+            0.2352941176
+          ]
+        },
+        {
+          "condition": 25,
+          "pdf_curve_index": 7,
+          "vertices": 53,
+          "range": [
+            -51.25401058304508,
+            51.0187315447646
+          ],
+          "stroke_width_pt": 0.711345,
+          "half_stroke_x_units": 0.190872926213533,
+          "half_stroke_mOhm": 0.11273453575897756,
+          "color_rgb": [
+            0.6352941176,
+            0.1333333333,
+            0.137254902
+          ]
+        },
+        {
+          "condition": 15,
+          "pdf_curve_index": 8,
+          "vertices": 50,
+          "range": [
+            -50.326978191519494,
+            52.025594628949726
+          ],
+          "stroke_width_pt": 0.711345,
+          "half_stroke_x_units": 0.190872926213533,
+          "half_stroke_mOhm": 0.11273453575897756,
+          "color_rgb": [
+            0.9882352941,
+            0.8980392157,
+            0.0
+          ]
+        }
+      ]
+    },
+    "fig11": {
+      "page": 6,
+      "conditions": [
+        50,
+        100,
+        150,
+        200,
+        250,
+        300,
+        350,
+        400
+      ],
+      "condition_name": "Vds_V",
+      "x_name": "time_min",
+      "x0": 402.22425334833,
+      "xscale": 3.683275563110999,
+      "y0": 427.74876314667,
+      "yscale": 4.752290094668001,
+      "y_offset": 50,
+      "stress_off_min": 13.5833333333,
+      "vertical_annotation_min": 13.5833333333,
+      "axis_evidence": "t=0 at402.22425334833; t=10 at439.05700897944; R=50 at427.74876314667; R=55 at403.98731267333",
+      "curves": [
+        {
+          "condition": 50,
+          "pdf_curve_index": 19,
+          "vertices": 668,
+          "range": [
+            -13.683329003006008,
+            38.3833398316659
+          ],
+          "stroke_width_pt": 0.711345,
+          "half_stroke_x_units": 0.09656418421748193,
+          "half_stroke_mOhm": 0.0748423376761152,
+          "color_rgb": [
+            0.0,
+            0.5882352941,
+            0.5098039216
+          ]
+        },
+        {
+          "condition": 100,
+          "pdf_curve_index": 20,
+          "vertices": 676,
+          "range": [
+            -13.816662382280837,
+            38.23333986045184
+          ],
+          "stroke_width_pt": 0.711345,
+          "half_stroke_x_units": 0.09656418421748193,
+          "half_stroke_mOhm": 0.0748423376761152,
+          "color_rgb": [
+            0.6549019608,
+            0.5098039216,
+            0.1803921569
+          ]
+        },
+        {
+          "condition": 150,
+          "pdf_curve_index": 21,
+          "vertices": 683,
+          "range": [
+            -13.633329098436159,
+            38.41667314429654
+          ],
+          "stroke_width_pt": 0.711345,
+          "half_stroke_x_units": 0.09656418421748193,
+          "half_stroke_mOhm": 0.0748423376761152,
+          "color_rgb": [
+            0.2745098039,
+            0.3921568627,
+            0.6666666667
+          ]
+        },
+        {
+          "condition": 200,
+          "pdf_curve_index": 22,
+          "vertices": 676,
+          "range": [
+            -13.616662377744706,
+            38.3166732064046
+          ],
+          "stroke_width_pt": 0.711345,
+          "half_stroke_x_units": 0.09656418421748193,
+          "half_stroke_mOhm": 0.0748423376761152,
+          "color_rgb": [
+            0.8745098039,
+            0.6078431373,
+            0.1058823529
+          ]
+        },
+        {
+          "condition": 250,
+          "pdf_curve_index": 23,
+          "vertices": 675,
+          "range": [
+            -13.83332910297229,
+            38.250006452391055
+          ],
+          "stroke_width_pt": 0.711345,
+          "half_stroke_x_units": 0.09656418421748193,
+          "half_stroke_mOhm": 0.0748423376761152,
+          "color_rgb": [
+            0.6392156863,
+            0.062745098,
+            0.4862745098
+          ]
+        },
+        {
+          "condition": 300,
+          "pdf_curve_index": 24,
+          "vertices": 690,
+          "range": [
+            -13.733329036328097,
+            38.41667314429654
+          ],
+          "stroke_width_pt": 0.711345,
+          "half_stroke_x_units": 0.09656418421748193,
+          "half_stroke_mOhm": 0.0748423376761152,
+          "color_rgb": [
+            0.137254902,
+            0.631372549,
+            0.8784313725
+          ]
+        },
+        {
+          "condition": 350,
+          "pdf_curve_index": 25,
+          "vertices": 696,
+          "range": [
+            -13.74999575701955,
+            38.30000648571315
+          ],
+          "stroke_width_pt": 0.711345,
+          "half_stroke_x_units": 0.09656418421748193,
+          "half_stroke_mOhm": 0.0748423376761152,
+          "color_rgb": [
+            0.5490196078,
+            0.7137254902,
+            0.2352941176
+          ]
+        },
+        {
+          "condition": 400,
+          "pdf_curve_index": 26,
+          "vertices": 701,
+          "range": [
+            -13.74999575701955,
+            38.3166732064046
+          ],
+          "stroke_width_pt": 0.711345,
+          "half_stroke_x_units": 0.09656418421748193,
+          "half_stroke_mOhm": 0.0748423376761152,
+          "color_rgb": [
+            0.6352941176,
+            0.1333333333,
+            0.137254902
+          ]
+        }
+      ]
+    },
+    "fig12": {
+      "page": 7,
+      "conditions": [
+        55,
+        45,
+        35,
+        25,
+        15
+      ],
+      "condition_name": "Tc_C",
+      "x_name": "time_min",
+      "x0": 138.980466585,
+      "xscale": 3.6186386550000007,
+      "y0": 204.8258865975,
+      "yscale": 3.0765417379999973,
+      "y_offset": 45,
+      "stress_off_min": 13.75,
+      "vertical_annotation_min": 14.0,
+      "axis_evidence": "t=0 at138.980466585; t=10 at175.166853135; R=45 at204.8258865975; R=50 at189.4431779075",
+      "curves": [
+        {
+          "condition": 55,
+          "pdf_curve_index": 0,
+          "vertices": 664,
+          "range": [
+            -13.983312442441141,
+            39.083324077731106
+          ],
+          "stroke_width_pt": 0.711345,
+          "half_stroke_x_units": 0.09828903460934259,
+          "half_stroke_mOhm": 0.11560789038123569,
+          "color_rgb": [
+            0.0,
+            0.5882352941,
+            0.5098039216
+          ]
+        },
+        {
+          "condition": 45,
+          "pdf_curve_index": 1,
+          "vertices": 606,
+          "range": [
+            -13.983312442441141,
+            39.16665732178224
+          ],
+          "stroke_width_pt": 0.711345,
+          "half_stroke_x_units": 0.09828903460934259,
+          "half_stroke_mOhm": 0.11560789038123569,
+          "color_rgb": [
+            0.6549019608,
+            0.5098039216,
+            0.1803921569
+          ]
+        },
+        {
+          "condition": 35,
+          "pdf_curve_index": 2,
+          "vertices": 605,
+          "range": [
+            -14.016645792482418,
+            39.09999075275174
+          ],
+          "stroke_width_pt": 0.711345,
+          "half_stroke_x_units": 0.09828903460934259,
+          "half_stroke_mOhm": 0.11560789038123569,
+          "color_rgb": [
+            0.2745098039,
+            0.3921568627,
+            0.6666666667
+          ]
+        },
+        {
+          "condition": 25,
+          "pdf_curve_index": 3,
+          "vertices": 662,
+          "range": [
+            -13.633312660163904,
+            38.41665773216586
+          ],
+          "stroke_width_pt": 0.711345,
+          "half_stroke_x_units": 0.09828903460934259,
+          "half_stroke_mOhm": 0.11560789038123569,
+          "color_rgb": [
+            0.8745098039,
+            0.6078431373,
+            0.1058823529
+          ]
+        },
+        {
+          "condition": 15,
+          "pdf_curve_index": 4,
+          "vertices": 565,
+          "range": [
+            -13.999979117461779,
+            39.01665737764855
+          ],
+          "stroke_width_pt": 0.711345,
+          "half_stroke_x_units": 0.09828903460934259,
+          "half_stroke_mOhm": 0.11560789038123569,
+          "color_rgb": [
+            0.6392156863,
+            0.062745098,
+            0.4862745098
+          ]
+        }
+      ]
+    }
+  },
+  "source_inconsistencies": [
+    "Fig10 sectionVI-B says VDC150V, but plot annotation says Vds,IDLE100V; these are retained as conflicting source statements.",
+    "Prose stress release13min; Fig11 paths approximately13.57..13.75min and line13.5833min; Fig12 paths13.75..13.95min and vertical annotation14min. Native percurve sampling alignment is explicit; nominal13min timing tested separately.",
+    "Fig11 150V curve and Fig12 25C curve are the same public vector series after coordinate calibration, a useful independent axis/mapping crosscheck."
+  ]
+}

@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Please cite this independent repository and the original Swoboda et al. ECCE Europe 2024 paper."
+title: "GaN dynamic on-resistance: ECCE Europe 2024 simulation reproduction"
+type: software
+authors:
+  - name: "Greatlovers"
+version: 0.1.0
+date-released: 2026-10-02
+repository-code: "https://github.com/Greatlovers/gan-dynamic-ron-ecce2024-reproduction"
+license: MIT
+keywords:
+  - GaN
+  - power electronics
+  - dynamic on-resistance
+  - Simulink
+  - LTspice

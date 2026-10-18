@@ -1,0 +1,73 @@
+{
+  "models_executed": 11,
+  "all_reached_stop_time": true,
+  "MATLAB": "9.13.0.2049777 (R2022b)",
+  "records": [
+    {
+      "model": "outputs/full_reproduction/clamp/GaN_Clamp_Wide_Range_Analog_State.slx",
+      "seconds": 5.1788153,
+      "stop_event": "ReachedStopTime",
+      "slx_sha256": "c0dc9d497a2bfe503f567168d239b359422b27aeebf2825097233d75a24e4bc8"
+    },
+    {
+      "model": "outputs/full_reproduction/clamp/GaN_Fig5_Clamp_Analog_State.slx",
+      "seconds": 0.6555861,
+      "stop_event": "ReachedStopTime",
+      "slx_sha256": "ef71ebb865876e475d7ea365410b435e6d01ed23c7db38d74895aee0df3b0f7f"
+    },
+    {
+      "model": "outputs/full_reproduction/integration/GaN_Behavioral_Electrothermal_Snapshot.slx",
+      "seconds": 4.9516059,
+      "stop_event": "ReachedStopTime",
+      "slx_sha256": "81a65d961592bdf847680c89d4205573d4bbd0ceb0d2890bcd855aa2a34c3799"
+    },
+    {
+      "model": "outputs/full_reproduction/ron_trapping/RonStatic_Fig10.slx",
+      "seconds": 0.3707241,
+      "stop_event": "ReachedStopTime",
+      "slx_sha256": "13de05611e4290a495554a6cf734d77b392c2ba794fb1da6a5bb51e1ed12ce5d"
+    },
+    {
+      "model": "outputs/full_reproduction/ron_trapping/RonTrap_fig11.slx",
+      "seconds": 0.4560829,
+      "stop_event": "ReachedStopTime",
+      "slx_sha256": "b1c0ec175a34d7c118f18dcf9a5d15c33a21d5ef7cb294eb8a4bcc65918bea1f"
+    },
+    {
+      "model": "outputs/full_reproduction/ron_trapping/RonTrap_fig12.slx",
+      "seconds": 0.2807722,
+      "stop_event": "ReachedStopTime",
+      "slx_sha256": "0bd1fd97cea646d071f432c3158dbcf853cb588113bc2a0d59f5e1d26588fc75"
+    },
+    {
+      "model": "outputs/full_reproduction/scrc/GaN_SCRC_Current_Sharing.slx",
+      "seconds": 0.2957152,
+      "stop_event": "ReachedStopTime",
+      "slx_sha256": "64a5b22bf8dc60b4270c2c4b688cc30862f8366d776687b9f482805278fac2f4"
+    },
+    {
+      "model": "outputs/full_reproduction/simulink/GaN_Cauer_Figure14.slx",
+      "seconds": 0.3915313,
+      "stop_event": "ReachedStopTime",
+      "slx_sha256": "dcb5e5b6a59705b5877e8471273b488eb2950b1cfdaba146e36e48193a614125"
+    },
+    {
+      "model": "outputs/full_reproduction/simulink/GaN_Full_Bridge_SPS.slx",
+      "seconds": 1.5664729,
+      "stop_event": "ReachedStopTime",
+      "slx_sha256": "bab8c73fc4b7975bdd78c4031f17d66348d6a630ddac8f76d94dd8505fb0299b"
+    },
+    {
+      "model": "outputs/full_reproduction/tec/TEC_DualBuck_PWM.slx",
+      "seconds": 20.650199,
+      "stop_event": "ReachedStopTime",
+      "slx_sha256": "dea845994ec6c50f4e09c575bff39a324193cec72d6457b9a31b8c0fb4402d27"
+    },
+    {
+      "model": "outputs/full_reproduction/tec/TEC_Electrothermal_ClosedLoop.slx",
+      "seconds": 2.0595296,
+      "stop_event": "ReachedStopTime",
+      "slx_sha256": "fd4730a614b7cdb34a169e3869999d4afcfc45fe2d627c9e80de0b5c645e1087"
+    }
+  ]
+}

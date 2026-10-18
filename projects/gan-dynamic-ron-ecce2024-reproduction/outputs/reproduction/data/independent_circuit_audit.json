@@ -1,0 +1,50 @@
+{
+  "conventional": {
+    "charge": {
+      "mean_idut_A": 26.44458272775603,
+      "mean_iload_A": 26.444677012928672,
+      "mean_ls1_A": -2.403812830135356e-10,
+      "max_abs_idut_minus_iload_A": 0.00010136567522067708
+    },
+    "measure": {
+      "mean_idut_A": 51.89630930736241,
+      "mean_iload_A": 51.896304774160974,
+      "mean_ls1_A": -4.717374501995183e-10,
+      "max_abs_idut_minus_iload_A": 4.5464485367574525e-06
+    },
+    "left_bridge_crossconduction_points": 0,
+    "right_bridge_crossconduction_points": 0,
+    "measurement_actual_on_start_s": 3.552500000549008e-05,
+    "measurement_actual_on_end_s": 4.048499997085153e-05,
+    "max_idut_A": 1901.095616203584,
+    "min_idut_A": 0.0,
+    "total_i2ron_energy_J": 0.003490302232427938,
+    "max_on_ohmic_equation_error_V": 1.0286697715855553e-07,
+    "gated_inductor_i2ron_energy_J": 0.003476965910983602,
+    "energy_difference_vs_gated_inductor_percent": 0.38356204189999854
+  },
+  "proposed": {
+    "charge": {
+      "mean_idut_A": 2.1391879432520374e-10,
+      "mean_iload_A": 26.4751895291128,
+      "mean_ls1_A": -26.47510153378837,
+      "max_abs_idut_minus_iload_A": 52.21769072348683
+    },
+    "measure": {
+      "mean_idut_A": 51.989322142773005,
+      "mean_iload_A": 51.989317603663594,
+      "mean_ls1_A": -4.725829368715639e-10,
+      "max_abs_idut_minus_iload_A": 4.552372018906681e-06
+    },
+    "left_bridge_crossconduction_points": 0,
+    "right_bridge_crossconduction_points": 0,
+    "measurement_actual_on_start_s": 3.552500002525342e-05,
+    "measurement_actual_on_end_s": 4.04849999708494e-05,
+    "max_idut_A": 1899.984175593835,
+    "min_idut_A": 0.0,
+    "total_i2ron_energy_J": 0.001079446758065639,
+    "max_on_ohmic_equation_error_V": 1.7332746438114555e-07,
+    "gated_inductor_i2ron_energy_J": 0.001072501020340128,
+    "energy_difference_vs_gated_inductor_percent": 0.6476206170235921
+  }
+}

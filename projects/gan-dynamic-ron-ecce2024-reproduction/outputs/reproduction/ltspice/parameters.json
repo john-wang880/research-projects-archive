@@ -1,0 +1,19 @@
+{
+  "paper_doi": "10.1109/ECCEEurope62508.2024.10751914",
+  "ltspice_exe": "D:\\LTspice\\LTspice.exe",
+  "vdc_V": 150,
+  "load_H": 9E-05,
+  "cdc_F": 0.0005,
+  "dut_Ron_ohm": 0.08,
+  "aux_Ron_ohm_assumed": 0.08,
+  "shunt_ohm": 0.01,
+  "coss_F_assumed": 2E-10,
+  "time_origin_s": 2E-06,
+  "charge_start_s": 2E-06,
+  "charge_end_s": 3.45E-05,
+  "measure_start_s": 3.55E-05,
+  "measure_end_s": 4.05E-05,
+  "model_scope": "fixed Ron topology validation; no trapping or switching loss prediction",
+  "half_gap_s_assumed": 2E-08,
+  "actual_deadtime_s_assumed": 4E-08
+}

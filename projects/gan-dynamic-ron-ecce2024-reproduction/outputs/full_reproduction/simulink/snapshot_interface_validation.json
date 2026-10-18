@@ -1,0 +1,10 @@
+{
+  "requestedRon_Ohm": 0.09,
+  "measuredRon_Ohm": 0.08999999999189974,
+  "meanCurrent_A": 29.286672942645755,
+  "measurementWindow_s": [
+    2.1000000000000002E-5,
+    2.6000000000000002E-5
+  ],
+  "passed": true
+}

@@ -1,0 +1,410 @@
+{
+  "native_circuit_cases": 34,
+  "native_simulink_cases": 10,
+  "native_simulink_models": [
+    {
+      "native_file": "GaN_Fig5_Clamp_Analog_State.slx",
+      "actually_simulated_cases": 4,
+      "self_contained_model_workspace": true,
+      "sha256": "ef71ebb865876e475d7ea365410b435e6d01ed23c7db38d74895aee0df3b0f7f",
+      "diagram_visually_checked": true
+    },
+    {
+      "native_file": "GaN_Clamp_Wide_Range_Analog_State.slx",
+      "actually_simulated_cases": 6,
+      "self_contained_model_workspace": true,
+      "sha256": "c0dc9d497a2bfe503f567168d239b359422b27aeebf2825097233d75a24e4bc8",
+      "diagram_visually_checked": true
+    }
+  ],
+  "native_models_diagram_visually_checked": true,
+  "main_figures_visually_checked": [
+    "clamp_ltspice_comparison.png",
+    "clamp_simulink.png",
+    "fig6_source_digitized.png",
+    "noise_range_budget.png",
+    "wide_range_original_models.png",
+    "wide_clamp_simulink.png"
+  ],
+  "spice_verification": [
+    {
+      "circuit": "blocking_negative.cir",
+      "raw_bytes": 4087242,
+      "raw_points": 18190,
+      "raw_end_s": 3e-06,
+      "raw_sha256": "39faee85385bb5ff27a407636076042205653e72dcefcf10be25529837d45830",
+      "deck_sha256": "27ba4aa8b1193ee6e7bed495f3366404091c4566942ff1221ae1d1a32e2343ef",
+      "log_has_completed_elapsed_time": true,
+      "temperature_C": 27.0,
+      "no_fatal_error": true
+    },
+    {
+      "circuit": "blocking_positive.cir",
+      "raw_bytes": 4088428,
+      "raw_points": 18230,
+      "raw_end_s": 3e-06,
+      "raw_sha256": "f89ac682f92ba59e92ac23d779d488cce36d2b896ad790872d5286072ddb7cce",
+      "deck_sha256": "c0def316be92de513d84a620ae74fcc44be8fb4f2ef8867deb57c933ea83f981",
+      "log_has_completed_elapsed_time": true,
+      "temperature_C": 27.0,
+      "no_fatal_error": true
+    },
+    {
+      "circuit": "current_mirror_reduced.cir",
+      "raw_bytes": 2693476,
+      "raw_points": 15481,
+      "raw_end_s": 3e-06,
+      "raw_sha256": "0c6951e13fc0204ba950e1168c6e119a5f737f34bf2e6505fe29c7a72d50f619",
+      "deck_sha256": "5de5d3422fb6bf4d7412c54e42ce17147c65397c4a11818ccb7e1ae02bf79a13",
+      "log_has_completed_elapsed_time": true,
+      "temperature_C": 27.0,
+      "no_fatal_error": true
+    },
+    {
+      "circuit": "diagnostic_btb_negative_dc.cir",
+      "raw_bytes": 104166,
+      "raw_points": 1018,
+      "raw_end_s": 1e-07,
+      "raw_sha256": "eb4eac3e54e8d504e60659d664ef771b84887b1100085504317e36448aa3ea0a",
+      "deck_sha256": "728aa827303a2fd63cf9ccd2bdb97284aff3fd8aab6f5fd66030d3cdedbd88b5",
+      "log_has_completed_elapsed_time": true,
+      "temperature_C": 27.0,
+      "no_fatal_error": true
+    },
+    {
+      "circuit": "diagnostic_full_negative_dc.cir",
+      "raw_bytes": 229516,
+      "raw_points": 1018,
+      "raw_end_s": 1e-07,
+      "raw_sha256": "32fd64d419ee6edf78be7845af6e08e2592b73c78884727fb4b285c16825ac4a",
+      "deck_sha256": "336581dff869471eb696c84385140eed7f0a24463cd30b7ebda01ceccc431bc3",
+      "log_has_completed_elapsed_time": true,
+      "temperature_C": 27.0,
+      "no_fatal_error": true
+    },
+    {
+      "circuit": "diagnostic_st_reverse_dc.cir",
+      "raw_bytes": 104172,
+      "raw_points": 1018,
+      "raw_end_s": 1e-07,
+      "raw_sha256": "1d776f6fd75051f0f654bc6cbc4ea67bd41c76fd2121883bdc59fce85ce5e33b",
+      "deck_sha256": "8bbe5e39f922c26c3bde3e9be7637079d974c721e7ca2c534882fb00b06ec837",
+      "log_has_completed_elapsed_time": true,
+      "temperature_C": 27.0,
+      "no_fatal_error": true
+    },
+    {
+      "circuit": "diagnostic_wide_internal.cir",
+      "raw_bytes": 4069206,
+      "raw_points": 18049,
+      "raw_end_s": 3e-06,
+      "raw_sha256": "f585816e4a358cde4245274416bf494ba1a769fba12908cfc0dd14cb65f39e61",
+      "deck_sha256": "1733568dc667dfba08a390a1e62b149b7a7e077ace981df3adbbf24ba8af3645",
+      "log_has_completed_elapsed_time": true,
+      "temperature_C": 27.0,
+      "no_fatal_error": true
+    },
+    {
+      "circuit": "diagnostic_wide_internal_v2.cir",
+      "raw_bytes": 6674474,
+      "raw_points": 17931,
+      "raw_end_s": 3e-06,
+      "raw_sha256": "39535defc7eb300675bb65fbff21e3c3ea04043ea6c2d29aa2a558f13b166c60",
+      "deck_sha256": "f5e94707d44919c05b5b637fc35e71682476a50cd7a28efb0c3344660fce7df8",
+      "log_has_completed_elapsed_time": true,
+      "temperature_C": 27.0,
+      "no_fatal_error": true
+    },
+    {
+      "circuit": "diagnostic_wide_negative_long.cir",
+      "raw_bytes": 3296875,
+      "raw_points": 14596,
+      "raw_end_s": 1e-05,
+      "raw_sha256": "38abb3fe0edc656144548973c82f973110743a8b98d2d388f6e1fb47d4276e54",
+      "deck_sha256": "3b9a4bf07473b8d1aed9f01541d425614fee62948ada19b3a05320e49c487b8a",
+      "log_has_completed_elapsed_time": true,
+      "temperature_C": 27.0,
+      "no_fatal_error": true
+    },
+    {
+      "circuit": "diagnostic_wide_negative_strong.cir",
+      "raw_bytes": 3774621,
+      "raw_points": 16814,
+      "raw_end_s": 3e-06,
+      "raw_sha256": "04e3fe8f179b68df84e3e7cc0edacdc43b556f4f7c31581319ea4f4edabcca73",
+      "deck_sha256": "230a2106a6ffde56a1f6c658f3ca74f80f34c527e93dd2ed7bf934f7e7a40673",
+      "log_has_completed_elapsed_time": true,
+      "temperature_C": 27.0,
+      "no_fatal_error": true
+    },
+    {
+      "circuit": "improved_negative.cir",
+      "raw_bytes": 3956229,
+      "raw_points": 17623,
+      "raw_end_s": 3e-06,
+      "raw_sha256": "7e78cd679168e8f977525fd26dde6884bed5a8318110e07d6190a353c1832850",
+      "deck_sha256": "82d5977c5142e4acab939d55ecd78c175626590ae0d852bba994d5b1799c3e19",
+      "log_has_completed_elapsed_time": true,
+      "temperature_C": 27.0,
+      "no_fatal_error": true
+    },
+    {
+      "circuit": "improved_positive.cir",
+      "raw_bytes": 3786785,
+      "raw_points": 16904,
+      "raw_end_s": 3e-06,
+      "raw_sha256": "fb9671a431f6fe5de82ca722b60e9dd21067be11709b5e49340919484cc0b37a",
+      "deck_sha256": "16ea2406654b71565f0b8157417d9122a1f8a1083a1bb1768ff282e9478b841f",
+      "log_has_completed_elapsed_time": true,
+      "temperature_C": 27.0,
+      "no_fatal_error": true
+    },
+    {
+      "circuit": "improved_slow_release_negative.cir",
+      "raw_bytes": 3809788,
+      "raw_points": 16933,
+      "raw_end_s": 3e-06,
+      "raw_sha256": "9ac682896ba2ee91a765055aad67c7498efdb7cbf509eb2282030a6e299d1263",
+      "deck_sha256": "0b1898de6b5b03541750c4c13211495b6cececd1ca0b3c52e31252cc5a41acc0",
+      "log_has_completed_elapsed_time": true,
+      "temperature_C": 27.0,
+      "no_fatal_error": true
+    },
+    {
+      "circuit": "improved_slow_release_positive.cir",
+      "raw_bytes": 3744183,
+      "raw_points": 16735,
+      "raw_end_s": 3e-06,
+      "raw_sha256": "88e13e47f2b0914be49ecacaa6b60f00607989aa0828b5f003d10e1872df06ce",
+      "deck_sha256": "2cf6731031619f36868e4d9682ad1475d7fc8cd5626aa646f440326e21de582a",
+      "log_has_completed_elapsed_time": true,
+      "temperature_C": 27.0,
+      "no_fatal_error": true
+    },
+    {
+      "circuit": "improved_strong_drive_negative.cir",
+      "raw_bytes": 4071688,
+      "raw_points": 18134,
+      "raw_end_s": 3e-06,
+      "raw_sha256": "54032a4ea7ad5f6ced410ee80a0577987ddc1732060f0a069631ec8f57b396a8",
+      "deck_sha256": "d7a80d18d7f3beef82ba3110b46b492685bdc18d034e6be158ef68147b29e3a1",
+      "log_has_completed_elapsed_time": true,
+      "temperature_C": 27.0,
+      "no_fatal_error": true
+    },
+    {
+      "circuit": "improved_strong_drive_positive.cir",
+      "raw_bytes": 3799018,
+      "raw_points": 16957,
+      "raw_end_s": 3e-06,
+      "raw_sha256": "190b97dc943893e5d5ba51a1d0eff9759184cb1f956752ca455d43c2e9d27852",
+      "deck_sha256": "e5175f12aafb4e586d6ae7a1407c374272011463a043fbec121d70aed45ffc8f",
+      "log_has_completed_elapsed_time": true,
+      "temperature_C": 27.0,
+      "no_fatal_error": true
+    },
+    {
+      "circuit": "wide_150V_neg5V.cir",
+      "raw_bytes": 4042775,
+      "raw_points": 17931,
+      "raw_end_s": 3e-06,
+      "raw_sha256": "bb6f1defe219cc1f9bc0b5f0a0ef358f50352f8969341d3702329cd5e4f1c473",
+      "deck_sha256": "6ccad036003041c899a846a8d0f062bf6e9e895fb3ed908e20bae929a8cf99d2",
+      "log_has_completed_elapsed_time": true,
+      "temperature_C": 27.0,
+      "no_fatal_error": true
+    },
+    {
+      "circuit": "wide_150V_neg5V_early_btb_release.cir",
+      "raw_bytes": 4045994,
+      "raw_points": 17943,
+      "raw_end_s": 3e-06,
+      "raw_sha256": "acf71a7b48a49b9ec9233e58ca01d471cc42c3c1ea37875395f1a55a1bf75562",
+      "deck_sha256": "e52a5d1182e8b297a06ea05a071a8c9cdc12ebdfb8a0553c378da009351541b3",
+      "log_has_completed_elapsed_time": true,
+      "temperature_C": 27.0,
+      "no_fatal_error": true
+    },
+    {
+      "circuit": "wide_150V_pos5V.cir",
+      "raw_bytes": 3739387,
+      "raw_points": 16711,
+      "raw_end_s": 3e-06,
+      "raw_sha256": "b9e3d7f55685454cd15797551534ddd8e7aa6bc3c37d52a768d02f07e05a0529",
+      "deck_sha256": "48ef4b958d9d7431b2b9ada0537955cdb4a0cfeb5c7c7f29249f4239685d63a2",
+      "log_has_completed_elapsed_time": true,
+      "temperature_C": 27.0,
+      "no_fatal_error": true
+    },
+    {
+      "circuit": "wide_150V_pos5V_early_btb_release.cir",
+      "raw_bytes": 3760782,
+      "raw_points": 16807,
+      "raw_end_s": 3e-06,
+      "raw_sha256": "e06a11bf80930f08637f868013b3df698727f9f37af194e0855b31ac92ec188f",
+      "deck_sha256": "b9d8e56dfdd99ece6d50e42f756059bf90914b12d200f3386ba8eb0f0851dcf2",
+      "log_has_completed_elapsed_time": true,
+      "temperature_C": 27.0,
+      "no_fatal_error": true
+    },
+    {
+      "circuit": "wide_400V_neg5V.cir",
+      "raw_bytes": 4550237,
+      "raw_points": 20180,
+      "raw_end_s": 3e-06,
+      "raw_sha256": "8dd271eacca09c3cb5ff219faedd7a9374e4b15803f77268e3b5f02d1f3cbfca",
+      "deck_sha256": "0f981dbb70cf2b1cb8430a3ffc9be897f99a251c62681f138ad5f37e199250bb",
+      "log_has_completed_elapsed_time": true,
+      "temperature_C": 27.0,
+      "no_fatal_error": true
+    },
+    {
+      "circuit": "wide_400V_neg5V_early_btb_release.cir",
+      "raw_bytes": 4528451,
+      "raw_points": 20085,
+      "raw_end_s": 3e-06,
+      "raw_sha256": "01e1874bda8b3e0424f55e0e53ee2f307653c57fb17e17fa852b86c60d0a7b7f",
+      "deck_sha256": "22700f1845319dd0657c4607e394d3a509de306ac26d9fac069b6b885d22d205",
+      "log_has_completed_elapsed_time": true,
+      "temperature_C": 27.0,
+      "no_fatal_error": true
+    },
+    {
+      "circuit": "wide_400V_pos5V.cir",
+      "raw_bytes": 3931941,
+      "raw_points": 17573,
+      "raw_end_s": 3e-06,
+      "raw_sha256": "bda564c8124f4d20325a47d35d250ae7c15cd6ff81a88f20cadf82519a42c781",
+      "deck_sha256": "5500098d234238686ffbea962036522d74b4662d9a0d9ef78a5f5b21ba6bf75e",
+      "log_has_completed_elapsed_time": true,
+      "temperature_C": 27.0,
+      "no_fatal_error": true
+    },
+    {
+      "circuit": "wide_400V_pos5V_early_btb_release.cir",
+      "raw_bytes": 3858540,
+      "raw_points": 17246,
+      "raw_end_s": 3e-06,
+      "raw_sha256": "e3529990c18aded42e0d2704163867141e3c14b9042a15d13f4f733b9d9927aa",
+      "deck_sha256": "a70528e08bfa07f3db1c44c74c17dc29ec45b70fba5f1d3020f528c4a0872180",
+      "log_has_completed_elapsed_time": true,
+      "temperature_C": 27.0,
+      "no_fatal_error": true
+    },
+    {
+      "circuit": "wide_50V_neg5V.cir",
+      "raw_bytes": 4027520,
+      "raw_points": 17864,
+      "raw_end_s": 3e-06,
+      "raw_sha256": "ff221a0fddf9926a6e25a4a7f0cba61ebe1d10f2e74ec2c9cc1ffa98090e64ea",
+      "deck_sha256": "ecc9ac3e6208a6587223b52423fa6aca74e1b7b1d500426ee42cf821546a1415",
+      "log_has_completed_elapsed_time": true,
+      "temperature_C": 27.0,
+      "no_fatal_error": true
+    },
+    {
+      "circuit": "wide_50V_neg5V_early_btb_release.cir",
+      "raw_bytes": 3977969,
+      "raw_points": 17647,
+      "raw_end_s": 3e-06,
+      "raw_sha256": "d919d3824ded9046c15c0f8eb85c457dcdfc19a2f8ac6945f238a5b56a3e46cd",
+      "deck_sha256": "19cde09bede8f0f3e34aa9c4134da0a5a5c66396a41a9bdcf877f829b9d38991",
+      "log_has_completed_elapsed_time": true,
+      "temperature_C": 27.0,
+      "no_fatal_error": true
+    },
+    {
+      "circuit": "wide_50V_pos5V.cir",
+      "raw_bytes": 3711075,
+      "raw_points": 16585,
+      "raw_end_s": 3e-06,
+      "raw_sha256": "2bfaa5fa2f97b2e6134acc67fe3eac987f79731caaeae394cdc22646d939ae98",
+      "deck_sha256": "37999c086fb94748ab3cb8288e64a048741f35f34a041dc303ede4cb7f4c9a67",
+      "log_has_completed_elapsed_time": true,
+      "temperature_C": 27.0,
+      "no_fatal_error": true
+    },
+    {
+      "circuit": "wide_50V_pos5V_early_btb_release.cir",
+      "raw_bytes": 3761296,
+      "raw_points": 16810,
+      "raw_end_s": 3e-06,
+      "raw_sha256": "ba0301614f8a1fa762978d795376fa2d860b845028baea9abeff66a134867476",
+      "deck_sha256": "350a6cd0907374d1918259f36a375e48599ab09156685b599b96859a193c2c80",
+      "log_has_completed_elapsed_time": true,
+      "temperature_C": 27.0,
+      "no_fatal_error": true
+    },
+    {
+      "circuit": "wide_safe_150V_neg5V.cir",
+      "raw_bytes": 3912745,
+      "raw_points": 17420,
+      "raw_end_s": 3e-06,
+      "raw_sha256": "120e5682942eba1b0690ef0fb250a07238612257574ce1df5bba3ee8dc570fc3",
+      "deck_sha256": "5ee14476797e183a7128efd8ced56171405f02cc671b768e4f692f17330daaae",
+      "log_has_completed_elapsed_time": true,
+      "temperature_C": 27.0,
+      "no_fatal_error": true
+    },
+    {
+      "circuit": "wide_safe_150V_pos5V.cir",
+      "raw_bytes": 3773134,
+      "raw_points": 16834,
+      "raw_end_s": 3e-06,
+      "raw_sha256": "c320c8d1d4c8fa6435abfdccc63909fcb8408539f355b6979174d6194b5dfcae",
+      "deck_sha256": "86d3599a0c8cac5a133c04d71c63d16596aef2e10405524070e1821c55ca1e60",
+      "log_has_completed_elapsed_time": true,
+      "temperature_C": 27.0,
+      "no_fatal_error": true
+    },
+    {
+      "circuit": "wide_safe_400V_neg5V.cir",
+      "raw_bytes": 3769321,
+      "raw_points": 16789,
+      "raw_end_s": 3e-06,
+      "raw_sha256": "a89e871468da221e29295c7c9e9a75a8872a4130739d88ad63b14d16f6d00b83",
+      "deck_sha256": "a1db0dc72a869e12eb7cf68b1378b87590a92c716e99e925a250d5804181f4df",
+      "log_has_completed_elapsed_time": true,
+      "temperature_C": 27.0,
+      "no_fatal_error": true
+    },
+    {
+      "circuit": "wide_safe_400V_pos5V.cir",
+      "raw_bytes": 3769281,
+      "raw_points": 16819,
+      "raw_end_s": 3e-06,
+      "raw_sha256": "260abbeaddebde972b47d1af838f60ece7f54a87c2973192caf2c9e3fae6c3ee",
+      "deck_sha256": "c2cb633ce2d3f6fa042e20acd390b00e4f77e8b4d2c0ca9c15a0bd0d686e008a",
+      "log_has_completed_elapsed_time": true,
+      "temperature_C": 27.0,
+      "no_fatal_error": true
+    },
+    {
+      "circuit": "wide_safe_50V_neg5V.cir",
+      "raw_bytes": 3835206,
+      "raw_points": 17075,
+      "raw_end_s": 3e-06,
+      "raw_sha256": "81db3e44aa6661d2ea03d661b17299cfddd72cad9256e6b6d2223c583d052033",
+      "deck_sha256": "1d80786940a74c2d49efa5fab7091aa6024a6ecb7983d2cbb257ebbc0a35a866",
+      "log_has_completed_elapsed_time": true,
+      "temperature_C": 27.0,
+      "no_fatal_error": true
+    },
+    {
+      "circuit": "wide_safe_50V_pos5V.cir",
+      "raw_bytes": 3760418,
+      "raw_points": 16818,
+      "raw_end_s": 3e-06,
+      "raw_sha256": "deeacc9524ad34bc3511a0d437f60b7ab0426f5bb9f25ba0120380f1783e4069",
+      "deck_sha256": "f502f19ae6588df9c5325851cdf4a22c77cd804925d9abadb42f639aafa04136",
+      "log_has_completed_elapsed_time": true,
+      "temperature_C": 27.0,
+      "no_fatal_error": true
+    }
+  ],
+  "published_numerical_values_are_reference_only": true,
+  "wide_original_model_window_passes": 3,
+  "wide_original_model_cases": 6,
+  "wide_early_release_window_passes": 3,
+  "wide_safe_interlock_window_passes": 6
+}

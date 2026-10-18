@@ -1,0 +1,4 @@
+Circuit,AssumedSpanV,Nominal12bitStepV,UniformQuantNoiseMicroOhm,GainBoundMilliOhm,PublishedSigmaMicroOhm
+Improved,1.6,0.000390625,11.2763724451099,0.8,90.3
+Blocking FET,20,0.0048828125,140.954655563874,10,525.4
+Current mirror,8,0.001953125,56.3818622255494,4,695

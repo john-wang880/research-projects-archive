@@ -1,0 +1,42 @@
+{
+  "conventional": {
+    "end_s": 5.5e-05,
+    "samples": 12425,
+    "inductor_charge_peak_A": 52.12564983195641,
+    "ideal_charge_peak_A": 54.166666666666664,
+    "peak_difference_from_lossless_percent": -3.768031079465084,
+    "dut_charge_rms_A": 30.411013985596522,
+    "dut_measure_mean_A": 51.49856676386131,
+    "ls1_measure_max_abs_A": 4.736332333037594e-10,
+    "dut_on_Ron_ohm_interior_mean": 0.07999999999999362,
+    "dut_on_Ron_ohm_interior_max_error": 6.439293542825908e-15,
+    "dut_channel_global_max_A": 1901.095616203584,
+    "charge_conduction_energy_J": 0.0024146896071387176,
+    "measure_conduction_energy_J": 0.0010756126252892202,
+    "bus_at_charge_end_V": 148.28245936486698,
+    "nominal_total_channel_energy_J": 0.003490302232427938,
+    "nominal_total_load_conduction_energy_J": 0.003476965910983602,
+    "extra_channel_energy_percent": 0.38356204189999854,
+    "measured_gate_on_duration_s": 4.9600000118616325e-06
+  },
+  "proposed": {
+    "end_s": 5.5e-05,
+    "samples": 12176,
+    "inductor_charge_peak_A": 52.21769072390875,
+    "ideal_charge_peak_A": 54.166666666666664,
+    "peak_difference_from_lossless_percent": -3.598109432783836,
+    "dut_charge_rms_A": 2.460489557296416e-10,
+    "dut_measure_mean_A": 51.590827996459176,
+    "ls1_measure_max_abs_A": 4.744811989879388e-10,
+    "dut_on_Ron_ohm_interior_mean": 0.07999999999999362,
+    "dut_on_Ron_ohm_interior_max_error": 6.439293542825908e-15,
+    "dut_channel_global_max_A": 1899.984175593835,
+    "charge_conduction_energy_J": 8.872014869501823e-25,
+    "measure_conduction_energy_J": 0.001079446758065639,
+    "bus_at_charge_end_V": 148.2804142231978,
+    "nominal_total_channel_energy_J": 0.001079446758065639,
+    "nominal_total_load_conduction_energy_J": 0.001072501020340128,
+    "extra_channel_energy_percent": 0.6476206170235921,
+    "measured_gate_on_duration_s": 4.959999999960352e-06
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "started": "20261002T161035",
+  "MATLAB": "9.13.0.2049777 (R2022b)",
+  "complete": true,
+  "stages": [
+    {
+      "function": "build_and_run_simulink",
+      "passed": true,
+      "seconds": 78.5324661
+    },
+    {
+      "function": "build_run_scrc",
+      "passed": true,
+      "seconds": 10.8570106
+    },
+    {
+      "function": "build_clamp_simulink",
+      "passed": true,
+      "seconds": 5.0287057
+    },
+    {
+      "function": "build_wide_clamp_simulink",
+      "passed": true,
+      "seconds": 5.6520793
+    },
+    {
+      "function": "build_run_ron_models",
+      "passed": true,
+      "seconds": 9.9103504
+    },
+    {
+      "function": "verify_coupled_model",
+      "passed": true,
+      "seconds": 3.7316615
+    },
+    {
+      "function": "build_run_tec",
+      "passed": true,
+      "seconds": 38.3036703
+    },
+    {
+      "function": "verify_pwm_convergence",
+      "passed": true,
+      "seconds": 64.9689144
+    },
+    {
+      "function": "run_integrated_snapshots",
+      "passed": true,
+      "seconds": 20.8826515
+    }
+  ],
+  "model_count": 11,
+  "finished": "20261002T161433"
+}

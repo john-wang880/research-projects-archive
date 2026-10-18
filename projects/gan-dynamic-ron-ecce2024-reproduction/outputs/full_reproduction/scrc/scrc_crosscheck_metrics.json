@@ -1,0 +1,102 @@
+{
+  "scope": "Independent numerical engines for the same reduced behavioral circuit; implementation verification only",
+  "nativeModel": "GaN_SCRC_Current_Sharing.slx",
+  "SPICEcircuit": "scrc_parallel.cir",
+  "actualSPICEcases": 72,
+  "actualNativeCases": 72,
+  "actualRAWpoints": 342710,
+  "meanWindow_s": [
+    2e-06,
+    5.8e-06
+  ],
+  "maximumDUTcurrentDifference_A": 1.0658141036401503e-13,
+  "maximumLS1currentDifference_A": 7.283063041541027e-14,
+  "maximumDUTvoltageDifference_V": 1.9539925233402755e-14,
+  "maximumEffectiveSCRCresistanceDifference_Ohm": 7.771561172376096e-15,
+  "maximumSPICEplateauKCLerror_A": 1.86670623762455e-14,
+  "gateDomain_V": [
+    -9.0,
+    6.0
+  ],
+  "continuousGateRating_V": [
+    -10,
+    7
+  ],
+  "gateDomainWithinContinuousRating": true,
+  "mixedBranchDUT6LS1zeroGate": [
+    {
+      "SPICE_step": 70,
+      "reverseTotalCurrent_A": 10.0,
+      "VgDUT_V": 6.0,
+      "VgLS1_V": 0.0,
+      "gateGap_V": 6.0,
+      "DUT_branchThreshold_V": 0.0,
+      "LS1_branchThreshold_V": 1.7,
+      "SPICE_DUT_A": 9.9999999991,
+      "Simulink_DUT_A": 9.99999999910002,
+      "DUT_currentDifference_A": -1.9539925233402755e-14,
+      "SPICE_LS1_A": 0.0,
+      "Simulink_LS1_A": -0.0,
+      "LS1_currentDifference_A": 0.0,
+      "SPICE_DUT_Vsd_V": 0.7999999999280002,
+      "Simulink_DUT_Vsd_V": 0.799999999928,
+      "DUT_voltageDifference_V": 2.220446049250313e-16,
+      "SPICE_effectiveSCRCresistance_Ohm": 0.08000000000000002,
+      "Simulink_effectiveSCRCresistance_Ohm": 0.0799999999999998,
+      "effectiveSCRCresistanceDifference_Ohm": 2.220446049250313e-16,
+      "SPICE_plateauKCLerror_A": 7.454733401568706e-17
+    },
+    {
+      "SPICE_step": 71,
+      "reverseTotalCurrent_A": 30.0,
+      "VgDUT_V": 6.0,
+      "VgLS1_V": 0.0,
+      "gateGap_V": 6.0,
+      "DUT_branchThreshold_V": 0.0,
+      "LS1_branchThreshold_V": 1.7,
+      "SPICE_DUT_A": 24.117647057802074,
+      "Simulink_DUT_A": 24.1176470578021,
+      "DUT_currentDifference_A": -2.4868995751603507e-14,
+      "SPICE_LS1_A": 5.882352940027335,
+      "Simulink_LS1_A": 5.88235294002733,
+      "LS1_currentDifference_A": 5.329070518200751e-15,
+      "SPICE_DUT_Vsd_V": 1.9294117646241657,
+      "Simulink_DUT_Vsd_V": 1.92941176462417,
+      "DUT_voltageDifference_V": -4.218847493575595e-15,
+      "SPICE_effectiveSCRCresistance_Ohm": 0.07999999999999999,
+      "Simulink_effectiveSCRCresistance_Ohm": 0.0800000000000001,
+      "effectiveSCRCresistanceDifference_Ohm": -1.1102230246251565e-16,
+      "SPICE_plateauKCLerror_A": 9.697201602276158e-16
+    },
+    {
+      "SPICE_step": 72,
+      "reverseTotalCurrent_A": 50.0,
+      "VgDUT_V": 6.0,
+      "VgLS1_V": 0.0,
+      "gateGap_V": 6.0,
+      "DUT_branchThreshold_V": 0.0,
+      "LS1_branchThreshold_V": 1.7,
+      "SPICE_DUT_A": 33.52941176328581,
+      "Simulink_DUT_A": 33.5294117632858,
+      "DUT_currentDifference_A": 7.105427357601002e-15,
+      "SPICE_LS1_A": 16.470588233696542,
+      "Simulink_LS1_A": 16.4705882336966,
+      "LS1_currentDifference_A": -5.684341886080802e-14,
+      "SPICE_DUT_Vsd_V": 2.6823529410628653,
+      "Simulink_DUT_Vsd_V": 2.68235294106287,
+      "DUT_voltageDifference_V": -4.884981308350689e-15,
+      "SPICE_effectiveSCRCresistance_Ohm": 0.08000000000000002,
+      "Simulink_effectiveSCRCresistance_Ohm": 0.0800000000000001,
+      "effectiveSCRCresistanceDifference_Ohm": -8.326672684688674e-17,
+      "SPICE_plateauKCLerror_A": 3.0710816704067957e-15
+    }
+  ],
+  "LTspicePreparserOrFatalDiagnostics": [],
+  "SHA256": {
+    "scrc_parallel.cir": "533394111b1589e63fd4fd1cb73c294ced51e6fabbcc80160d1672e12c1c1cd5",
+    "scrc_parallel.raw": "1a8eee149f456a82a536e43f5a5a894bfc9a33c489a8a0e7b91ad86a47df46af",
+    "scrc_parallel.log": "cd603b789a05bd0489ccc468c44259f35f49ef69598f2c64d57af8d878c9c63a",
+    "scrc_current_sharing_sweep.csv": "6a792f67cfa1be7eb3a62675f366d3559d3a4fa341fe41918c4180eede9bd1a4"
+  },
+  "passed": true
+}

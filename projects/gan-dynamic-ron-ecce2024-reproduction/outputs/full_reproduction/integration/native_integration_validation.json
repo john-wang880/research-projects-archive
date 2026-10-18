@@ -1,0 +1,9 @@
+{
+  "model": "GaN_Behavioral_Electrothermal_Snapshot.slx",
+  "case": "positive30_capture",
+  "maximumDifferenceFromExactCauer_K": 3.1918911957973251E-11,
+  "peakNativeRise_K": 1.1427596178502863,
+  "peakExactRise_K": 1.1427596178821708,
+  "passed": true,
+  "scope": "Native simultaneous electrical and thermal integration, frozen calibratedRon snapshot"
+}

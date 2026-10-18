@@ -1,0 +1,181 @@
+{
+  "mainCase": "Gated load-current conduction-only approximation",
+  "sensitivityCase": "Raw channel-current ideal Coss switching-edge sensitivity",
+  "measurementWindow_s": [
+    3.55E-5,
+    4.05E-5
+  ],
+  "nominalCapacitance_F": 2E-10,
+  "nominalBusVoltage_V": 150,
+  "nominalStoredCossEnergyPer150VEdge_J": 2.25E-6,
+  "inputChecks": {
+    "conventional": {
+      "rawPeakCurrent_A": 1901.09561620358,
+      "loadConductionPeakCurrent_A": 52.2608699425146,
+      "gateThreshold_V": 3,
+      "gateOnSampleCount": 7948
+    },
+    "proposed": {
+      "rawPeakCurrent_A": 1899.98417559384,
+      "loadConductionPeakCurrent_A": 52.2051434055483,
+      "gateThreshold_V": 3,
+      "gateOnSampleCount": 1149
+    }
+  },
+  "loadConduction": {
+    "method": "Four-stage Cauer, fixed case, zero initial rise, piecewise-linear I_D^2 R loss",
+    "inputCase": "Load/conduction approximation: I(LLOAD) when gate_dut >3 V",
+    "sourcePaperDOI": "10.1109/ECCEEurope62508.2024.10751914",
+    "thermalSource": "GS66508B datasheet Rev 200402, printed page 14",
+    "conventionalCurrentSource": "${PROJECT_ROOT}\\outputs\\reproduction\\matlab\\..\\data\\conventional_conduction.csv",
+    "proposedCurrentSource": "${PROJECT_ROOT}\\outputs\\reproduction\\matlab\\..\\data\\proposed_conduction.csv",
+    "measurementStart_s": 3.55E-5,
+    "measurementEnd_s": 4.05E-5,
+    "caseTemperature_C": 25,
+    "assumedRdsOn_ohm": 0.08,
+    "Cauer_R_K_per_W": [
+      0.015,
+      0.23,
+      0.24,
+      0.015
+    ],
+    "Cauer_C_J_per_K": [
+      8E-5,
+      0.00074,
+      0.0065,
+      0.002
+    ],
+    "initialTemperatureRise_K": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "conventional": {
+      "measurementMeanDeltaTj_K": 5.7115510801802429,
+      "measurementMeanTj_C": 30.711551080180243,
+      "globalPeakDeltaTj_K": 6.6564946381788648,
+      "globalPeakTime_s": 4.04849999708515E-5,
+      "measurementPeakDeltaTj_K": 6.6564946381788648,
+      "measurementMeanCurrent_A": 51.480862657311825,
+      "totalConductionEnergy_J": 0.0034769659002885306,
+      "measurementConductionEnergy_J": 0.0010686671166361878,
+      "peakConductionPower_W": 218.49588217187411,
+      "maximumAbsoluteEnergyBalanceResidual_J": 1.4274199227129469E-17,
+      "maximumRelativeEnergyBalanceResidual": 4.1053607186498283E-15
+    },
+    "proposed": {
+      "measurementMeanDeltaTj_K": 2.7172866971845329,
+      "measurementMeanTj_C": 27.717286697184534,
+      "globalPeakDeltaTj_K": 3.9026896091928136,
+      "globalPeakTime_s": 4.04849999708515E-5,
+      "measurementPeakDeltaTj_K": 3.9026896091928136,
+      "measurementMeanCurrent_A": 51.573125307438744,
+      "totalConductionEnergy_J": 0.0010725010192238228,
+      "measurementConductionEnergy_J": 0.0010725010192238228,
+      "peakConductionPower_W": 218.03015983950903,
+      "maximumAbsoluteEnergyBalanceResidual_J": 4.5804100199176459E-18,
+      "maximumRelativeEnergyBalanceResidual": 4.2707745147249587E-15
+    },
+    "meanTemperatureReduction_percent": 52.4247151248662,
+    "totalConductionEnergyReduction_percent": 69.154111659972756,
+    "paperReference": {
+      "meanConventional_K": 4.7,
+      "meanProposed_K": 1.8,
+      "meanReduction_percent": 62,
+      "peakConventional_K": 6.1,
+      "peakProposed_K": 3.6
+    },
+    "reproductionLimits": [
+      "Current input is from the local circuit model, not the unpublished author simulation template.",
+      "Only I_D^2 times constant 80 mOhm conduction loss is included, matching the paper method.",
+      "Zero initial thermal rise and fixed case 25 C are explicit local assumptions.",
+      "Minutes-scale trapping and experimental resistance statistics are not reproduced.",
+      "Load current gated by DUT on state excludes Coss switching-edge current; it is a conduction-only approximation, not switching-loss validation."
+    ],
+    "originalWaveformSources": [
+      "${PROJECT_ROOT}\\outputs\\reproduction\\matlab\\..\\data\\conventional_waveforms.csv",
+      "${PROJECT_ROOT}\\outputs\\reproduction\\matlab\\..\\data\\proposed_waveforms.csv"
+    ]
+  },
+  "rawChannel": {
+    "method": "Four-stage Cauer, fixed case, zero initial rise, piecewise-linear I_D^2 R loss",
+    "inputCase": "Raw I(VDUT) sensitivity including ideal-switch capacitance-discharge spikes",
+    "sourcePaperDOI": "10.1109/ECCEEurope62508.2024.10751914",
+    "thermalSource": "GS66508B datasheet Rev 200402, printed page 14",
+    "conventionalCurrentSource": "${PROJECT_ROOT}\\outputs\\reproduction\\matlab\\..\\data\\conventional_waveforms.csv",
+    "proposedCurrentSource": "${PROJECT_ROOT}\\outputs\\reproduction\\matlab\\..\\data\\proposed_waveforms.csv",
+    "measurementStart_s": 3.55E-5,
+    "measurementEnd_s": 4.05E-5,
+    "caseTemperature_C": 25,
+    "assumedRdsOn_ohm": 0.08,
+    "Cauer_R_K_per_W": [
+      0.015,
+      0.23,
+      0.24,
+      0.015
+    ],
+    "Cauer_C_J_per_K": [
+      8E-5,
+      0.00074,
+      0.0065,
+      0.002
+    ],
+    "initialTemperatureRise_K": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "conventional": {
+      "measurementMeanDeltaTj_K": 5.7432495811250108,
+      "measurementMeanTj_C": 30.74324958112501,
+      "globalPeakDeltaTj_K": 6.6720823243032354,
+      "globalPeakTime_s": 4.04849999708515E-5,
+      "measurementPeakDeltaTj_K": 6.6720823243032354,
+      "measurementMeanCurrent_A": 51.498566763847656,
+      "totalConductionEnergy_J": 0.0034902997456923777,
+      "measurementConductionEnergy_J": 0.0010756101791685991,
+      "peakConductionPower_W": 289133.16335587756,
+      "maximumAbsoluteEnergyBalanceResidual_J": 3.8134058560099042E-17,
+      "maximumRelativeEnergyBalanceResidual": 1.0925725965846613E-14
+    },
+    "proposed": {
+      "measurementMeanDeltaTj_K": 2.7424554540456465,
+      "measurementMeanTj_C": 27.742455454045647,
+      "globalPeakDeltaTj_K": 3.9118319293460959,
+      "globalPeakTime_s": 4.04849999708515E-5,
+      "measurementPeakDeltaTj_K": 3.9118319293460959,
+      "measurementMeanCurrent_A": 51.590827996469194,
+      "totalConductionEnergy_J": 0.0010794433418822107,
+      "measurementConductionEnergy_J": 0.0010794433418822107,
+      "peakConductionPower_W": 288795.18940056034,
+      "maximumAbsoluteEnergyBalanceResidual_J": 4.39874249413843E-18,
+      "maximumRelativeEnergyBalanceResidual": 4.0750100755343049E-15
+    },
+    "meanTemperatureReduction_percent": 52.249063612721436,
+    "totalConductionEnergyReduction_percent": 69.0730475737957,
+    "paperReference": {
+      "meanConventional_K": 4.7,
+      "meanProposed_K": 1.8,
+      "meanReduction_percent": 62,
+      "peakConventional_K": 6.1,
+      "peakProposed_K": 3.6
+    },
+    "reproductionLimits": [
+      "Current input is from the local circuit model, not the unpublished author simulation template.",
+      "Only I_D^2 times constant 80 mOhm conduction loss is included, matching the paper method.",
+      "Zero initial thermal rise and fixed case 25 C are explicit local assumptions.",
+      "Minutes-scale trapping and experimental resistance statistics are not reproduced.",
+      "Ideal-switch, constant-200pF Coss edge peaks are not realistic device switching currents; this case only quantifies their numerical energy sensitivity."
+    ],
+    "originalWaveformSources": [
+      "${PROJECT_ROOT}\\outputs\\reproduction\\matlab\\..\\data\\conventional_waveforms.csv",
+      "${PROJECT_ROOT}\\outputs\\reproduction\\matlab\\..\\data\\proposed_waveforms.csv"
+    ]
+  },
+  "rawMinusLoadConventionalEnergy_J": 1.3333845403847109E-5,
+  "rawMinusLoadProposedEnergy_J": 6.942322658387871E-6,
+  "rawMinusLoadConventionalMeanRise_K": 0.031698500944767893,
+  "rawMinusLoadProposedMeanRise_K": 0.025168756861113639
+}

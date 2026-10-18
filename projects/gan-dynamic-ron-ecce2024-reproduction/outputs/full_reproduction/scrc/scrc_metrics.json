@@ -1,0 +1,51 @@
+{
+  "model": "GaN_SCRC_Current_Sharing.slx",
+  "cases": 72,
+  "maximumKCLerror_A": 9.1999936557840556E-9,
+  "maximumAnalyticBranchError_A": 9.2000362883482012E-9,
+  "currentMagnitudes_A": [
+    10,
+    30,
+    50
+  ],
+  "DUTgateSettings_V": [
+    -3,
+    0,
+    6
+  ],
+  "gateGaps_V": [
+    0,
+    0.5,
+    1,
+    2,
+    3,
+    4.5,
+    5,
+    6
+  ],
+  "assumedThreshold_V": 1.7,
+  "datasheetThresholdMinTypMax_V": [
+    1.1,
+    1.7,
+    2.6
+  ],
+  "continuousGateRating_V": [
+    -10,
+    7
+  ],
+  "assumedReverseRon_Ohm": 0.08,
+  "assumedTotalNodeCapacitance_F": 2E-10,
+  "nominalOffStateIsolationGap_V": [
+    0.89999999999999991,
+    2.6999999999999997,
+    4.5
+  ],
+  "worstDatasheetThresholdSpreadIsolationGap_V": [
+    2.4,
+    4.1999999999999993,
+    6
+  ],
+  "interpretation": "GateLS1<GateDUT raises the LS1 turn-on threshold but is not sufficient at arbitrarily high reverse current.",
+  "measurementBiasDefinition": "Bias only if total inductor current is wrongly substituted for actual DUT shunt current; proper paper shunt measurement remains valid for actual DUT current.",
+  "scope": "Mechanism-level current sharing with a lumped capacitor, fixed threshold and linear reverseRon, not a vendor compact model or experimental reproduction"
+}

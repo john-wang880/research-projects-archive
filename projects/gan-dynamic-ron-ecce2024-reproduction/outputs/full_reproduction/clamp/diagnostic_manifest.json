@@ -1,0 +1,7 @@
+{
+  "decks": [
+    "${PROJECT_ROOT}\\outputs\\full_reproduction\\clamp\\diagnostic_st_reverse_dc.cir",
+    "${PROJECT_ROOT}\\outputs\\full_reproduction\\clamp\\diagnostic_btb_negative_dc.cir",
+    "${PROJECT_ROOT}\\outputs\\full_reproduction\\clamp\\diagnostic_wide_internal.cir"
+  ]
+}

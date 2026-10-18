@@ -1,0 +1,289 @@
+{
+  "source_code": "${PROJECT_ROOT}\\outputs\\full_reproduction\\tec\\build_run_tec.m",
+  "source_code_sha256": "7dbb8a6a841c0a2851e6076fdcfffa2f365cdd07e443e68a9e7fb7858639c8fd",
+  "native_results": "${PROJECT_ROOT}\\outputs\\full_reproduction\\tec\\TEC_Electrothermal_ClosedLoop_results.csv",
+  "native_results_sha256": "5895d0642671e5c4aee424ee01a7362a3cc467a5422de07ae242bfb32b20ddb3",
+  "native_results_mtime_epoch": 1790928763.3320043,
+  "independent_solver": "SciPyRadau,6coupledstates,rtol2e-9",
+  "ODE_state_order": [
+    "TA_K",
+    "I_A",
+    "outer_PI_A",
+    "inner_PI_V",
+    "T_sensor_K",
+    "I_sensor_A"
+  ],
+  "parameters": {
+    "Vdc_V": 24.0,
+    "Rtec_Ohm": 0.8,
+    "alpha_V_per_K": 0.01257846812098028,
+    "K_W_per_K": 0.07012633461903965,
+    "Ccase_J_per_K": 4.5,
+    "Ginsulation_W_per_K": 0.02,
+    "ideal_heatsink_K": 298.15,
+    "Lseries_H": 0.00044,
+    "Rseries_inductors_Ohm": 0.06,
+    "current_reference_limit_A": 3.0,
+    "voltage_command_limit_V": 3.6,
+    "kpT_A_per_K": 0.25,
+    "kiT_A_per_Ks": 0.012,
+    "antiwindupT_per_s": 0.3,
+    "kpI_V_per_A": 0.2,
+    "kiI_V_per_As": 500.0,
+    "antiwindupI_per_s": 100.0,
+    "temp_sensor_tau_s": 0.01,
+    "current_sensor_tau_s": 1e-05
+  },
+  "solver_records": [
+    {
+      "target_C": 15,
+      "nfev": 10576,
+      "njev": 64,
+      "nlu": 1618,
+      "solver_points": 1318,
+      "success": true
+    },
+    {
+      "target_C": 55,
+      "nfev": 15901,
+      "njev": 323,
+      "nlu": 2406,
+      "solver_points": 1630,
+      "success": true
+    },
+    {
+      "target_C": -15,
+      "nfev": 16871,
+      "njev": 270,
+      "nlu": 2914,
+      "solver_points": 1665,
+      "success": true
+    },
+    {
+      "target_C": 95,
+      "nfev": 12506,
+      "njev": 95,
+      "nlu": 1816,
+      "solver_points": 1502,
+      "success": true
+    }
+  ],
+  "all_finite": true,
+  "trajectory_comparison": {
+    "Tcase_K": {
+      "all_logged_points": {
+        "RMSE": 5.9231766174351205e-06,
+        "MAX": 5.6765414342407894e-05
+      },
+      "excluding_setpoint_discontinuities": {
+        "RMSE": 5.951784881697051e-06,
+        "MAX": 5.6765414342407894e-05
+      }
+    },
+    "Itec_A": {
+      "all_logged_points": {
+        "RMSE": 1.7041967967575189e-06,
+        "MAX": 1.428635717815041e-05
+      },
+      "excluding_setpoint_discontinuities": {
+        "RMSE": 1.7124261134610539e-06,
+        "MAX": 1.428635717815041e-05
+      }
+    },
+    "Iref_A": {
+      "all_logged_points": {
+        "RMSE": 1.4201730800754682e-06,
+        "MAX": 1.2302984866874311e-05
+      },
+      "excluding_setpoint_discontinuities": {
+        "RMSE": 1.4270323532993887e-06,
+        "MAX": 1.2302984866874311e-05
+      }
+    },
+    "target_C": {
+      "all_logged_points": {
+        "RMSE": 0.0,
+        "MAX": 0.0
+      },
+      "excluding_setpoint_discontinuities": {
+        "RMSE": 0.0,
+        "MAX": 0.0
+      }
+    },
+    "Vcmd_V": {
+      "all_logged_points": {
+        "RMSE": 1.2895174896947795e-06,
+        "MAX": 1.3101939220661052e-05
+      },
+      "excluding_setpoint_discontinuities": {
+        "RMSE": 1.2956658981585704e-06,
+        "MAX": 1.3101939220661052e-05
+      }
+    },
+    "dutyA": {
+      "all_logged_points": {
+        "RMSE": 2.6864947693854896e-08,
+        "MAX": 2.7295706678254206e-07
+      },
+      "excluding_setpoint_discontinuities": {
+        "RMSE": 2.6993039536709114e-08,
+        "MAX": 2.7295706678254206e-07
+      }
+    },
+    "dutyB": {
+      "all_logged_points": {
+        "RMSE": 2.68649476930401e-08,
+        "MAX": 2.729570668380532e-07
+      },
+      "excluding_setpoint_discontinuities": {
+        "RMSE": 2.699303953597123e-08,
+        "MAX": 2.729570668380532e-07
+      }
+    },
+    "railA_V": {
+      "all_logged_points": {
+        "RMSE": 6.447587449042202e-07,
+        "MAX": 6.550969654739447e-06
+      },
+      "excluding_setpoint_discontinuities": {
+        "RMSE": 6.478329491400534e-07,
+        "MAX": 6.550969654739447e-06
+      }
+    },
+    "railB_V": {
+      "all_logged_points": {
+        "RMSE": 6.44758744808959e-07,
+        "MAX": 6.550969654739447e-06
+      },
+      "excluding_setpoint_discontinuities": {
+        "RMSE": 6.478329490443263e-07,
+        "MAX": 6.550969654739447e-06
+      }
+    }
+  },
+  "controller_limits": {
+    "native_current_reference_MAX_A": 3.0,
+    "native_actual_current_MAX_A": 3.50920354767659,
+    "independent_actual_current_MAX_A": 3.5091972353846925,
+    "native_voltage_command_MAX_V": 3.12329882953126,
+    "reference_limit_is_not_actual_transient_current_limit": true
+  },
+  "steady_states": [
+    {
+      "target_C": 15,
+      "native_Tcase_C": 15.00000000000017,
+      "independent_Tcase_C": 15.00000000000017,
+      "native_I_A": 0.25588579084787993,
+      "independent_I_A": 0.2558857908478709,
+      "analytic_steady_I_A": 0.2558857908478951,
+      "native_I_minus_analytic_A": -1.5154544286133387e-14,
+      "native_Vcmd_V": 0.3458464613385184,
+      "analytic_Vcmd_V": 0.3458464613389926,
+      "QA_into_Peltier_A_W": 0.19999999999995977,
+      "QB_into_Peltier_B_W": -0.2845685429941539,
+      "Ptec_electrical_W": 0.08456854299419428,
+      "Pseries_loss_W": 0.003928652277470697,
+      "Pheatleak_into_case_W": 0.1999999999999966,
+      "case_steady_balance_residual_W": 3.683164884193957e-14,
+      "Peltier_energy_balance_residual_W": 1.1102230246251565e-16,
+      "overall_source_power_balance_residual_W": -1.1746853489924547e-13
+    },
+    {
+      "target_C": 55,
+      "native_Tcase_C": 54.99999999999994,
+      "independent_Tcase_C": 54.999999999999886,
+      "native_I_A": -0.6180321530475947,
+      "independent_I_A": -0.6180321530475974,
+      "analytic_steady_I_A": -0.6180321530475763,
+      "native_I_minus_analytic_A": -1.84297022087776e-14,
+      "native_Vcmd_V": -0.9088616952492228,
+      "analytic_Vcmd_V": -0.9088616952503241,
+      "QA_into_Peltier_A_W": -0.600000000000092,
+      "QB_into_Peltier_B_W": 0.06121207419407604,
+      "Ptec_electrical_W": 0.5387879258060153,
+      "Pseries_loss_W": 0.022917824532038732,
+      "Pheatleak_into_case_W": -0.5999999999999989,
+      "case_steady_balance_residual_W": 9.314771176605063e-14,
+      "Peltier_energy_balance_residual_W": -6.661338147750939e-16,
+      "overall_source_power_balance_residual_W": -6.900140181453907e-13
+    },
+    {
+      "target_C": -15,
+      "native_Tcase_C": -15.0,
+      "independent_Tcase_C": -15.0,
+      "native_I_A": 1.327220286632765,
+      "independent_I_A": 1.3272202866327694,
+      "analytic_steady_I_A": 1.3272202866328136,
+      "native_I_minus_analytic_A": -4.8627768478581856e-14,
+      "native_Vcmd_V": 1.6445481713410017,
+      "analytic_Vcmd_V": 1.644548171343431,
+      "QA_into_Peltier_A_W": 0.7999999999998932,
+      "QB_into_Peltier_B_W": -2.8769868739966817,
+      "Ptec_electrical_W": 2.076986873996789,
+      "Pseries_loss_W": 0.10569082135497351,
+      "Pheatleak_into_case_W": 0.8,
+      "case_steady_balance_residual_W": 1.0680345496894006e-13,
+      "Peltier_energy_balance_residual_W": 4.440892098500626e-16,
+      "overall_source_power_balance_residual_W": -3.1686597790070437e-12
+    },
+    {
+      "target_C": 95,
+      "native_Tcase_C": 94.99999999999432,
+      "independent_Tcase_C": 94.9999999999942,
+      "native_I_A": -1.231397050050249,
+      "independent_I_A": -1.2313970500502456,
+      "analytic_steady_I_A": -1.2313970500500704,
+      "native_I_minus_analytic_A": -1.7852386235972517e-13,
+      "native_Vcmd_V": -1.939494231509546,
+      "analytic_Vcmd_V": -1.9394942315116803,
+      "QA_into_Peltier_A_W": -1.4000000000013122,
+      "QB_into_Peltier_B_W": -0.8973071535793986,
+      "Ptec_electrical_W": 2.2973071535807112,
+      "Pseries_loss_W": 0.09098032169234732,
+      "Pheatleak_into_case_W": -1.3999999999998864,
+      "case_steady_balance_residual_W": 1.425748408223626e-12,
+      "Peltier_energy_balance_residual_W": 4.440892098500626e-16,
+      "overall_source_power_balance_residual_W": -2.729205750284791e-12
+    }
+  ],
+  "native_thermal_energy_integrals": [
+    {
+      "target_C": 15,
+      "integrated_native_heatflow_J": -45.02496319583755,
+      "actual_case_energy_change_J": -45.0,
+      "quadrature_residual_J": -0.024963195837550245,
+      "native_sampling_note": "Trapezoid quadrature of adaptively logged nativepoints; includes output-sampling integrationerror."
+    },
+    {
+      "target_C": 55,
+      "integrated_native_heatflow_J": 180.02950481326883,
+      "actual_case_energy_change_J": 180.0,
+      "quadrature_residual_J": 0.029504813268829366,
+      "native_sampling_note": "Trapezoid quadrature of adaptively logged nativepoints; includes output-sampling integrationerror."
+    },
+    {
+      "target_C": -15,
+      "integrated_native_heatflow_J": -315.01956686917674,
+      "actual_case_energy_change_J": -315.0,
+      "quadrature_residual_J": -0.01956686917674233,
+      "native_sampling_note": "Trapezoid quadrature of adaptively logged nativepoints; includes output-sampling integrationerror."
+    },
+    {
+      "target_C": 95,
+      "integrated_native_heatflow_J": 495.03822125671775,
+      "actual_case_energy_change_J": 494.9999999999957,
+      "quadrature_residual_J": 0.038221256722067665,
+      "native_sampling_note": "Trapezoid quadrature of adaptively logged nativepoints; includes output-sampling integrationerror."
+    }
+  ],
+  "assumptions": [
+    "Ideal fixed25C heat sink has unlimited heatacceptance/supply and no thermalmass or ambient rise.",
+    "Case5g with900J/kgK is4.5J/K; fixedinsulationconductance0.02W/K is a disclosed representativeassumption, not identified frompaper.",
+    "No added DUT average heatload. Fullbridgemeasurementpowers are pulsed and not injected into this separateTECmodel.",
+    "Longtime model omits10uF outputcaps after LCsettling; PWMmodel is separate and not validated bythis6stateaudit.",
+    "PaperSecIV states achievablecasecapability-15..95C, whileFig12 hasRonmeasurements15..55C; noauthorTECtransienttrajectory is published forindependentmatching.",
+    "Temperature/current controllerparameters and sensors are representative implementationassumptions.",
+    "Peltier alpha/R/K assume constantcoefficients over-15..95C; actualdevice variation and finiteheatsink limitations remain unverified."
+  ],
+  "equation_source": "https://www.mathworks.com/help/simscape-electrical/ref/peltierdevice.html"
+}

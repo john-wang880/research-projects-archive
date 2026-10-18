@@ -1,0 +1,80 @@
+[
+  {
+    "schematic": "GaN_Fig5_Clamp_Safe400_Pos5.asc",
+    "fine_max_step_s": 5e-11,
+    "fine_reltol": 1e-07,
+    "method": "gear",
+    "runs": [
+      {
+        "deck": "GaN_Fig5_Clamp_Safe400_Pos5_asc_gear.cir",
+        "pid": 27324,
+        "exit_code": 0,
+        "elapsed_s": 15.151499509811401,
+        "raw_sha256": "b709f314cc17102c5fe8f15903c249bf5a35921998b9b41dc63977891fd0ca6c"
+      },
+      {
+        "deck": "wide_safe_400V_pos5V_cir_gear.cir",
+        "pid": 8400,
+        "exit_code": 0,
+        "elapsed_s": 17.153690814971924,
+        "raw_sha256": "e6ece4e987bee8e2b6cb5ab0718f615faf8ecdbb1da94518520d010dab8cd379"
+      }
+    ],
+    "maximum_difference_V": 0.3382785777973867,
+    "RMS_difference_V": 0.006533159345468535,
+    "max_difference_time_s": 2.00064e-06,
+    "plateau_difference_V": -1.0144461271011096e-08
+  },
+  {
+    "schematic": "GaN_Fig5_Clamp_Safe400_Neg5.asc",
+    "fine_max_step_s": 5e-11,
+    "fine_reltol": 1e-07,
+    "method": "gear",
+    "runs": [
+      {
+        "deck": "GaN_Fig5_Clamp_Safe400_Neg5_asc_gear.cir",
+        "pid": 15256,
+        "exit_code": 0,
+        "elapsed_s": 15.370692253112793,
+        "raw_sha256": "1e50148252acd89fac639101551f15e4a733af3f1868e067f8fd85d9dd24ea50"
+      },
+      {
+        "deck": "wide_safe_400V_neg5V_cir_gear.cir",
+        "pid": 51076,
+        "exit_code": 0,
+        "elapsed_s": 12.696675300598145,
+        "raw_sha256": "6fd7fea548416b082e6487bc561f7c7906e5e13c9f1a2eae35e5882fa855b215"
+      }
+    ],
+    "maximum_difference_V": 0.4394881249272107,
+    "RMS_difference_V": 0.01115725381899787,
+    "max_difference_time_s": 2.00234e-06,
+    "plateau_difference_V": 1.1960746171268966e-08
+  },
+  {
+    "schematic": "GaN_Fig5_Clamp_Default.asc",
+    "fine_max_step_s": 5e-11,
+    "fine_reltol": 1e-07,
+    "method": "gear",
+    "runs": [
+      {
+        "deck": "GaN_Fig5_Clamp_Default_asc_gear.cir",
+        "pid": 48100,
+        "exit_code": 0,
+        "elapsed_s": 5.648216485977173,
+        "raw_sha256": "ff477f63606aa083807104d0591f239e7b59a2e5e041c1eda9cc3183fad0e5c8"
+      },
+      {
+        "deck": "improved_positive_cir_gear.cir",
+        "pid": 14236,
+        "exit_code": 0,
+        "elapsed_s": 10.499344110488892,
+        "raw_sha256": "b49c8c9240481f86f3d35a555f7fa4ec6eff329026c575e60a9ec5239e1b67ef"
+      }
+    ],
+    "maximum_difference_V": 0.032344907055672945,
+    "RMS_difference_V": 0.0009425184841071882,
+    "max_difference_time_s": 1.0614000000000001e-06,
+    "plateau_difference_V": 1.3352184918824506e-07
+  }
+]

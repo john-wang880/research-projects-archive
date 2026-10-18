@@ -1,0 +1,7 @@
+# Optional native-PDF extraction and curve refitting only.
+# Saved-parameter MATLAB/Simulink reruns do not need Python or these packages.
+# Verified together on Python 3.12.14.
+numpy==2.5.3
+scipy==1.18.1
+matplotlib==3.11.2
+pdfplumber==0.11.9

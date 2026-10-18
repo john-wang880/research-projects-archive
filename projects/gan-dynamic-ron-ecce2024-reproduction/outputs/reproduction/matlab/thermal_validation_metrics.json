@@ -1,0 +1,21 @@
+{
+  "CauerTopology": "C1 at junction; series R1,R2,R3,R4; fixed case after R4",
+  "dcExpectedRise_K": [
+    5,
+    4.85,
+    2.55,
+    0.15
+  ],
+  "dcComputedRise_K": [
+    4.9999995976615148,
+    4.8499995979167556,
+    2.5499996380092438,
+    0.14999997838376153
+  ],
+  "dcMaxError_K": 4.0233848519477533E-7,
+  "stepEnergyBalanceRelativeResidual": 9.2888659726975175E-14,
+  "pulseEnergyBalanceRelativeResidual": 9.69545381054129E-15,
+  "maximumIndependentOdeDifference_K": 2.8430424237058105E-8,
+  "passed": true,
+  "testInputType": "Analytic verification only; not paper reproduction"
+}

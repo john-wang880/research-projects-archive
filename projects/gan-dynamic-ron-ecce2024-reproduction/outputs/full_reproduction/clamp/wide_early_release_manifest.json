@@ -1,0 +1,38 @@
+[
+  {
+    "deck": "${PROJECT_ROOT}\\outputs\\full_reproduction\\clamp\\wide_50V_pos5V_early_btb_release.cir",
+    "bus_V": 50,
+    "on_voltage_V": 5,
+    "gate_timing_change": "BTB release completes 0.94 us, before DUT voltage falls at 1 us"
+  },
+  {
+    "deck": "${PROJECT_ROOT}\\outputs\\full_reproduction\\clamp\\wide_50V_neg5V_early_btb_release.cir",
+    "bus_V": 50,
+    "on_voltage_V": -5,
+    "gate_timing_change": "BTB release completes 0.94 us, before DUT voltage falls at 1 us"
+  },
+  {
+    "deck": "${PROJECT_ROOT}\\outputs\\full_reproduction\\clamp\\wide_150V_pos5V_early_btb_release.cir",
+    "bus_V": 150,
+    "on_voltage_V": 5,
+    "gate_timing_change": "BTB release completes 0.94 us, before DUT voltage falls at 1 us"
+  },
+  {
+    "deck": "${PROJECT_ROOT}\\outputs\\full_reproduction\\clamp\\wide_150V_neg5V_early_btb_release.cir",
+    "bus_V": 150,
+    "on_voltage_V": -5,
+    "gate_timing_change": "BTB release completes 0.94 us, before DUT voltage falls at 1 us"
+  },
+  {
+    "deck": "${PROJECT_ROOT}\\outputs\\full_reproduction\\clamp\\wide_400V_pos5V_early_btb_release.cir",
+    "bus_V": 400,
+    "on_voltage_V": 5,
+    "gate_timing_change": "BTB release completes 0.94 us, before DUT voltage falls at 1 us"
+  },
+  {
+    "deck": "${PROJECT_ROOT}\\outputs\\full_reproduction\\clamp\\wide_400V_neg5V_early_btb_release.cir",
+    "bus_V": 400,
+    "on_voltage_V": -5,
+    "gate_timing_change": "BTB release completes 0.94 us, before DUT voltage falls at 1 us"
+  }
+]

@@ -1,0 +1,73 @@
+[
+  {
+    "file": "sources/STN1NK60Z_spice.zip",
+    "url": "https://www.st.com/resource/en/spice_model/stn1nk60z_spice.zip",
+    "bytes": 951,
+    "sha256": "ae3fbcb8dc17fa64dae525ef494b0c55d491f6aa2e9abfa3bbbf28d4f2078bc9",
+    "role": "representative part, not original author BOM"
+  },
+  {
+    "file": "sources/STN1NK60Z_datasheet.pdf",
+    "url": "https://www.st.com/resource/en/datasheet/stn1nk60z.pdf",
+    "bytes": 1087024,
+    "sha256": "1cbbca89af49ecf37d16d5a8ce958d7ca4dcdb105b67a9864e78dbcb5d0b748e",
+    "role": "representative part, not original author BOM"
+  },
+  {
+    "file": "models/DMG2302UK_official.lib",
+    "url": "https://www.diodes.com/spice/download/1786/DMG2302UK.spice.txt",
+    "bytes": 1991,
+    "sha256": "535c3dffa46d186a712eaf9a7d6b322dd692cdfc6d0d8c73ffcee92d503c9115",
+    "role": "representative part, not original author BOM"
+  },
+  {
+    "file": "sources/DMG2302UK_datasheet.pdf",
+    "url": "https://www.diodes.com/datasheet/download/DMG2302UK.pdf",
+    "bytes": 625437,
+    "sha256": "cfba50cf0e4fadaf25d1815319c5c4e02216feb567ebc966aaccfad816658875",
+    "role": "representative part, not original author BOM"
+  },
+  {
+    "file": "sources/ESDS452_datasheet.pdf",
+    "url": "https://www.ti.com/lit/ds/symlink/esds452.pdf",
+    "bytes": 1499063,
+    "sha256": "a2e7c19ada104a160520776ed12c7ef3aee6a931ca3401628e9e51afc3998a45",
+    "role": "representative part, not original author BOM"
+  },
+  {
+    "file": "models/BAS21_official.lib",
+    "url": "https://www.diodes.com/spice/download/1510/BAS21.spice.txt",
+    "bytes": 1430,
+    "sha256": "2f88c024fef08446fffccaa7b9f5d9bebfe85666748cdbc7b9c78d0001bed7c7",
+    "role": "representative part, not original author BOM"
+  },
+  {
+    "file": "sources/BAS21_datasheet.pdf",
+    "url": "https://www.diodes.com/datasheet/download/BAS21.pdf",
+    "bytes": 296988,
+    "sha256": "7e7747c89547ad03162ab43fc761fe6f76052306dd6222c385e542f8beff7b51",
+    "role": "representative part, not original author BOM"
+  },
+  {
+    "file": "sources/WaveProHD_datasheet.pdf",
+    "url": "https://cdn.teledynelecroy.com/files/pdf/waveprohd-datasheet.pdf",
+    "bytes": 4894169,
+    "sha256": "56cd6f5b3aa265db3d7ff59c5c344796a67df37e5c95ad986020fcc92643d9e0",
+    "role": "representative part, not original author BOM"
+  },
+  {
+    "file": "models/BAS21_LTspice_compat.lib",
+    "derived_from": "models/BAS21_official.lib",
+    "modification": "commented the bare descriptive line Switching Diode; all .MODEL coefficients unchanged"
+  },
+  {
+    "file": "models/stn1nk60z.lib",
+    "derived_from": "sources/STN1NK60Z_spice.zip",
+    "zip_member": "stn1nk60z.lib",
+    "bytes": 2651,
+    "sha256": "5e20623ac9afc71fa30918733a58770cb7ecd2778317c54a7f40b9ead643185a",
+    "modification": "none; exact official ZIP extraction",
+    "model_creation_date": "17-11-2006",
+    "nominal_valid_temperature_C": 25
+  }
+]

@@ -1,0 +1,10 @@
+* Isolate official ST macro negative-Vds DC conduction, not author device
+.include models/stn1nk60z.lib
+Vdut input 0 -5
+Vgate gate out 10
+Xblocking input gate out STN1NK60Z
+Rprobe out 0 1Meg
+.tran 0 0.1u 0 0.1n
+.options plotwinsize=0 reltol=1e-5
+.save V(input) V(out) I(Vdut)
+.end

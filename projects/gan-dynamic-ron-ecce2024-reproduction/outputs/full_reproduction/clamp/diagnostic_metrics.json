@@ -1,0 +1,139 @@
+{
+  "diagnostic_btb_negative_dc": {
+    "deck": "diagnostic_btb_negative_dc.cir",
+    "end_time_s": 1e-07,
+    "window_s": [
+      6.5e-08,
+      8.5e-08
+    ],
+    "node_window_means": {
+      "v(out)": -5.0,
+      "v(middle)": -4.961885457410123,
+      "i(vout)": 5.340387227164989e-07
+    },
+    "absolute_peak_output_V": 5.0
+  },
+  "diagnostic_full_negative_dc": {
+    "deck": "diagnostic_full_negative_dc.cir",
+    "end_time_s": 1e-07,
+    "window_s": [
+      6.5e-08,
+      8.5e-08
+    ],
+    "node_window_means": {
+      "v(input)": -5.0,
+      "v(out)": -4.999938618616258,
+      "v(gate_block)": 5.000061381383742,
+      "v(middle)": -4.961824106931459,
+      "v(gate_top)": -4.961824106952723,
+      "i(dtvsp)": -5.9376065529495926e-12,
+      "i(dtvsm)": 5.937606335789231e-12,
+      "i(vdut)": 5.5339826654109575e-06
+    },
+    "peak_input_current_A": 5.53398270478912e-06,
+    "absolute_peak_output_V": 4.999938618616263
+  },
+  "diagnostic_st_reverse_dc": {
+    "deck": "diagnostic_st_reverse_dc.cir",
+    "end_time_s": 1e-07,
+    "window_s": [
+      6.5e-08,
+      8.5e-08
+    ],
+    "node_window_means": {
+      "v(input)": -5.0,
+      "v(out)": -4.999944542008389,
+      "i(vdut)": 4.999944541906868e-06
+    },
+    "peak_input_current_A": 4.999944805753701e-06,
+    "absolute_peak_output_V": 4.999944543190008
+  },
+  "diagnostic_wide_internal": {
+    "deck": "diagnostic_wide_internal.cir",
+    "end_time_s": 3e-06,
+    "window_s": [
+      1.4e-06,
+      1.8e-06
+    ],
+    "node_window_means": {
+      "v(input)": -5.0,
+      "v(out)": -4.260708743817997,
+      "v(gate_block)": 5.739395777770318,
+      "v(middle)": -4.017088199293529,
+      "v(gate_top)": -4.007124049980282,
+      "i(dtvsp)": -4.647759534444387e-07,
+      "i(dtvsm)": 4.6477595344431944e-07,
+      "i(vdut)": 2.619875101661723e-05
+    },
+    "peak_input_current_A": 23.12341502502341,
+    "absolute_peak_output_V": 9.029805388423664
+  },
+  "diagnostic_wide_internal_v2": {
+    "deck": "diagnostic_wide_internal_v2.cir",
+    "end_time_s": 3e-06,
+    "window_s": [
+      1.4e-06,
+      1.8e-06
+    ],
+    "node_window_means": {
+      "v(input)": -5.0,
+      "v(out)": -4.260708743817997,
+      "v(gate_block)": 5.739395777770318,
+      "v(blocking:12)": -4.260709404796643,
+      "v(blocking:6)": -4.999999691997254,
+      "v(blocking:5)": 5.739447926688746,
+      "v(blocking:9)": -4.323242579286542,
+      "v(blocking:8)": -4.313167273108158,
+      "v(blocking:13)": -4.328372936297006,
+      "v(middle)": -4.017088199293529,
+      "v(gate_top)": -4.007124049980282,
+      "i(dtvsp)": -4.647759534444387e-07,
+      "i(dtvsm)": 4.6477595344431944e-07,
+      "i(vdut)": 2.619875101661723e-05
+    },
+    "peak_input_current_A": 23.12341502502341,
+    "absolute_peak_output_V": 9.029805388423664
+  },
+  "diagnostic_wide_negative_long": {
+    "deck": "diagnostic_wide_negative_long.cir",
+    "end_time_s": 1e-05,
+    "window_s": [
+      6e-06,
+      7e-06
+    ],
+    "node_window_means": {
+      "v(input)": -5.0,
+      "v(out)": -4.999934816868833,
+      "v(gate_block)": 5.000065183636586,
+      "v(middle)": -4.905385275829551,
+      "v(gate_top)": -4.905131602110885,
+      "i(dtvsp)": -6.854013710462197e-12,
+      "i(dtvsm)": 6.854013575482644e-12,
+      "i(vdut)": 5.876831590516277e-06
+    },
+    "peak_input_current_A": 22.72965926414489,
+    "absolute_peak_output_V": 7.180326735310395,
+    "last_2percent_violation_after_DUT_edge_ns": 593.940168449216
+  },
+  "diagnostic_wide_negative_strong": {
+    "deck": "diagnostic_wide_negative_strong.cir",
+    "end_time_s": 3e-06,
+    "window_s": [
+      1.4e-06,
+      1.8e-06
+    ],
+    "node_window_means": {
+      "v(input)": -5.0,
+      "v(out)": -4.999940652353506,
+      "v(gate_block)": 5.000059347631484,
+      "v(middle)": -5.080844848803411,
+      "v(gate_top)": -5.080845568948492,
+      "i(dtvsp)": -4.073559618396354e-12,
+      "i(dtvsm)": 4.073559539840043e-12,
+      "i(vdut)": 5.350623255885571e-06
+    },
+    "peak_input_current_A": 75.35596498728687,
+    "absolute_peak_output_V": 8.369734029752061,
+    "last_2percent_violation_after_DUT_edge_ns": 66.683908013608
+  }
+}

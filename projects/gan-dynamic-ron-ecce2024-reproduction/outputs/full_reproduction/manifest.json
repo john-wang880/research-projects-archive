@@ -1,0 +1,1661 @@
+{
+  "scope": "Public source distribution; external vendor models/manuscript and large generated outputs are not distributed",
+  "paths_relative_to": "repository root",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 146,
+      "sha256": "fdb9e9c5af493a170f4fbbde12cb247a95a80bb966fb8f62ba7d847a40c984a2"
+    },
+    {
+      "path": ".github/workflows/validate.yml",
+      "bytes": 387,
+      "sha256": "8982590858521b6dc5981540b29ac888dd2d9a286fd78e656e4d1733a774a9ac"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 740,
+      "sha256": "1c0695ebeebe2503ccc8b7c8f477deca43119d70e91d7146ef0d3ec1ee6c4e36"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 484,
+      "sha256": "59460cbc69306bb22e993cdf10b234f53b7242ea784ba776fdff41118c0f7737"
+    },
+    {
+      "path": "docs/DEVELOPMENT.md",
+      "bytes": 2602,
+      "sha256": "b4485b1b237fc546a08fbfac95d0e50ce9e3add52d0ac8f5ed8c8cd0ba1a5454"
+    },
+    {
+      "path": "docs/native_execution/matlab-builder-log.txt",
+      "bytes": 8962,
+      "sha256": "f408707fa86caf535478920dcc7a1050b7eba63679c2a8271d8bcd805eda4474"
+    },
+    {
+      "path": "docs/native_execution/saved-model-log.txt",
+      "bytes": 537,
+      "sha256": "09c828eb84a55268f26463903c99c2230e00ef70d05be6a7aba8e80be1c27be4"
+    },
+    {
+      "path": "docs/native_execution/saved-model-results.json",
+      "bytes": 2833,
+      "sha256": "f422a9be6ed8feb7710a3844eed2b11a2acbef080844c1623317add2e03cce46"
+    },
+    {
+      "path": "docs/validated-run.json",
+      "bytes": 13346,
+      "sha256": "743f4de404aa3d6acc51e19478fb9838cf6cdb535dd962e25dd9cdf5bd43bfe5"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1068,
+      "sha256": "29d4f20fadd89ce2165cad6dd05b994062ebc2eb16f294086ebab75dab19acd4"
+    },
+    {
+      "path": "outputs/full_reproduction/audit/AUDIT.txt",
+      "bytes": 9585,
+      "sha256": "f2b86b1333d49066561cb42b5a6c79a370941e4a3faded5043e69ec9aa4bc402"
+    },
+    {
+      "path": "outputs/full_reproduction/audit/build_coverage_audit.py",
+      "bytes": 26808,
+      "sha256": "0ba6f1917bdbe6ba64e148796260ca3e5d3e63d8b62711da69ff3268c57ef5a5"
+    },
+    {
+      "path": "outputs/full_reproduction/audit/coverage_matrix.csv",
+      "bytes": 13433,
+      "sha256": "7b8edae23e35bece5cc11b62bec4e980ba09bef55866c79f2a967c095b775ac4"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/analyze_clamp.py",
+      "bytes": 4504,
+      "sha256": "65a3cf30552b0099d694ba8cd73f413ec36be048e197cbd34cdc3d21916bb09a"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/blocking_negative.cir",
+      "bytes": 1542,
+      "sha256": "27ba4aa8b1193ee6e7bed495f3366404091c4566942ff1221ae1d1a32e2343ef"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/blocking_positive.cir",
+      "bytes": 1541,
+      "sha256": "c0def316be92de513d84a620ae74fcc44be8fb4f2ef8867deb57c933ea83f981"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/build_clamp_simulink.m",
+      "bytes": 7138,
+      "sha256": "f401d1afbd861023540257e5f4a01b7c508a2f418a32d34fc295708076047045"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/build_native_schematics.py",
+      "bytes": 5590,
+      "sha256": "7bb6fc064df4e6842556d2d9109ee1c01d01cc3742d30cdff7099c5b9466b2ff"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/build_wide_clamp_simulink.m",
+      "bytes": 7417,
+      "sha256": "237b9ea2114255d370db5c998f69ba86b70056a2fb032dab996310f4d842e47b"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/clamp_ltspice_comparison.png",
+      "bytes": 143788,
+      "sha256": "9aaf4e3e964c4d40e21906d1c8d4ac835bdb9cf037946c1dac5b3086892870cf"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/clamp_metrics.json",
+      "bytes": 8012,
+      "sha256": "64b33265e3384423b635b5043b263aed4ab858410069096bbab6477481a5de57"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/clamp_simulink.png",
+      "bytes": 97235,
+      "sha256": "ba7fd8903b707c1dcd507b22ede203a7f66a4004dd5f8baf65b6f9c08532b7ce"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/clamp_simulink_diagram.png",
+      "bytes": 385035,
+      "sha256": "891c159a7f78320f87702db4f9ec8e6549d38409992f122d5ecd51d6c009d23c"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/clamp_simulink_metrics.json",
+      "bytes": 747,
+      "sha256": "29aeccb360ab1398ff11e65ec137b74fdc8254939f70d68d9d64b022f1e08c53"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/ClampBlockingSTN.asy",
+      "bytes": 631,
+      "sha256": "da28354f61543f0aa3ad9d6a92fc1af9af69e2b1facbb461f3c1513ce900e899"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/ClampBTBDMG.asy",
+      "bytes": 631,
+      "sha256": "dcc5ba1916b9227e290d0e0dc02c6b234987c0399d0c4f156e41715673e8dcf0"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/current_mirror_reduced.cir",
+      "bytes": 1125,
+      "sha256": "5de5d3422fb6bf4d7412c54e42ce17147c65397c4a11818ccb7e1ae02bf79a13"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/deck_manifest.json",
+      "bytes": 875,
+      "sha256": "3b89fd64a9bdfb0250e9ed7272d0c82ad093258226b0c49a5c3c31d59bc119dc"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/diagnostic_btb_negative_dc.cir",
+      "bytes": 365,
+      "sha256": "728aa827303a2fd63cf9ccd2bdb97284aff3fd8aab6f5fd66030d3cdedbd88b5"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/diagnostic_final_manifest.json",
+      "bytes": 298,
+      "sha256": "1fe87e0bfc4e75ee2a45ad9f35db30cfa3de0a1cdee31214068ae7f592064811"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/diagnostic_full_negative_dc.cir",
+      "bytes": 1400,
+      "sha256": "336581dff869471eb696c84385140eed7f0a24463cd30b7ebda01ceccc431bc3"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/diagnostic_manifest.json",
+      "bytes": 285,
+      "sha256": "57d18eb3f52fb946d2bf30c152ceacc11c1d89564c6d0f926ef9e817679b5513"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/diagnostic_metrics.json",
+      "bytes": 4122,
+      "sha256": "a43f30dd1a14a9ce9436da78f7acdde9b7cf7e507fd0c4535c8078d1ec40d7dd"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/diagnostic_st_reverse_dc.cir",
+      "bytes": 281,
+      "sha256": "8bbe5e39f922c26c3bde3e9be7637079d974c721e7ca2c534882fb00b06ec837"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/diagnostic_timing_manifest.json",
+      "bytes": 690,
+      "sha256": "f8d9ab81d20e7bb05a0793537a992636f3da17feff51131ba23e453f3d7f716c"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/diagnostic_wide_internal.cir",
+      "bytes": 1651,
+      "sha256": "1733568dc667dfba08a390a1e62b149b7a7e077ace981df3adbbf24ba8af3645"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/diagnostic_wide_internal_v2.cir",
+      "bytes": 1645,
+      "sha256": "f5e94707d44919c05b5b637fc35e71682476a50cd7a28efb0c3344660fce7df8"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/diagnostic_wide_negative_long.cir",
+      "bytes": 1631,
+      "sha256": "3b9a4bf07473b8d1aed9f01541d425614fee62948ada19b3a05320e49c487b8a"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/diagnostic_wide_negative_strong.cir",
+      "bytes": 1625,
+      "sha256": "230a2106a6ffde56a1f6c658f3ca74f80f34c527e93dd2ed7bf934f7e7a40673"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/fig6_digitization.json",
+      "bytes": 1309,
+      "sha256": "17eb45660e294ad42c0f0582fed7d636c7b854aa79bb49528059e131b027274e"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/fig6_digitized_blocking.csv",
+      "bytes": 43836,
+      "sha256": "b7d6d1579e6755b74d2bd86dc13a312b4a833e8fb2997129ec163149683767a3"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/fig6_digitized_current_mirror.csv",
+      "bytes": 43706,
+      "sha256": "7771039f27eae09ffb4640bba9528fa6636a80b7420b65e368de7cbabb23cd6c"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/fig6_digitized_Id.csv",
+      "bytes": 43786,
+      "sha256": "02a15940c23c82da64e1f4ecfa2bca4f6456f26a95f8ed04c6b98fd1c29c4aec"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/fig6_digitized_improved.csv",
+      "bytes": 44002,
+      "sha256": "bf4b260ba41d3ce2ec349f71103d28ce557afde84595053b500a5dea31f5f88d"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/fig6_source_digitized.png",
+      "bytes": 97417,
+      "sha256": "9e4246b3e1b7da601c8644b56fba91eadf49f94085f9ee1214edb5d4c5a6f7d3"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/finalize_clamp.py",
+      "bytes": 7130,
+      "sha256": "c7c2d6af2c35661709a89ee1633516b8d0191c0cda1b94edebb00ba7fb48de64"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/GaN_Clamp_Wide_Range_Analog_State.slx",
+      "bytes": 4415352,
+      "sha256": "c0dc9d497a2bfe503f567168d239b359422b27aeebf2825097233d75a24e4bc8"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/GaN_Fig5_Clamp_Analog_State.slx",
+      "bytes": 2974147,
+      "sha256": "ef71ebb865876e475d7ea365410b435e6d01ed23c7db38d74895aee0df3b0f7f"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/GaN_Fig5_Clamp_Default.asc",
+      "bytes": 3440,
+      "sha256": "7ab2a65ce98401200554f2406a5b8176a7b11337aadb386578cf0fe38793e52b"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/GaN_Fig5_Clamp_Safe400_Neg5.asc",
+      "bytes": 3444,
+      "sha256": "b9dcd131bf0e3557a677b033bd2320615a38594f14a959d463229094b5e75979"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/GaN_Fig5_Clamp_Safe400_Pos5.asc",
+      "bytes": 3443,
+      "sha256": "6d5f5ee8bd19841db5cac063d3fcde8cd5dc251b294a9c17dfbdba126672b1f3"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/improved_negative.cir",
+      "bytes": 1550,
+      "sha256": "82d5977c5142e4acab939d55ecd78c175626590ae0d852bba994d5b1799c3e19"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/improved_positive.cir",
+      "bytes": 1549,
+      "sha256": "16ea2406654b71565f0b8157417d9122a1f8a1083a1bb1768ff282e9478b841f"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/improved_slow_release_negative.cir",
+      "bytes": 1558,
+      "sha256": "0b1898de6b5b03541750c4c13211495b6cececd1ca0b3c52e31252cc5a41acc0"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/improved_slow_release_positive.cir",
+      "bytes": 1557,
+      "sha256": "2cf6731031619f36868e4d9682ad1475d7fc8cd5626aa646f440326e21de582a"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/improved_strong_drive_negative.cir",
+      "bytes": 1547,
+      "sha256": "d7a80d18d7f3beef82ba3110b46b492685bdc18d034e6be158ef68147b29e3a1"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/improved_strong_drive_positive.cir",
+      "bytes": 1546,
+      "sha256": "e5175f12aafb4e586d6ae7a1407c374272011463a043fbec121d70aed45ffc8f"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/metrics.json",
+      "bytes": 1703,
+      "sha256": "34bd9e9f9b58a2068e0bc592c11300cbda243f76f15ce539437e781618f1214d"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/MODEL_CARD.md",
+      "bytes": 11349,
+      "sha256": "a260a36f837da6b8fb6e8b400883ab13a3b02aa3005966313e3f7360c2a6383a"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/native_ASC_schematic_preview.png",
+      "bytes": 126829,
+      "sha256": "79f2be0789143567107f43dae4cf8638d8b70ada260ed43b326ad0ee21b96997"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/native_ASC_waveform_verification.json",
+      "bytes": 3260,
+      "sha256": "37cb78646a3558b8640ab15c146de5f93ab864072d0fe52c9cff4ae8ba60cd3e"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/native_schematic_equivalence.json",
+      "bytes": 1353,
+      "sha256": "61365363957fef314f3336fdbf69a92d2bb993c15e8e33616832c5c5232e580e"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/native_schematic_manifest.json",
+      "bytes": 1003,
+      "sha256": "49d5de39a5ee008267706ef5e9d0ee6c622f3e83cda030e849e8e96fe326e379"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/native_validation/convergence.json",
+      "bytes": 2465,
+      "sha256": "65caf865721902bc90cd04c3da7e327658550a3f191a8590462ab1cb045bfdb4"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/native_validation/GaN_Fig5_Clamp_Default_asc_fine.cir",
+      "bytes": 1605,
+      "sha256": "7351886c26e12915b53a5fa19b857fa304ec781cbade575fe3dffb7ca7c7ec64"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/native_validation/GaN_Fig5_Clamp_Default_asc_gear.cir",
+      "bytes": 1625,
+      "sha256": "943b349f7768464e14f7cc1a092fcb59c6988b97f24a69dda7bec210b8385bbc"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/native_validation/GaN_Fig5_Clamp_Safe400_Neg5_asc_fine.cir",
+      "bytes": 1614,
+      "sha256": "ce248f584e4e3b53f91fd72cec9baf8688a0878f38efd52bd3a5f21d3b886140"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/native_validation/GaN_Fig5_Clamp_Safe400_Neg5_asc_gear.cir",
+      "bytes": 1634,
+      "sha256": "e7d8a8f2b96364fa4c19821115d6d56a609c39d7128fd5ba2502ecbd79544885"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/native_validation/GaN_Fig5_Clamp_Safe400_Pos5_asc_fine.cir",
+      "bytes": 1613,
+      "sha256": "7b137243040d191e0f095c33d9ca03fc1c479e947c36ac396203ca255976cb71"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/native_validation/GaN_Fig5_Clamp_Safe400_Pos5_asc_gear.cir",
+      "bytes": 1633,
+      "sha256": "471eb70f3e9c06f780a07f40182083469819ebe6385ba2180c18efba3b118b27"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/native_validation/gear_convergence.json",
+      "bytes": 2536,
+      "sha256": "9c9ea7b61d88af485d9159b3fd216dc20de7ac0f49ff938084f454cce5778998"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/native_validation/improved_positive_cir_fine.cir",
+      "bytes": 1556,
+      "sha256": "90d6d80c21eccd9fb3a10097f0be7b62afca0621162da92d8cdcb30894dc7bc2"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/native_validation/improved_positive_cir_gear.cir",
+      "bytes": 1576,
+      "sha256": "ee706db021db02c424298587c5dee5751bb15f21290f821bd5e039092da7c132"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/native_validation/README.txt",
+      "bytes": 1720,
+      "sha256": "37bfa02d7ba223e13bd8d9753b39164eb865780993b5914a9c713b22aec55af4"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/native_validation/wide_safe_400V_neg5V_cir_fine.cir",
+      "bytes": 1706,
+      "sha256": "00288a017a98a7d70f9b2f7f6c63a1d63ef77a00afe27ee9c984f193836fd262"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/native_validation/wide_safe_400V_neg5V_cir_gear.cir",
+      "bytes": 1726,
+      "sha256": "39ff758b8f55573afc21a2cd75ebf9949a1d43a9ce62a02c3f4e38607daf071e"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/native_validation/wide_safe_400V_pos5V_cir_fine.cir",
+      "bytes": 1705,
+      "sha256": "6246936a5b4e44b86a63d7d9f9361a32e05d5e9b92e7740d4c768e9f72425b1b"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/native_validation/wide_safe_400V_pos5V_cir_gear.cir",
+      "bytes": 1725,
+      "sha256": "3d42d0466c68ff6c971568056aef15b278b25743c68b6d773e26127f376b0ff7"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/noise_range_budget.csv",
+      "bytes": 264,
+      "sha256": "6bf77076bd286ce75291875beb18e7cce2196d28e6cdc3f59cea696795c06e0d"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/noise_range_budget.json",
+      "bytes": 557,
+      "sha256": "9bd17c1de8798d1bf837257bf8565a7342008336a04876f3936e2a4b70227b1a"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/noise_range_budget.png",
+      "bytes": 101003,
+      "sha256": "c310f4d673e03fc5f48fcac4acff64bd5905eefaf6ccf3504091fdba2d705c0c"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/plot_clamp_results.m",
+      "bytes": 4827,
+      "sha256": "8fda2c9df6dfd7c56a8630cf4e72e1f876afa45433e0bac2ee9adfa69ca93fa3"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/plot_final_interlock.m",
+      "bytes": 2381,
+      "sha256": "18c1bb887241f3addcff74f1aca3a08f5d125ff443dbf79ff9f318de0156b11f"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/plot_wide_range.m",
+      "bytes": 2086,
+      "sha256": "750878dd9b69da652d0294809e559247a05b1afb9115404704b939bf7be8e240"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/README.md",
+      "bytes": 2329,
+      "sha256": "f04b033a7cb12ca7a9a08c124d408b92e4ea58f9c3c2cc823449533f3ea2b7a0"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/sources/source_manifest.json",
+      "bytes": 2879,
+      "sha256": "8d8545d70d4825492355e8be6fc8f7ab7795f7c3ef230595a460b22ad5234503"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/verification.json",
+      "bytes": 15578,
+      "sha256": "04a6bb61f20eed09c5ee5655abae8e56ab55891106b6b28fedc9ab8429bb3d5c"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/verify_native_schematics.py",
+      "bytes": 2745,
+      "sha256": "4265babec133acf0d8171cdcf59e798667c2b48645e28882d40ba49cac04a00c"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/wide_150V_neg5V.cir",
+      "bytes": 1560,
+      "sha256": "6ccad036003041c899a846a8d0f062bf6e9e895fb3ed908e20bae929a8cf99d2"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/wide_150V_neg5V_early_btb_release.cir",
+      "bytes": 1629,
+      "sha256": "e52a5d1182e8b297a06ea05a071a8c9cdc12ebdfb8a0553c378da009351541b3"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/wide_150V_pos5V.cir",
+      "bytes": 1559,
+      "sha256": "48ef4b958d9d7431b2b9ada0537955cdb4a0cfeb5c7c7f29249f4239685d63a2"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/wide_150V_pos5V_early_btb_release.cir",
+      "bytes": 1628,
+      "sha256": "b9d8e56dfdd99ece6d50e42f756059bf90914b12d200f3386ba8eb0f0851dcf2"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/wide_400V_neg5V.cir",
+      "bytes": 1560,
+      "sha256": "0f981dbb70cf2b1cb8430a3ffc9be897f99a251c62681f138ad5f37e199250bb"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/wide_400V_neg5V_early_btb_release.cir",
+      "bytes": 1629,
+      "sha256": "22700f1845319dd0657c4607e394d3a509de306ac26d9fac069b6b885d22d205"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/wide_400V_pos5V.cir",
+      "bytes": 1559,
+      "sha256": "5500098d234238686ffbea962036522d74b4662d9a0d9ef78a5f5b21ba6bf75e"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/wide_400V_pos5V_early_btb_release.cir",
+      "bytes": 1628,
+      "sha256": "a70528e08bfa07f3db1c44c74c17dc29ec45b70fba5f1d3020f528c4a0872180"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/wide_50V_neg5V.cir",
+      "bytes": 1559,
+      "sha256": "ecc9ac3e6208a6587223b52423fa6aca74e1b7b1d500426ee42cf821546a1415"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/wide_50V_neg5V_early_btb_release.cir",
+      "bytes": 1628,
+      "sha256": "19cde09bede8f0f3e34aa9c4134da0a5a5c66396a41a9bdcf877f829b9d38991"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/wide_50V_pos5V.cir",
+      "bytes": 1558,
+      "sha256": "37999c086fb94748ab3cb8288e64a048741f35f34a041dc303ede4cb7f4c9a67"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/wide_50V_pos5V_early_btb_release.cir",
+      "bytes": 1627,
+      "sha256": "350a6cd0907374d1918259f36a375e48599ab09156685b599b96859a193c2c80"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/wide_clamp_simulink.png",
+      "bytes": 139115,
+      "sha256": "363795c359aa67ce9d24b2589edc566fd92d7cae0c09da9b412d0a630cfcc585"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/wide_clamp_simulink_diagram.png",
+      "bytes": 550544,
+      "sha256": "78ed46ad360d620cd8058173e7feb4c8fa25e8edb7ff5bcfcf2aeef6a45691fd"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/wide_clamp_simulink_metrics.json",
+      "bytes": 1233,
+      "sha256": "c21d9549b04e0d6cb4115aa6958d85433550afb2bdf1bc14166b24d7b4c115dd"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/wide_early_release_manifest.json",
+      "bytes": 1483,
+      "sha256": "246599c69d767b42ee01766caa526f444925c49c566d2fa2f2b60f4631cfd52f"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/wide_early_release_metrics.json",
+      "bytes": 6856,
+      "sha256": "6235c3c869c58e0263701270497449cccec8217e2a76bb65bc1a34296d84c7d3"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/wide_manifest.json",
+      "bytes": 817,
+      "sha256": "bbee8cf2bd5f7411c0812875cc861623afdce07b2ec64289e0826c904913312d"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/wide_range_metrics.json",
+      "bytes": 6177,
+      "sha256": "9a41fadbcada0be2a22a08b20afa1ffd973aad2532e2c7ee39b450d37c783d43"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/wide_range_original_models.png",
+      "bytes": 135317,
+      "sha256": "24ac11f8b29c13b41968e828d91fcb4454bba6e206f2d73bed1947592fc32225"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/wide_safe_150V_neg5V.cir",
+      "bytes": 1699,
+      "sha256": "5ee14476797e183a7128efd8ced56171405f02cc671b768e4f692f17330daaae"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/wide_safe_150V_pos5V.cir",
+      "bytes": 1698,
+      "sha256": "86d3599a0c8cac5a133c04d71c63d16596aef2e10405524070e1821c55ca1e60"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/wide_safe_400V_neg5V.cir",
+      "bytes": 1699,
+      "sha256": "a1db0dc72a869e12eb7cf68b1378b87590a92c716e99e925a250d5804181f4df"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/wide_safe_400V_pos5V.cir",
+      "bytes": 1698,
+      "sha256": "c2cb633ce2d3f6fa042e20acd390b00e4f77e8b4d2c0ca9c15a0bd0d686e008a"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/wide_safe_50V_neg5V.cir",
+      "bytes": 1698,
+      "sha256": "1d80786940a74c2d49efa5fab7091aa6024a6ecb7983d2cbb257ebbc0a35a866"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/wide_safe_50V_pos5V.cir",
+      "bytes": 1697,
+      "sha256": "f502f19ae6588df9c5325851cdf4a22c77cd804925d9abadb42f639aafa04136"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/wide_safe_interlock.png",
+      "bytes": 182417,
+      "sha256": "62987c481eb315b79164efa9cb6b0ca3d7ce2aa615935a4889639473e33d76ca"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/wide_safe_manifest.json",
+      "bytes": 1789,
+      "sha256": "2b3ec5260a483caafd4af7dd6f62b6a0134214a8ca7411385800ff4b10bef3c6"
+    },
+    {
+      "path": "outputs/full_reproduction/clamp/wide_safe_metrics.json",
+      "bytes": 7026,
+      "sha256": "99317589f18d03557543b270cf59e465d5cde23a0dcd50b66def1e434cec9a0a"
+    },
+    {
+      "path": "outputs/full_reproduction/GaN_ECCE2024_\u5168\u7bc7\u4eff\u771f\u590d\u73b0\u62a5\u544a.pdf",
+      "bytes": 2302413,
+      "sha256": "36ade6b6e9303e8861186b927b3d9344c298d5cf0555264f2648825d378b0da9"
+    },
+    {
+      "path": "outputs/full_reproduction/integration/GaN_Behavioral_Electrothermal_Snapshot.slx",
+      "bytes": 50019,
+      "sha256": "81a65d961592bdf847680c89d4205573d4bbd0ceb0d2890bcd855aa2a34c3799"
+    },
+    {
+      "path": "outputs/full_reproduction/integration/integrated_native_model.png",
+      "bytes": 295947,
+      "sha256": "865ca4f2fcbb0e117df699e2e5308f4efe00531eea802e3ba3b44cac374c7ca5"
+    },
+    {
+      "path": "outputs/full_reproduction/integration/integration_electrical.png",
+      "bytes": 143938,
+      "sha256": "895ba8c1e11f26b7d93134434e2f1d733c7f66f320e954060cf46d374aa97d4e"
+    },
+    {
+      "path": "outputs/full_reproduction/integration/integration_metrics.json",
+      "bytes": 6025,
+      "sha256": "ab8606f45ee07a2d978a53ceb01664abb5ff766b18bbc3a1390afcf5bdcec6c9"
+    },
+    {
+      "path": "outputs/full_reproduction/integration/integration_pulse_heating.png",
+      "bytes": 131952,
+      "sha256": "140e495e0595d72c3dd5f76b0447f8caa6c56ef4a98a7fce0359cee39252172b"
+    },
+    {
+      "path": "outputs/full_reproduction/integration/native_integration_validation.json",
+      "bytes": 356,
+      "sha256": "4c5fdf1fd15af83a0e98be6d087e0030e3e6231933a053257f26c3169680fc45"
+    },
+    {
+      "path": "outputs/full_reproduction/integration/README.txt",
+      "bytes": 1978,
+      "sha256": "863489504b12cfcd3cee3644fa2c27c0ad22f23475fa2733306c7ad46a79a252"
+    },
+    {
+      "path": "outputs/full_reproduction/integration/run_integrated_snapshots.m",
+      "bytes": 9442,
+      "sha256": "86684645e20e987eec23cd8148c40e1d816b7b2083d3449f9223215f9d648a57"
+    },
+    {
+      "path": "outputs/full_reproduction/open_models.m",
+      "bytes": 355,
+      "sha256": "c3c1082d56b534fccec2a11bd49c2418911a0eba2c6e7d6f69ff90000bd23f2d"
+    },
+    {
+      "path": "outputs/full_reproduction/README.txt",
+      "bytes": 3594,
+      "sha256": "9a4bbeb1a7b99455e94d76370000a57bbef978e09c7e0cbe444a992a00734029"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/build_run_ron_models.m",
+      "bytes": 12206,
+      "sha256": "e4056319192cc58b4762200f18b1ce19ca553de94ff4108cd407c7048a625174"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/coordinate_provenance.json",
+      "bytes": 12633,
+      "sha256": "845f42b4cb6cb5f063a35c4eeab6aa9b48ce53139655afaeb4ba7e315cbf0d20"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/coupling_checks.json",
+      "bytes": 278,
+      "sha256": "49bfb66a96f92fd9433780fc4c5b3c0c9017d9a58df80a2afbcf076a8ff12099"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/coupling_voltage_snapshots_Ohm.csv",
+      "bytes": 788,
+      "sha256": "900a3ba741a1215c1cae12d61c09e294881bc04f9045df050ffdf09f837aa159"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/crossfigure_axis_check.json",
+      "bytes": 361,
+      "sha256": "521ef69e36c8afe7eb1554d1c8fb5f1b5f9d00b2414ce70ecde750fcbccbdffa"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/fig10_model_comparison.csv",
+      "bytes": 36053,
+      "sha256": "4f00dbf5f338c52796c6c396c817c51fe657fe19c99d6628df2f0b895cbd99ac"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/fig10_Simulink.png",
+      "bytes": 81481,
+      "sha256": "43433c5d05d64c18a782aa2944585ea3bb53fbee577c30006c600ae0c9be9d72"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/fig10_Simulink_comparison.csv",
+      "bytes": 42193,
+      "sha256": "dd363f64926431e884e385b9410d10ecc9e12ca4c5fed499c9bf0cf408eb72b9"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/Fig10_static_resistance.png",
+      "bytes": 159036,
+      "sha256": "6a9776e27f22ef823c590d163b2c2e24e0160012cad7c331ac74f808aa6f5e62"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/fig10_Tc_C_15_native.csv",
+      "bytes": 3567,
+      "sha256": "8256fef9043208f62ee35d4fd2df8eedbdcc2b5e232d9dd3d027a71701540d35"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/fig10_Tc_C_25_native.csv",
+      "bytes": 3746,
+      "sha256": "32a5597923ef97db774b64505b1fb9cd65372283a2020f19b4505c81aa9caa5f"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/fig10_Tc_C_35_native.csv",
+      "bytes": 3742,
+      "sha256": "b81261e9d7b78b739106314059ae02702081dc7611eb695c0e6ae48e7e652250"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/fig10_Tc_C_45_native.csv",
+      "bytes": 3744,
+      "sha256": "184862ea090f2eed4095e3f2a892f2bc76b647e392f1d4b3ef31f405228ccef9"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/fig10_Tc_C_55_native.csv",
+      "bytes": 3763,
+      "sha256": "8d2bc5790d339ba9f959f818e978eff2533bc51f99d089fbafde54e886d3907b"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/fig10_Tc_C_65_native.csv",
+      "bytes": 3746,
+      "sha256": "31c1c014cfae5f21d90d62ca23dd142275a0dd85d3eff990807b1f1716bb8b61"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/fig10_Tc_C_75_native.csv",
+      "bytes": 3716,
+      "sha256": "2ed34feacaa9533345ab38a44fafd18ffaa9e1a338472ca1cc7177c10c772471"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/fig10_Tc_C_85_native.csv",
+      "bytes": 3756,
+      "sha256": "4a689fb0adfe914e518fea3c255d866ef489cc822f23f499d52c42d8dc88f610"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/fig10_Tc_C_95_native.csv",
+      "bytes": 3420,
+      "sha256": "75775ac443e70462cf1bf3529b649c9fb68ff34277a58f6498db84fc445f3d41"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/fig11_100_Simulink_comparison.csv",
+      "bytes": 45963,
+      "sha256": "bb2ad1f64b5ee8f92e81539922500650eab812e00b159cd59119c55d3fa05b48"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/fig11_150_Simulink_comparison.csv",
+      "bytes": 46441,
+      "sha256": "8fa13212a42391f3f68ba246feb74de51e5f83621545cfac64190afa2bf845d9"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/fig11_200_Simulink_comparison.csv",
+      "bytes": 45910,
+      "sha256": "83532ddf1fa4551e34138762a5fcec99d92a359cea1f4f5a3b50566ae9126fb6"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/fig11_250_Simulink_comparison.csv",
+      "bytes": 45850,
+      "sha256": "6e47db7694566d51056e6c92afe117af759d3ba34e7b534f116ee3e01958cce5"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/fig11_300_Simulink_comparison.csv",
+      "bytes": 46902,
+      "sha256": "6326ee9b006e5d6aa0aaaef58c36e7ce7dd098994101369d4b122e2fd844ab65"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/fig11_350_Simulink_comparison.csv",
+      "bytes": 47267,
+      "sha256": "67be05c165e0d4fbfd38c20a43bcc3a8c9987e86f7a66aa8717b719c0f8d345c"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/fig11_400_Simulink_comparison.csv",
+      "bytes": 47669,
+      "sha256": "601e1eea2591d1d31dd8258f73d4d8a0a529a060115d84693e44138a807d9504"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/fig11_50_Simulink_comparison.csv",
+      "bytes": 45397,
+      "sha256": "35fe53c7716578dc147b0e099aafbe934a1a56dea4915afdd6756efd5e1d744b"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/fig11_Simulink.png",
+      "bytes": 198262,
+      "sha256": "8c675ec845b8d1df400af32b7461c85071de62ff7bc477bb85056234d33cfc07"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/fig11_trap_reconstruction.png",
+      "bytes": 353036,
+      "sha256": "8cc945d8e09638bdef1366744809bff2414b68f6cf751e46fecc1d6781e53262"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/fig11_Vds_V_100_comparison.csv",
+      "bytes": 60626,
+      "sha256": "cc46b7aa6d42f4607d906802710ed19a6e435c1c891105521b6d19a1adbafa3d"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/fig11_Vds_V_100_native.csv",
+      "bytes": 47300,
+      "sha256": "1376454c05d6d55eb662cd6a31ec1de65d397c4bdc42b3e43deac10f4534ce1d"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/fig11_Vds_V_150_comparison.csv",
+      "bytes": 61222,
+      "sha256": "81011932991ad5289a0db5cef0d17b26af007631e4685f367d09c50a83142e8e"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/fig11_Vds_V_150_native.csv",
+      "bytes": 47910,
+      "sha256": "9dd0a2da25a57629e369ae67ecb2498ff0872c975adad264b06a6f674973c221"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/fig11_Vds_V_200_comparison.csv",
+      "bytes": 60472,
+      "sha256": "c7671d73480a298e1eaf5c604353a2dafd04c478c730f1a899db050d1d800de9"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/fig11_Vds_V_200_native.csv",
+      "bytes": 47327,
+      "sha256": "b68f5402529fd76281500794a370099e368f803c226549ef144c4a1fcd4acbe0"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/fig11_Vds_V_250_comparison.csv",
+      "bytes": 60651,
+      "sha256": "0edf460334c146d52c884569145f128519cd3d16fa4d7d00147c643b56fd26dc"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/fig11_Vds_V_250_native.csv",
+      "bytes": 47207,
+      "sha256": "ae8ea31db274eedf0f221cf562d36390ad7546cbccc5e44b83511c2564e5899d"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/fig11_Vds_V_300_comparison.csv",
+      "bytes": 61808,
+      "sha256": "66a0f5e0e4ef83ad8e6978d0beaecd1904eb41010f7f25a540bbece3e9653379"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/fig11_Vds_V_300_native.csv",
+      "bytes": 48295,
+      "sha256": "41c393ad198f378669f0bf08c9cc2265094a71549ebd28a1b4b979d382081494"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/fig11_Vds_V_350_comparison.csv",
+      "bytes": 62578,
+      "sha256": "d976e1f3c82a50354aac7e56ec6a845ea34f4f9d1ea1d90d0823b834b553d799"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/fig11_Vds_V_350_native.csv",
+      "bytes": 48750,
+      "sha256": "00c5839691c1b9d5635fbb6b5481c8ac3b2fb16e417723e426178a989db918b6"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/fig11_Vds_V_400_comparison.csv",
+      "bytes": 63036,
+      "sha256": "f4fb7c49e0180164188c2d57ef7cef317ecada6b26189650e4ee668b176d7451"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/fig11_Vds_V_400_native.csv",
+      "bytes": 49089,
+      "sha256": "bc1f0a5cd2b97e353b10e631a6bcf879ab045f2aad6dce35eff81673a9a2a959"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/fig11_Vds_V_50_comparison.csv",
+      "bytes": 59848,
+      "sha256": "93c6a95eb2e3280725575b124bbc55be80f54ff2e3cf6be685e2c63ce7ac4576"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/fig11_Vds_V_50_native.csv",
+      "bytes": 46757,
+      "sha256": "25cca54b571bb8545c7a239b31f297a356692543c4a74baef55db7517b3d90c8"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/fig12_15_Simulink_comparison.csv",
+      "bytes": 38378,
+      "sha256": "7f6ee6de67f64be8d0301b7e1c6dbdabd9da26f4f2a63551da0cbd40b2d18836"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/fig12_25_Simulink_comparison.csv",
+      "bytes": 45000,
+      "sha256": "1a5cdabff59111f5eff340d70577897fabefbae3d9c79ce866cb19d7f4e5a641"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/fig12_35_Simulink_comparison.csv",
+      "bytes": 41108,
+      "sha256": "afab826f2fdeb7d4d88b7fffced2921d78fd323b6760ff2a037cebb197662b04"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/fig12_45_Simulink_comparison.csv",
+      "bytes": 41210,
+      "sha256": "7708c28f2d42a5ecc5182bc4afddb434121b7c2e90a400f1e4475dc589075ef1"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/fig12_55_Simulink_comparison.csv",
+      "bytes": 45160,
+      "sha256": "e8b76e9419746d4d7a1836e9af547de7ebead13b470680b8380d3c868fc444bd"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/fig12_Simulink.png",
+      "bytes": 155868,
+      "sha256": "8c9d3fc53d7d3dc889bfd5ebb269d98fd717853f0ba77515c4e8ccdfef808c3c"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/fig12_Tc_C_15_comparison.csv",
+      "bytes": 50658,
+      "sha256": "af47f57b36c1dbc862c48d79feada6dc0b069f672ce059e18e5be6fc325acdda"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/fig12_Tc_C_15_native.csv",
+      "bytes": 40694,
+      "sha256": "78ef2a4d372655e5c6dff243638d4fe55b77255d3e33b0eb20bbbf6e2282fcc2"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/fig12_Tc_C_25_comparison.csv",
+      "bytes": 59372,
+      "sha256": "b2501d51b4a2d203b1baa08374e81560144da5613c48676ce6dafb862dc24d96"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/fig12_Tc_C_25_native.csv",
+      "bytes": 47690,
+      "sha256": "360ae23342aa621b983a136c957b18a1a557275c0aabbee5d61c6a297f2d8259"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/fig12_Tc_C_35_comparison.csv",
+      "bytes": 54073,
+      "sha256": "ae49777fabe1535866d68166c981b8b2ec027303ffc85ccbf3c5d4f1df7969fd"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/fig12_Tc_C_35_native.csv",
+      "bytes": 43469,
+      "sha256": "7a1ca201c2c399bb3f23abcce84aa53166edbcd92537564d3b7d79825e8a76e2"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/fig12_Tc_C_45_comparison.csv",
+      "bytes": 54269,
+      "sha256": "08b7aa56c512a46fad5eaf1d1652c76c6382294b1d44d44b386f4a1347ecec0a"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/fig12_Tc_C_45_native.csv",
+      "bytes": 43562,
+      "sha256": "cfb21bdbcad30dd98391e905b6f1aa40e2591df9ace6b526f3ad297d890b17d5"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/fig12_Tc_C_55_comparison.csv",
+      "bytes": 59522,
+      "sha256": "d7303ba6b27ae6010a15e3daeede2e477655e76d81bb36a1406da5f369876840"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/fig12_Tc_C_55_native.csv",
+      "bytes": 47797,
+      "sha256": "508890d09e38ead0d4c102237cfb766c39e51544848d0d452233954362930903"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/fig12_trap_reconstruction.png",
+      "bytes": 295767,
+      "sha256": "1e2e1bb6ca0818b5b5c4e8bee3f2ab622ed1d5b0a5038c64f63bc4cc3a7c731e"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/fit_metrics.csv",
+      "bytes": 1975,
+      "sha256": "eae552c3f0a4ae9bfbd3add7be34684f8f0da76f61327959bbe15af2c93639b3"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/metrics.json",
+      "bytes": 15863,
+      "sha256": "8fecb3beee7431583bd3b23d559aa94fff4ebc70c15db4682ae50c36b22d3ed6"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/MODEL_CARD.txt",
+      "bytes": 3792,
+      "sha256": "3f917790db908f658ae8605119ab15bdb993d7998cd6a4d567d37a0a1a2f1e7c"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/model_parameters.json",
+      "bytes": 126012,
+      "sha256": "d2e4237c6ebbe08d6e6f1317326f2896b28f268becbc5cdade14f5c76d2a280d"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/native_model_integrity.json",
+      "bytes": 792,
+      "sha256": "a6ad3d4e213d17fa32b2876e90a17bbd2ed14945ffa52dde79f426d11e5a78a2"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/README.txt",
+      "bytes": 1717,
+      "sha256": "666f9a2b98a8e1ab7219b524af80a8b5004e075aa93ac805ae1bca520991179c"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/reconstruct_ron_trapping.py",
+      "bytes": 15612,
+      "sha256": "b0586e5edd5cc0ace33860afa6d543b5e83a7a6cce3dc88851b3d1ccab6e1afa"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/requirements-refit.txt",
+      "bytes": 242,
+      "sha256": "5fa7b907fa17fe85a16bec2d7b7f71df26b1b83d322bec0611c70229bab1c07c"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/ron_behavior_coupled.m",
+      "bytes": 3374,
+      "sha256": "1fffba85d0d813e054ee7c7cfc10efa2949be6e2ae1a9894aad4155261bf7b77"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/ron_static_behavior.m",
+      "bytes": 503,
+      "sha256": "f9632196d831511ac50dca708ade67611717d8d1bd49be1f19900dce34be20de"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/ron_trap_behavior.m",
+      "bytes": 1107,
+      "sha256": "cc1a6ca37c399ee586bedc297877e0256e3352634efeb188ec914ef58fd3c8d1"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/RonStatic_Fig10.slx",
+      "bytes": 29425,
+      "sha256": "13de05611e4290a495554a6cf734d77b392c2ba794fb1da6a5bb51e1ed12ce5d"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/RonStatic_Fig10_diagram.png",
+      "bytes": 7252,
+      "sha256": "261a01102be43a31f8ce0c0ff45b43a738f148f9c243de31e3d62aead9c163d7"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/RonTrap_fig11.slx",
+      "bytes": 47569,
+      "sha256": "b1c0ec175a34d7c118f18dcf9a5d15c33a21d5ef7cb294eb8a4bcc65918bea1f"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/RonTrap_fig11_diagram.png",
+      "bytes": 58153,
+      "sha256": "d0d33c13abaef676f68fad82f8e9a2af7fa30de095ed674f88f0535d3890b047"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/RonTrap_fig12.slx",
+      "bytes": 42420,
+      "sha256": "0bd1fd97cea646d071f432c3158dbcf853cb588113bc2a0d59f5e1d26588fc75"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/RonTrap_fig12_diagram.png",
+      "bytes": 36828,
+      "sha256": "9cf4bf630ef126eb742e1b6c111718e4548c3564d6ebc0eeb6e00be19ee0a495"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/Simulink_execution_metrics.json",
+      "bytes": 2880,
+      "sha256": "ec76084b936499c213537a5796cc22c2cb4f241166ffba02cac0f56efab58788"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/state_parameters.csv",
+      "bytes": 8003,
+      "sha256": "6d62859b593f37ac8e2d79834568d3f8802ea4e732571df4fe79d690c5044f09"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/static_coefficient_table.csv",
+      "bytes": 749,
+      "sha256": "96a0eb52d574c0a2838487b25710bd6681275bfd795a088b7d122399001cedfa"
+    },
+    {
+      "path": "outputs/full_reproduction/ron_trapping/verify_coupled_model.m",
+      "bytes": 2196,
+      "sha256": "07eec371b32b480b6967ee1b6fe2215e6d4531191c14ee1589aa98816eb14819"
+    },
+    {
+      "path": "outputs/full_reproduction/run_all.m",
+      "bytes": 2543,
+      "sha256": "8b32bc96fd9b0883bc32ccb53e21ec8d9e4f5d81f32dd04ae0d3ac37bb819f30"
+    },
+    {
+      "path": "outputs/full_reproduction/scrc/build_run_scrc.m",
+      "bytes": 9335,
+      "sha256": "f48f9076b44b302d591c0fc24b380a592036e520fec5ab15b5e7e861f1ccc922"
+    },
+    {
+      "path": "outputs/full_reproduction/scrc/crosscheck_scrc.py",
+      "bytes": 6934,
+      "sha256": "819f41c7d31b3db78427bb8af034754cfdc0371a446e42ef19714c7ec5ba84d8"
+    },
+    {
+      "path": "outputs/full_reproduction/scrc/GaN_SCRC_Current_Sharing.slx",
+      "bytes": 32162,
+      "sha256": "64a5b22bf8dc60b4270c2c4b688cc30862f8366d776687b9f482805278fac2f4"
+    },
+    {
+      "path": "outputs/full_reproduction/scrc/native_run_record.json",
+      "bytes": 13189,
+      "sha256": "d5d62f9b89d73310d775b30abe960adca03ec37d3d24491323eda6e03e28f0d9"
+    },
+    {
+      "path": "outputs/full_reproduction/scrc/README.txt",
+      "bytes": 4467,
+      "sha256": "2f92196e17541e37bb8b2ea7564ee54c8ab8439af269385eb275450c1d95797f"
+    },
+    {
+      "path": "outputs/full_reproduction/scrc/scrc_crosscheck_metrics.json",
+      "bytes": 3923,
+      "sha256": "b93d69b27a4f1d540ca16f72126e619bb77f3d5eab6bd433d1e20a0550c54b6c"
+    },
+    {
+      "path": "outputs/full_reproduction/scrc/scrc_current_sharing_sweep.csv",
+      "bytes": 15529,
+      "sha256": "6a792f67cfa1be7eb3a62675f366d3559d3a4fa341fe41918c4180eede9bd1a4"
+    },
+    {
+      "path": "outputs/full_reproduction/scrc/scrc_gate_gap_sweep.png",
+      "bytes": 201513,
+      "sha256": "956901d211eed520386135a1818861710cad04b1ec1815facb3fd36e5dbd62a3"
+    },
+    {
+      "path": "outputs/full_reproduction/scrc/scrc_metrics.json",
+      "bytes": 1257,
+      "sha256": "93019ae01a8c136ffbf95b5034eadb373f13870ec7387b080beb119e3afd16f6"
+    },
+    {
+      "path": "outputs/full_reproduction/scrc/scrc_native_model.png",
+      "bytes": 153907,
+      "sha256": "2b5e37f8a7652bf274c3f4036a5e09ca731e874be3090dc1bd0325c637bcd665"
+    },
+    {
+      "path": "outputs/full_reproduction/scrc/scrc_parallel.cir",
+      "bytes": 1137,
+      "sha256": "533394111b1589e63fd4fd1cb73c294ced51e6fabbcc80160d1672e12c1c1cd5"
+    },
+    {
+      "path": "outputs/full_reproduction/scrc/scrc_spice_native_crosscheck.csv",
+      "bytes": 19507,
+      "sha256": "96f5aad309fccd97312ab8f12b3e8b9d757b2e7761f284a59bf30c7209b18947"
+    },
+    {
+      "path": "outputs/full_reproduction/scrc/scrc_time_domain.png",
+      "bytes": 65298,
+      "sha256": "62561bf0e218f17b992bfb55cb0e58ea3de091a444d0632c7ef47239ae8a0a07"
+    },
+    {
+      "path": "outputs/full_reproduction/simulink/audit_ltspice_difference.py",
+      "bytes": 3777,
+      "sha256": "f63c97071badbaaafe16755ce307bf54eed5fc6f205776036ba1482142dc6411"
+    },
+    {
+      "path": "outputs/full_reproduction/simulink/build_and_run_simulink.m",
+      "bytes": 24444,
+      "sha256": "20ee9fd25e019e38a6f05ca4028ae70f6c1e2e3ee89819bcc9391f840780b6d4"
+    },
+    {
+      "path": "outputs/full_reproduction/simulink/cauer_subsystem.png",
+      "bytes": 125655,
+      "sha256": "efcc31a7ac070aa404fe2eeb15c4359c0c4d282da137bda233bc7d5aae891f79"
+    },
+    {
+      "path": "outputs/full_reproduction/simulink/electrical_metrics.json",
+      "bytes": 10007,
+      "sha256": "3fee026886d847de1fad87c197af62e5262f5dabea6ad56ba854e90ee0a47d69"
+    },
+    {
+      "path": "outputs/full_reproduction/simulink/figure14_simulink.png",
+      "bytes": 75463,
+      "sha256": "9a89bc96cb42500c409617e080588683151e26b90ba3964b52cead4eec1d6c9c"
+    },
+    {
+      "path": "outputs/full_reproduction/simulink/full_bridge_model.png",
+      "bytes": 225885,
+      "sha256": "482bf895c5261eed5abd3aa120ad520371da9b6bf6ed7eb7cad439eb05ce8283"
+    },
+    {
+      "path": "outputs/full_reproduction/simulink/GaN_Cauer_Figure14.slx",
+      "bytes": 37930,
+      "sha256": "dcb5e5b6a59705b5877e8471273b488eb2950b1cfdaba146e36e48193a614125"
+    },
+    {
+      "path": "outputs/full_reproduction/simulink/GaN_Full_Bridge_SPS.slx",
+      "bytes": 50448,
+      "sha256": "bab8c73fc4b7975bdd78c4031f17d66348d6a630ddac8f76d94dd8505fb0299b"
+    },
+    {
+      "path": "outputs/full_reproduction/simulink/idle_states.png",
+      "bytes": 75540,
+      "sha256": "84a2a5aa6f3fc891a063862d05a412d9c82a95bc594d846288a8d6a217364074"
+    },
+    {
+      "path": "outputs/full_reproduction/simulink/ltspice_difference_audit.json",
+      "bytes": 5022,
+      "sha256": "35e5bcc8b829aafb4da10b00b9908b13172fccafbb9f75c5a6c80e450a679d10"
+    },
+    {
+      "path": "outputs/full_reproduction/simulink/README.txt",
+      "bytes": 3590,
+      "sha256": "73c7b6419228154838bbd5b168cf04112c0989aabe63d1f59f024c1dccd8d4b6"
+    },
+    {
+      "path": "outputs/full_reproduction/simulink/run_bridge_snapshot.m",
+      "bytes": 2041,
+      "sha256": "b4435daca2288aecd3512318f4592b8e77c696b75ffe2f615d74b6889776d0c9"
+    },
+    {
+      "path": "outputs/full_reproduction/simulink/signed_current_procedures.png",
+      "bytes": 115983,
+      "sha256": "8bcf1ec4a53dbeef0b21c54d34d9041e81130e6a5e8d050d540e5660faeeb0f9"
+    },
+    {
+      "path": "outputs/full_reproduction/simulink/snapshot_interface_validation.json",
+      "bytes": 214,
+      "sha256": "531cf9ac0dc68798b0352f9eedf932e3c0a92caa583f728af84f8025136ff1e8"
+    },
+    {
+      "path": "outputs/full_reproduction/simulink/solver_convergence.json",
+      "bytes": 369,
+      "sha256": "e254fd5ce8b3a041a72960687eedcb4d71507c09c109e6dad637a95d2ff67be6"
+    },
+    {
+      "path": "outputs/full_reproduction/simulink/thermal_metrics.json",
+      "bytes": 712,
+      "sha256": "58c78192367d1cecdb29f8acbdeb2dbd50ab819bc9f7bc175ea0fc973690147f"
+    },
+    {
+      "path": "outputs/full_reproduction/simulink/thermal_model.png",
+      "bytes": 124463,
+      "sha256": "433b014fb2eb7b2cf3674887fa0a324548a23d2aa6d9e7f1fc5054b227fae2d2"
+    },
+    {
+      "path": "outputs/full_reproduction/sources/source_manifest.json",
+      "bytes": 792,
+      "sha256": "dba377fe420a5a4be8c8beffc6f5f28be958a9315b88c5df28e55d94ae29248d"
+    },
+    {
+      "path": "outputs/full_reproduction/tec/build_run_tec.m",
+      "bytes": 13038,
+      "sha256": "7dbb8a6a841c0a2851e6076fdcfffa2f365cdd07e443e68a9e7fb7858639c8fd"
+    },
+    {
+      "path": "outputs/full_reproduction/tec/PWM_convergence.png",
+      "bytes": 31645,
+      "sha256": "c302611ce502d41285ae6bf1e8c9c2fd4742f1e5ea97cce102f35cc74b55f9af"
+    },
+    {
+      "path": "outputs/full_reproduction/tec/PWM_convergence_metrics.json",
+      "bytes": 274,
+      "sha256": "b294d9d4f2d39045d6ead493c5a32e331e75f904fa72ec71ff379f8793dd8dc9"
+    },
+    {
+      "path": "outputs/full_reproduction/tec/README.txt",
+      "bytes": 2626,
+      "sha256": "aea7be38eddbc39a5650747f478d0b66ad00049e2217da5825b17e420c8c9e89"
+    },
+    {
+      "path": "outputs/full_reproduction/tec/TEC_DualBuck_PWM.slx",
+      "bytes": 41828,
+      "sha256": "dea845994ec6c50f4e09c575bff39a324193cec72d6457b9a31b8c0fb4402d27"
+    },
+    {
+      "path": "outputs/full_reproduction/tec/TEC_DualBuck_PWM_diagram.png",
+      "bytes": 83723,
+      "sha256": "a9b7f7a20749ca4eb9c65e2b16f5eab948f215e451ba2c74d65778cea8e02647"
+    },
+    {
+      "path": "outputs/full_reproduction/tec/TEC_DualBuck_PWM_metrics.json",
+      "bytes": 158,
+      "sha256": "de62b7be37e698ac9dabe0ed484069c243fef964ef58ecdead3f926be0f76d2e"
+    },
+    {
+      "path": "outputs/full_reproduction/tec/TEC_DualBuck_PWM_physical_network.png",
+      "bytes": 92309,
+      "sha256": "9b27c342e0aba52eb62918df683840fc0fda5f6b341f33d473173f6bfb46cc84"
+    },
+    {
+      "path": "outputs/full_reproduction/tec/TEC_DualBuck_PWM_plot.png",
+      "bytes": 91130,
+      "sha256": "a773204d4fd4a24a9e5102c897e5c78ea04528958db646b33763321b0f0dedbb"
+    },
+    {
+      "path": "outputs/full_reproduction/tec/TEC_Electrothermal_ClosedLoop.slx",
+      "bytes": 41326,
+      "sha256": "fd4730a614b7cdb34a169e3869999d4afcfc45fe2d627c9e80de0b5c645e1087"
+    },
+    {
+      "path": "outputs/full_reproduction/tec/TEC_Electrothermal_ClosedLoop_diagram.png",
+      "bytes": 85119,
+      "sha256": "045eb5ceabe9404076865859fc85fc5fdcb95c7a1cefe2b3c54e00f8b9045bb4"
+    },
+    {
+      "path": "outputs/full_reproduction/tec/TEC_Electrothermal_ClosedLoop_metrics.json",
+      "bytes": 347,
+      "sha256": "a802fc947954767d531947022b49ac40d637ae6e8cab2a703f05c617d8abdc34"
+    },
+    {
+      "path": "outputs/full_reproduction/tec/TEC_Electrothermal_ClosedLoop_physical_network.png",
+      "bytes": 87258,
+      "sha256": "e73876ae74f51b174620f3928b639c8d2c111e76c92cb89498da889c82424a9c"
+    },
+    {
+      "path": "outputs/full_reproduction/tec/TEC_Electrothermal_ClosedLoop_plot.png",
+      "bytes": 76519,
+      "sha256": "7475d709ded9142d200343fc82baa1d3be6e3938ae3277ec53c601fcf75cfc12"
+    },
+    {
+      "path": "outputs/full_reproduction/tec/verify_pwm_convergence.m",
+      "bytes": 1561,
+      "sha256": "1b1d3860755f95a8bb6784c16e40cc90400a3832b9f69c9113dd52c6a98f980d"
+    },
+    {
+      "path": "outputs/full_reproduction/tec_audit/AUDIT.txt",
+      "bytes": 2966,
+      "sha256": "b2d95bb9f52165a58d8c90e5960b01b5762254647bfddbaa671a4eab65354564"
+    },
+    {
+      "path": "outputs/full_reproduction/tec_audit/audit_tec.py",
+      "bytes": 8908,
+      "sha256": "747dfa0443a70f6203a3bc5318c68920bb4a692d9e43beff6bf476f3fde4daa1"
+    },
+    {
+      "path": "outputs/full_reproduction/tec_audit/steady_state_energy.csv",
+      "bytes": 1613,
+      "sha256": "25ecaa232e786de9e113afd486b5451d2a3763496960f61b39ff842928337e40"
+    },
+    {
+      "path": "outputs/full_reproduction/tec_audit/TEC_independent_audit_metrics.json",
+      "bytes": 10305,
+      "sha256": "0ab1a6445fe6a754678f275bc9616284620aab84e33ad2f96db4be6caad27adb"
+    },
+    {
+      "path": "outputs/full_reproduction/tec_audit/TEC_independent_overlay.png",
+      "bytes": 169462,
+      "sha256": "ac9740b8c0528f5753f9d6d3368b3e85add930705d2d172effc487ae6eed4be5"
+    },
+    {
+      "path": "outputs/full_reproduction/tec_audit/TEC_independent_residuals.png",
+      "bytes": 68527,
+      "sha256": "69f08a427eac58f68ad31f38165453792522bc8e205963dfec32760742f38222"
+    },
+    {
+      "path": "outputs/full_reproduction/unified_run_status.json",
+      "bytes": 1107,
+      "sha256": "e5cd1aebe0a670f58562f7630f4bab1a18d8001f5f9b362ff961f1a82bb225d2"
+    },
+    {
+      "path": "outputs/full_reproduction/\u5f00\u59cb\u590d\u73b0.ps1",
+      "bytes": 5501,
+      "sha256": "ab354ccda6595eff4db6be91c66a9b9f5a6b34b6504929b422ffe24f54f4d94c"
+    },
+    {
+      "path": "outputs/reproduction/data/circuit_metrics.json",
+      "bytes": 1894,
+      "sha256": "32b6151836518fb2e924ec2bf0d58ab5a885e7db1360ff27c6a50da78fb5f0c3"
+    },
+    {
+      "path": "outputs/reproduction/data/conventional_waveforms.csv",
+      "bytes": 2614085,
+      "sha256": "6e58bf33754f4ba67619549cea32b37c3230ea8f161716c04815f59ad2c38266"
+    },
+    {
+      "path": "outputs/reproduction/data/independent_circuit_audit.json",
+      "bytes": 1894,
+      "sha256": "a33dfe6459323d36557dcbcbfff1c062c8cebcabbdaf0a810f1cbbc8c020ccc9"
+    },
+    {
+      "path": "outputs/reproduction/data/proposed_waveforms.csv",
+      "bytes": 2561817,
+      "sha256": "6e7cd0116d790d5713eb6edcd7e0a4368ccb14de2d5888714006e11f6405d93c"
+    },
+    {
+      "path": "outputs/reproduction/export_waveforms.py",
+      "bytes": 4889,
+      "sha256": "2d488f9fa78832578ac28232e872e799715017ab64f5cdcd8912bb85fe69d177"
+    },
+    {
+      "path": "outputs/reproduction/figures/figure13_circuit_comparison.png",
+      "bytes": 193621,
+      "sha256": "ca0f58d7b4e513f1bc33b1c7c3d2a538f184ac13d1a5e451b15da3a26dfeb8c0"
+    },
+    {
+      "path": "outputs/reproduction/figures/model_edge_diagnostic.png",
+      "bytes": 87603,
+      "sha256": "7cb0b9aeebc6179dcda4dcf453c32f0b25128070f0df489f3df069ee8820fa64"
+    },
+    {
+      "path": "outputs/reproduction/ltspice/common.inc",
+      "bytes": 1456,
+      "sha256": "d21b12a3e5446ddc3e918687c301c274a659d7508a724994b24cd120a2d0559d"
+    },
+    {
+      "path": "outputs/reproduction/ltspice/conventional.asc",
+      "bytes": 1702,
+      "sha256": "7a588a5e4346363ccd77309e0e458ea3e53822df080c5b9f99f9ae7e5dc5e6fd"
+    },
+    {
+      "path": "outputs/reproduction/ltspice/conventional.cir",
+      "bytes": 329,
+      "sha256": "e989ad70e93fa78c7b6e80da4a1479ac26ceb6b53917cfd42d4e033ba6423860"
+    },
+    {
+      "path": "outputs/reproduction/ltspice/conventional_gates.inc",
+      "bytes": 466,
+      "sha256": "02648a4c882e4814db612fd12dc4102b54327da2ca45332f87a9cc2280b68ba6"
+    },
+    {
+      "path": "outputs/reproduction/ltspice/parameters.json",
+      "bytes": 562,
+      "sha256": "b21f796f6c314b657fc2a5bd1eb74d18c27d8f101f945eecc09d2cc2a41b614a"
+    },
+    {
+      "path": "outputs/reproduction/ltspice/proposed.asc",
+      "bytes": 1694,
+      "sha256": "9d44d6b7bafe2ca35fbc27f457c7bad7ff24d53c65cca55b3ac7855dede44b47"
+    },
+    {
+      "path": "outputs/reproduction/ltspice/proposed.cir",
+      "bytes": 321,
+      "sha256": "65db7215ff07f2b2c254c5bcca163ddd1bdc77ec79cadc54c8afc76acbf49e0d"
+    },
+    {
+      "path": "outputs/reproduction/ltspice/proposed_gates.inc",
+      "bytes": 466,
+      "sha256": "9f85eaa2f16cbc1df91adc1b23b9c42848cd092dcae949ac0a78b0055374073e"
+    },
+    {
+      "path": "outputs/reproduction/ltspice_run_status.json",
+      "bytes": 219,
+      "sha256": "343e8e1aa1806da0ad9336fdda4f67d40e5075a14ee3fc57dc26d43f4b7c5355"
+    },
+    {
+      "path": "outputs/reproduction/matlab/cauer_temperature.m",
+      "bytes": 2709,
+      "sha256": "3774db007320817a3599360db88ac6c407d7d6439a7b6b6eed5bea15dee0d050"
+    },
+    {
+      "path": "outputs/reproduction/matlab/circuit_thermal_sensitivity.json",
+      "bytes": 7633,
+      "sha256": "be675b70b0711fbcb1792dcf8230e51dd67a9a12be41864a0091bbb33e29968d"
+    },
+    {
+      "path": "outputs/reproduction/matlab/figure14_input_reconstruction/figure14_reproduction.png",
+      "bytes": 157268,
+      "sha256": "6b0bb1452979c362f4ce7fec6fe41d8e00c561aca76fdef4dc7a6faeb5fb4a44"
+    },
+    {
+      "path": "outputs/reproduction/matlab/figure14_input_reconstruction/original_plot_comparison.png",
+      "bytes": 91786,
+      "sha256": "7fa9f632ad390bc3ce39e974d7c8c08c85bfe5268e545cc091de05f34c469d7c"
+    },
+    {
+      "path": "outputs/reproduction/matlab/figure14_input_reconstruction/thermal_metrics.json",
+      "bytes": 3909,
+      "sha256": "0016d05467a5da3d7bcc14dc374072dfa8a1bde25af1a63d59a95aff1b556cce"
+    },
+    {
+      "path": "outputs/reproduction/matlab/figure14_input_reconstruction/thermal_waveforms.csv",
+      "bytes": 399096,
+      "sha256": "aac1758f8c5e8bfbae32e146440f0235de6fe0b1b06dadb6d37a8f15ef3eabde"
+    },
+    {
+      "path": "outputs/reproduction/matlab/ltspice_channel_sensitivity/figure14_reproduction.png",
+      "bytes": 142879,
+      "sha256": "3f2df7915a27ba54ee8d7bac8292029c9272f8f54832316188a31d43c4a6bc50"
+    },
+    {
+      "path": "outputs/reproduction/matlab/ltspice_channel_sensitivity/thermal_metrics.json",
+      "bytes": 3181,
+      "sha256": "2a329dad444e1715601461ed8737d2f74281b8039ef3dc0c344b1a4eff4b6178"
+    },
+    {
+      "path": "outputs/reproduction/matlab/ltspice_channel_sensitivity/thermal_waveforms.csv",
+      "bytes": 3802060,
+      "sha256": "6e9ac57f9690582b3e215bfb3d843d42c81d10546bb6d0cf0208f545307e9657"
+    },
+    {
+      "path": "outputs/reproduction/matlab/ltspice_conduction_case/figure14_reproduction.png",
+      "bytes": 157764,
+      "sha256": "25b2aac9e6cca27465ddb4210bc6a25182edb7806f30d34546bf94be9e139546"
+    },
+    {
+      "path": "outputs/reproduction/matlab/ltspice_conduction_case/thermal_metrics.json",
+      "bytes": 3160,
+      "sha256": "b7cdf9c400670ab01b2c1c2a3a124b7d38fb3f6bb985d07484d7fc8b100b6674"
+    },
+    {
+      "path": "outputs/reproduction/matlab/ltspice_conduction_case/thermal_waveforms.csv",
+      "bytes": 2380649,
+      "sha256": "be3c030bad755deb331dd18f07a2c7501b4cf794638570a7ee547377e9f26856"
+    },
+    {
+      "path": "outputs/reproduction/matlab/plot_circuit.m",
+      "bytes": 4312,
+      "sha256": "352ebb4aa3633d221fe38c4cfd324113aa4ba9cf8bb7ac9c6bd967dd745f8106"
+    },
+    {
+      "path": "outputs/reproduction/matlab/README.md",
+      "bytes": 3010,
+      "sha256": "f3c383346cfcedbb3d3985fefc4caedbc5021eb8899b0108627ab32b72e57349"
+    },
+    {
+      "path": "outputs/reproduction/matlab/run_figure14_reconstruction.m",
+      "bytes": 5723,
+      "sha256": "c6835ff1d83344447204e20ed31f3ab78ae83404b318ba1b3c4f79ed87430c32"
+    },
+    {
+      "path": "outputs/reproduction/matlab/run_ltspice_thermal.m",
+      "bytes": 5688,
+      "sha256": "9b7b89492d0f66308feb22f18a478a2a0222afd392fd42754ad3650adc751b1f"
+    },
+    {
+      "path": "outputs/reproduction/matlab/thermal_reproduce.m",
+      "bytes": 8069,
+      "sha256": "476490e924f0c05b9e56405d016a5623c71f66af76eeb6f8b5ba92d59bc31b44"
+    },
+    {
+      "path": "outputs/reproduction/matlab/thermal_validation_metrics.json",
+      "bytes": 590,
+      "sha256": "1935cc07e8a7ebc6783d97f396770c2affbb109a8ef0553ad4be056347cd3fc6"
+    },
+    {
+      "path": "outputs/reproduction/matlab/validate_cauer.m",
+      "bytes": 1856,
+      "sha256": "884904c20202ecfe02d3dcfd6dd29293703631bdcd95dfc6062be6d9110ef532"
+    },
+    {
+      "path": "outputs/reproduction/models/GS66508B_model_provenance.json",
+      "bytes": 2849,
+      "sha256": "12f28399495b228dffadf880eb3eb84b25a49ed455edc753bd5407571d0b9188"
+    },
+    {
+      "path": "outputs/reproduction/README.txt",
+      "bytes": 3346,
+      "sha256": "41a9dcf33e6d5f234889d96bcd4e2c84cb0612110051aff1bee0051ff69ed9ab"
+    },
+    {
+      "path": "outputs/reproduction/reference/audit_summary.md",
+      "bytes": 5323,
+      "sha256": "b2626037cf2d2ed3019c967b1a6d14e7c56536ac10872d00fed1099d8c518a74"
+    },
+    {
+      "path": "outputs/reproduction/reference/extract_plot_traces.py",
+      "bytes": 4756,
+      "sha256": "cb324661fe6b608171fb693b8aa89dfed8621eb7f2ae800066d176228f933a2d"
+    },
+    {
+      "path": "outputs/reproduction/reference/figure13_current.csv",
+      "bytes": 289960,
+      "sha256": "46ffdd6f2ab1e65a5675d5a900cd7639e65948bb7f2dc33f1687f6bfd6a52e45"
+    },
+    {
+      "path": "outputs/reproduction/reference/figure13_current_conventional_native.csv",
+      "bytes": 105090,
+      "sha256": "2782d7b8c9224e1246df4b404e9cff81367f4c1a0d575770998c764b82d57b5b"
+    },
+    {
+      "path": "outputs/reproduction/reference/figure13_current_proposed_native.csv",
+      "bytes": 140843,
+      "sha256": "7b6e660920a41e3bed7aeadef8edfd9feaa3f2fc6a0deced2b1a0919d2f122ac"
+    },
+    {
+      "path": "outputs/reproduction/reference/figure13_voltage.csv",
+      "bytes": 302541,
+      "sha256": "00a79416902d2bbb5e1b2ceef0bffd2e746304715d1726ef51991bd3b51959af"
+    },
+    {
+      "path": "outputs/reproduction/reference/figure13_voltage_conventional_native.csv",
+      "bytes": 280108,
+      "sha256": "3b726b17e8cb24b4dfcdbf1d029e94b7a89582f720d5c801dcd11268813d88ac"
+    },
+    {
+      "path": "outputs/reproduction/reference/figure13_voltage_proposed_native.csv",
+      "bytes": 281604,
+      "sha256": "1e424f22509cb8c7be7a763b2a936ccf8ad131fc82fae8cceac739c70bd638d9"
+    },
+    {
+      "path": "outputs/reproduction/reference/figure14_current.csv",
+      "bytes": 185217,
+      "sha256": "c1e8b62b23b900874e69bff5c6a1a5bf671630a74a5bf6c7181f5f3f6d3eb822"
+    },
+    {
+      "path": "outputs/reproduction/reference/figure14_current_conventional_native.csv",
+      "bytes": 241,
+      "sha256": "89685c3b663f3ae8c72368507b4421b7e69eac6c324a5dddee3bd07c77a93838"
+    },
+    {
+      "path": "outputs/reproduction/reference/figure14_current_proposed_native.csv",
+      "bytes": 141,
+      "sha256": "945f5b833bf55c93ba1fda336668cd1c752cb14ac059115c8981a9c7c679602f"
+    },
+    {
+      "path": "outputs/reproduction/reference/figure14_temperature.csv",
+      "bytes": 258875,
+      "sha256": "dd82fa47e477ed14b5af07742af6569eb0fc6a41db01451ad03dc99679feda12"
+    },
+    {
+      "path": "outputs/reproduction/reference/figure14_temperature_conventional_native.csv",
+      "bytes": 1906,
+      "sha256": "060bd68c8e7d7761f3d1e907208b1aa47c632b5196752af88fe76470249ffdab"
+    },
+    {
+      "path": "outputs/reproduction/reference/figure14_temperature_proposed_native.csv",
+      "bytes": 749,
+      "sha256": "0eaba29ae621ca6b5c289d2b8c836aba71fc211d8d051740d9def0df1e450c0d"
+    },
+    {
+      "path": "outputs/reproduction/reference/independent_thermal_check.json",
+      "bytes": 1042,
+      "sha256": "022e0af0127ce3dc8ab0e68591c17cfaec398d2e282d6635eecf0245d90242ce"
+    },
+    {
+      "path": "outputs/reproduction/reference/independent_thermal_conventional.csv",
+      "bytes": 1925086,
+      "sha256": "7a85c18e28b03a8333da6f5541c52373d69f71f7f299fe937630223742f68e3c"
+    },
+    {
+      "path": "outputs/reproduction/reference/independent_thermal_proposed.csv",
+      "bytes": 1925086,
+      "sha256": "e40bc28d009556b799ecb1b1a036b004d8929c0a2f3c7f2d7be2aace2b384bd2"
+    },
+    {
+      "path": "outputs/reproduction/reference/plot_extraction_metadata.json",
+      "bytes": 3015,
+      "sha256": "b643e96d1434034d7fb61e69954359de2e0febbcc1081fe6a1dbefbbb0a20b82"
+    },
+    {
+      "path": "outputs/reproduction/reference/README.md",
+      "bytes": 1500,
+      "sha256": "ce113023d71343319b3bbe89d2f945be82de010b5614669b870b2f8e49f1f45b"
+    },
+    {
+      "path": "outputs/reproduction/reference/verify_thermal_traces.py",
+      "bytes": 2652,
+      "sha256": "024ea0e89eb9341438b384ea0b3cb80f8e37f6421f54617e002844e389935e14"
+    },
+    {
+      "path": "outputs/reproduction/run_ltspice.ps1",
+      "bytes": 2531,
+      "sha256": "9dcb525c147b4bc3a72e778c62e2a960cdec5964fcd3caf6b2c266524e770a69"
+    },
+    {
+      "path": "outputs/reproduction/verify_circuit.py",
+      "bytes": 2964,
+      "sha256": "21fc889e9bd819a50c4e391846d14dba0951d3a9d759284139669695980a9249"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8074,
+      "sha256": "e5f7d82dd51986e65754233f7eb7dd7cd26e80a4e09390de33da0c6bab6923a6"
+    },
+    {
+      "path": "THIRD_PARTY.md",
+      "bytes": 2534,
+      "sha256": "29bf49a4a41d48b05f2b67f010566b069ae2223840a2320874b0af771182d351"
+    },
+    {
+      "path": "tools/fetch_external.py",
+      "bytes": 3694,
+      "sha256": "e7c787569f1d84eb6b6311e598e392bca7659c46d6327fbe9a60b89c79bdbe04"
+    },
+    {
+      "path": "tools/validate_native_models.m",
+      "bytes": 1442,
+      "sha256": "49994e0337fc840711a93266fec4e8d09ef4d54368a91869831fbf08c9aaf92f"
+    },
+    {
+      "path": "tools/validate_repository.py",
+      "bytes": 5375,
+      "sha256": "da2355b7093fb681726d07f0d8564c672eca03cfa44dad03aac541c942e8a4b7"
+    },
+    {
+      "path": "work/build_full_report.py",
+      "bytes": 18987,
+      "sha256": "47b2269cc8d752f149cdc317d21b1ff57fdeb0ffb4885f8e863a30ca2625019a"
+    },
+    {
+      "path": "work/check_asc_edge_convergence.py",
+      "bytes": 2527,
+      "sha256": "ffb23a94005cd89ffe687edd6cd054f1037870e7286c2b733141b070ba04fe2d"
+    }
+  ]
+}

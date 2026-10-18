@@ -1,0 +1,14 @@
+{
+  "run_serially": true,
+  "decks": [
+    "${PROJECT_ROOT}\\outputs\\full_reproduction\\clamp\\improved_positive.cir",
+    "${PROJECT_ROOT}\\outputs\\full_reproduction\\clamp\\blocking_positive.cir",
+    "${PROJECT_ROOT}\\outputs\\full_reproduction\\clamp\\improved_negative.cir",
+    "${PROJECT_ROOT}\\outputs\\full_reproduction\\clamp\\blocking_negative.cir",
+    "${PROJECT_ROOT}\\outputs\\full_reproduction\\clamp\\improved_strong_drive_positive.cir",
+    "${PROJECT_ROOT}\\outputs\\full_reproduction\\clamp\\improved_strong_drive_negative.cir",
+    "${PROJECT_ROOT}\\outputs\\full_reproduction\\clamp\\improved_slow_release_positive.cir",
+    "${PROJECT_ROOT}\\outputs\\full_reproduction\\clamp\\improved_slow_release_negative.cir"
+  ],
+  "role": "public topology verification using official representative MOSFET models; not exact experimental waveform reproduction"
+}

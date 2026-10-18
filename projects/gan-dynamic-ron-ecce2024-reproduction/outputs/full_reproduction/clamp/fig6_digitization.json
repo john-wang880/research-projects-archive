@@ -1,0 +1,50 @@
+{
+  "source": "ECCE Europe 2024 Fig.6, page4; 300dpi rendering",
+  "method": "RGB trace selection, median over colored pixels at each x; legends excluded; no raw measurements available",
+  "time_pixel_ns": 0.8620689655172414,
+  "amplitude_pixel": {
+    "Id_A": 0.04424778761061947,
+    "improved_V": 0.00390625,
+    "blocking_V": 0.046296296296296294,
+    "current_mirror_V": 0.028735632183908046
+  },
+  "curves": {
+    "Id": {
+      "samples": 868,
+      "post_300ns_mean": 10.442477876106198,
+      "range_min": -0.17699115044247787,
+      "range_max": 10.575221238938052
+    },
+    "improved": {
+      "samples": 868,
+      "post_300ns_mean": 0.4687584550865801,
+      "range_min": -0.16796875,
+      "range_max": 0.70703125
+    },
+    "blocking": {
+      "samples": 868,
+      "post_300ns_mean": 0.4859106942440275,
+      "range_min": -8.287037037037036,
+      "range_max": 0.7407407407407407
+    },
+    "current_mirror": {
+      "samples": 868,
+      "post_300ns_mean": 0.5187341394237946,
+      "range_min": 0.5172413793103449,
+      "range_max": 6.666666666666667
+    }
+  },
+  "paper_labels": {
+    "response_ns": [
+      275,
+      160,
+      120
+    ],
+    "sigma_Ron_uOhm": [
+      90.3,
+      525.4,
+      695.0
+    ]
+  },
+  "not_simulated": "digitized reference curves; used only for comparison"
+}

@@ -1,0 +1,43 @@
+{
+  "paper_figures": [
+    5,
+    6
+  ],
+  "completed_scope": "public clamp topology, explicit representative parts, physical nonlinear waveforms, gate-drive/recovery/interlock sensitivity, signed range, ADC budget and source digitization",
+  "LTspice_cases": 34,
+  "Simulink_cases": 10,
+  "results": {
+    "nonlinear_circuits": "clamp_metrics.json",
+    "wide_original_window_failures": "wide_range_metrics.json",
+    "wide_early_release": "wide_early_release_metrics.json",
+    "wide_safe_interlock": "wide_safe_metrics.json",
+    "isolated_DC_and_long_recovery": "diagnostic_metrics.json",
+    "Simulink_analog_state": "clamp_simulink_metrics.json",
+    "Simulink_wide_analog_state": "wide_clamp_simulink_metrics.json",
+    "measurement_range_budget": "noise_range_budget.json",
+    "digitized_original_reference": "fig6_digitization.json",
+    "native_schematic_structural_equivalence": "native_schematic_equivalence.json"
+  },
+  "model_card": "MODEL_CARD.md",
+  "source_provenance": "sources/source_manifest.json",
+  "verification": "verification.json",
+  "source_fig6_original_response_ns": [
+    275,
+    160,
+    120
+  ],
+  "source_fig6_original_sigmaRon_uOhm": [
+    90.3,
+    525.4,
+    695.0
+  ],
+  "no_exact_noise_reproduction_claim": true,
+  "no_exact_275ns_fitting": true,
+  "wide_original_window_results_include_failures": true,
+  "circuit_loading_boundary": "forced DUT voltage input quantifies loading current; it does not prove perturbation of a coupled real DUT is negligible",
+  "source_missing_items": [
+    "author clamp BOM and gate driver/timing",
+    "author PCB parasitics and probe overload response",
+    "actual voltage scales and unspecified noise filter/raw samples"
+  ]
+}

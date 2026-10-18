@@ -1,0 +1,23 @@
+[
+  {
+    "native_schematic": "GaN_Fig5_Clamp_Safe400_Pos5.asc",
+    "equivalent_verified_deck": "wide_safe_400V_pos5V.cir",
+    "run_deck": "${PROJECT_ROOT}\\outputs\\full_reproduction\\clamp\\GaN_Fig5_Clamp_Safe400_Pos5.asc",
+    "excitation": "inline original PWL, VBUS/VON parameter-controlled",
+    "external_pwl_required": false
+  },
+  {
+    "native_schematic": "GaN_Fig5_Clamp_Safe400_Neg5.asc",
+    "equivalent_verified_deck": "wide_safe_400V_neg5V.cir",
+    "run_deck": "${PROJECT_ROOT}\\outputs\\full_reproduction\\clamp\\GaN_Fig5_Clamp_Safe400_Neg5.asc",
+    "excitation": "inline original PWL, VBUS/VON parameter-controlled",
+    "external_pwl_required": false
+  },
+  {
+    "native_schematic": "GaN_Fig5_Clamp_Default.asc",
+    "equivalent_verified_deck": "improved_positive.cir",
+    "run_deck": "${PROJECT_ROOT}\\outputs\\full_reproduction\\clamp\\GaN_Fig5_Clamp_Default.asc",
+    "excitation": "inline original PWL, VBUS/VON parameter-controlled",
+    "external_pwl_required": false
+  }
+]

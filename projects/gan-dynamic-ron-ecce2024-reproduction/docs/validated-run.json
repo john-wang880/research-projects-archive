@@ -1,0 +1,345 @@
+{
+  "validation_date": "2026-10-02",
+  "software": {
+    "MATLAB": "R2022b",
+    "LTspice": "24.0.12"
+  },
+  "scope": "Actual native execution from the public distribution directory; no independent hardware experiments",
+  "LTspice_jobs": [
+    {
+      "input": "outputs/full_reproduction/clamp/blocking_negative.cir",
+      "exit_code": 0,
+      "raw_sha256_at_execution": "39faee85385bb5ff27a407636076042205653e72dcefcf10be25529837d45830"
+    },
+    {
+      "input": "outputs/full_reproduction/clamp/blocking_positive.cir",
+      "exit_code": 0,
+      "raw_sha256_at_execution": "f89ac682f92ba59e92ac23d779d488cce36d2b896ad790872d5286072ddb7cce"
+    },
+    {
+      "input": "outputs/full_reproduction/clamp/current_mirror_reduced.cir",
+      "exit_code": 0,
+      "raw_sha256_at_execution": "0c6951e13fc0204ba950e1168c6e119a5f737f34bf2e6505fe29c7a72d50f619"
+    },
+    {
+      "input": "outputs/full_reproduction/clamp/diagnostic_btb_negative_dc.cir",
+      "exit_code": 0,
+      "raw_sha256_at_execution": "eb4eac3e54e8d504e60659d664ef771b84887b1100085504317e36448aa3ea0a"
+    },
+    {
+      "input": "outputs/full_reproduction/clamp/diagnostic_full_negative_dc.cir",
+      "exit_code": 0,
+      "raw_sha256_at_execution": "32fd64d419ee6edf78be7845af6e08e2592b73c78884727fb4b285c16825ac4a"
+    },
+    {
+      "input": "outputs/full_reproduction/clamp/diagnostic_st_reverse_dc.cir",
+      "exit_code": 0,
+      "raw_sha256_at_execution": "1d776f6fd75051f0f654bc6cbc4ea67bd41c76fd2121883bdc59fce85ce5e33b"
+    },
+    {
+      "input": "outputs/full_reproduction/clamp/diagnostic_wide_internal_v2.cir",
+      "exit_code": 0,
+      "raw_sha256_at_execution": "39535defc7eb300675bb65fbff21e3c3ea04043ea6c2d29aa2a558f13b166c60"
+    },
+    {
+      "input": "outputs/full_reproduction/clamp/diagnostic_wide_internal.cir",
+      "exit_code": 0,
+      "raw_sha256_at_execution": "f585816e4a358cde4245274416bf494ba1a769fba12908cfc0dd14cb65f39e61"
+    },
+    {
+      "input": "outputs/full_reproduction/clamp/diagnostic_wide_negative_long.cir",
+      "exit_code": 0,
+      "raw_sha256_at_execution": "38abb3fe0edc656144548973c82f973110743a8b98d2d388f6e1fb47d4276e54"
+    },
+    {
+      "input": "outputs/full_reproduction/clamp/diagnostic_wide_negative_strong.cir",
+      "exit_code": 0,
+      "raw_sha256_at_execution": "04e3fe8f179b68df84e3e7cc0edacdc43b556f4f7c31581319ea4f4edabcca73"
+    },
+    {
+      "input": "outputs/full_reproduction/clamp/improved_negative.cir",
+      "exit_code": 0,
+      "raw_sha256_at_execution": "7e78cd679168e8f977525fd26dde6884bed5a8318110e07d6190a353c1832850"
+    },
+    {
+      "input": "outputs/full_reproduction/clamp/improved_positive.cir",
+      "exit_code": 0,
+      "raw_sha256_at_execution": "fb9671a431f6fe5de82ca722b60e9dd21067be11709b5e49340919484cc0b37a"
+    },
+    {
+      "input": "outputs/full_reproduction/clamp/improved_slow_release_negative.cir",
+      "exit_code": 0,
+      "raw_sha256_at_execution": "9ac682896ba2ee91a765055aad67c7498efdb7cbf509eb2282030a6e299d1263"
+    },
+    {
+      "input": "outputs/full_reproduction/clamp/improved_slow_release_positive.cir",
+      "exit_code": 0,
+      "raw_sha256_at_execution": "88e13e47f2b0914be49ecacaa6b60f00607989aa0828b5f003d10e1872df06ce"
+    },
+    {
+      "input": "outputs/full_reproduction/clamp/improved_strong_drive_negative.cir",
+      "exit_code": 0,
+      "raw_sha256_at_execution": "54032a4ea7ad5f6ced410ee80a0577987ddc1732060f0a069631ec8f57b396a8"
+    },
+    {
+      "input": "outputs/full_reproduction/clamp/improved_strong_drive_positive.cir",
+      "exit_code": 0,
+      "raw_sha256_at_execution": "190b97dc943893e5d5ba51a1d0eff9759184cb1f956752ca455d43c2e9d27852"
+    },
+    {
+      "input": "outputs/full_reproduction/clamp/wide_150V_neg5V_early_btb_release.cir",
+      "exit_code": 0,
+      "raw_sha256_at_execution": "acf71a7b48a49b9ec9233e58ca01d471cc42c3c1ea37875395f1a55a1bf75562"
+    },
+    {
+      "input": "outputs/full_reproduction/clamp/wide_150V_neg5V.cir",
+      "exit_code": 0,
+      "raw_sha256_at_execution": "bb6f1defe219cc1f9bc0b5f0a0ef358f50352f8969341d3702329cd5e4f1c473"
+    },
+    {
+      "input": "outputs/full_reproduction/clamp/wide_150V_pos5V_early_btb_release.cir",
+      "exit_code": 0,
+      "raw_sha256_at_execution": "e06a11bf80930f08637f868013b3df698727f9f37af194e0855b31ac92ec188f"
+    },
+    {
+      "input": "outputs/full_reproduction/clamp/wide_150V_pos5V.cir",
+      "exit_code": 0,
+      "raw_sha256_at_execution": "b9e3d7f55685454cd15797551534ddd8e7aa6bc3c37d52a768d02f07e05a0529"
+    },
+    {
+      "input": "outputs/full_reproduction/clamp/wide_400V_neg5V_early_btb_release.cir",
+      "exit_code": 0,
+      "raw_sha256_at_execution": "01e1874bda8b3e0424f55e0e53ee2f307653c57fb17e17fa852b86c60d0a7b7f"
+    },
+    {
+      "input": "outputs/full_reproduction/clamp/wide_400V_neg5V.cir",
+      "exit_code": 0,
+      "raw_sha256_at_execution": "8dd271eacca09c3cb5ff219faedd7a9374e4b15803f77268e3b5f02d1f3cbfca"
+    },
+    {
+      "input": "outputs/full_reproduction/clamp/wide_400V_pos5V_early_btb_release.cir",
+      "exit_code": 0,
+      "raw_sha256_at_execution": "e3529990c18aded42e0d2704163867141e3c14b9042a15d13f4f733b9d9927aa"
+    },
+    {
+      "input": "outputs/full_reproduction/clamp/wide_400V_pos5V.cir",
+      "exit_code": 0,
+      "raw_sha256_at_execution": "bda564c8124f4d20325a47d35d250ae7c15cd6ff81a88f20cadf82519a42c781"
+    },
+    {
+      "input": "outputs/full_reproduction/clamp/wide_50V_neg5V_early_btb_release.cir",
+      "exit_code": 0,
+      "raw_sha256_at_execution": "d919d3824ded9046c15c0f8eb85c457dcdfc19a2f8ac6945f238a5b56a3e46cd"
+    },
+    {
+      "input": "outputs/full_reproduction/clamp/wide_50V_neg5V.cir",
+      "exit_code": 0,
+      "raw_sha256_at_execution": "ff221a0fddf9926a6e25a4a7f0cba61ebe1d10f2e74ec2c9cc1ffa98090e64ea"
+    },
+    {
+      "input": "outputs/full_reproduction/clamp/wide_50V_pos5V_early_btb_release.cir",
+      "exit_code": 0,
+      "raw_sha256_at_execution": "ba0301614f8a1fa762978d795376fa2d860b845028baea9abeff66a134867476"
+    },
+    {
+      "input": "outputs/full_reproduction/clamp/wide_50V_pos5V.cir",
+      "exit_code": 0,
+      "raw_sha256_at_execution": "2bfaa5fa2f97b2e6134acc67fe3eac987f79731caaeae394cdc22646d939ae98"
+    },
+    {
+      "input": "outputs/full_reproduction/clamp/wide_safe_150V_neg5V.cir",
+      "exit_code": 0,
+      "raw_sha256_at_execution": "120e5682942eba1b0690ef0fb250a07238612257574ce1df5bba3ee8dc570fc3"
+    },
+    {
+      "input": "outputs/full_reproduction/clamp/wide_safe_150V_pos5V.cir",
+      "exit_code": 0,
+      "raw_sha256_at_execution": "c320c8d1d4c8fa6435abfdccc63909fcb8408539f355b6979174d6194b5dfcae"
+    },
+    {
+      "input": "outputs/full_reproduction/clamp/wide_safe_400V_neg5V.cir",
+      "exit_code": 0,
+      "raw_sha256_at_execution": "a89e871468da221e29295c7c9e9a75a8872a4130739d88ad63b14d16f6d00b83"
+    },
+    {
+      "input": "outputs/full_reproduction/clamp/wide_safe_400V_pos5V.cir",
+      "exit_code": 0,
+      "raw_sha256_at_execution": "260abbeaddebde972b47d1af838f60ece7f54a87c2973192caf2c9e3fae6c3ee"
+    },
+    {
+      "input": "outputs/full_reproduction/clamp/wide_safe_50V_neg5V.cir",
+      "exit_code": 0,
+      "raw_sha256_at_execution": "81db3e44aa6661d2ea03d661b17299cfddd72cad9256e6b6d2223c583d052033"
+    },
+    {
+      "input": "outputs/full_reproduction/clamp/wide_safe_50V_pos5V.cir",
+      "exit_code": 0,
+      "raw_sha256_at_execution": "deeacc9524ad34bc3511a0d437f60b7ab0426f5bb9f25ba0120380f1783e4069"
+    },
+    {
+      "input": "outputs/full_reproduction/scrc/scrc_parallel.cir",
+      "exit_code": 0,
+      "raw_sha256_at_execution": "1a8eee149f456a82a536e43f5a5a894bfc9a33c489a8a0e7b91ad86a47df46af"
+    },
+    {
+      "input": "outputs/full_reproduction/clamp/GaN_Fig5_Clamp_Default.asc",
+      "exit_code": 0,
+      "raw_sha256_at_execution": "d26f16df43b489f9a12e70211701d056f194cc63a33348b0f0702defe45ab26d"
+    },
+    {
+      "input": "outputs/full_reproduction/clamp/GaN_Fig5_Clamp_Safe400_Neg5.asc",
+      "exit_code": 0,
+      "raw_sha256_at_execution": "1bd75ded795a8820194f8b03be10b16b3621cf300e39b60254812e5e768f6e12"
+    },
+    {
+      "input": "outputs/full_reproduction/clamp/GaN_Fig5_Clamp_Safe400_Pos5.asc",
+      "exit_code": 0,
+      "raw_sha256_at_execution": "28f25851bc1e80b68ae175aea71379b66800e41bce320afed9130c30ee009267"
+    },
+    {
+      "input": "outputs/reproduction/ltspice/conventional.asc",
+      "exit_code": 0,
+      "raw_sha256_at_execution": "0883a164c492562c3ab38151fa901618bd0c44ae9ebcdd700854315da154f974"
+    },
+    {
+      "input": "outputs/reproduction/ltspice/proposed.asc",
+      "exit_code": 0,
+      "raw_sha256_at_execution": "6a710d9b555c781396dd1ea19006fa14bb2f3a9e30c10a6ed69ab241b553b965"
+    }
+  ],
+  "MATLAB": {
+    "started": "20261002T161035",
+    "MATLAB": "9.13.0.2049777 (R2022b)",
+    "complete": true,
+    "stages": [
+      {
+        "function": "build_and_run_simulink",
+        "passed": true,
+        "seconds": 78.5324661
+      },
+      {
+        "function": "build_run_scrc",
+        "passed": true,
+        "seconds": 10.8570106
+      },
+      {
+        "function": "build_clamp_simulink",
+        "passed": true,
+        "seconds": 5.0287057
+      },
+      {
+        "function": "build_wide_clamp_simulink",
+        "passed": true,
+        "seconds": 5.6520793
+      },
+      {
+        "function": "build_run_ron_models",
+        "passed": true,
+        "seconds": 9.9103504
+      },
+      {
+        "function": "verify_coupled_model",
+        "passed": true,
+        "seconds": 3.7316615
+      },
+      {
+        "function": "build_run_tec",
+        "passed": true,
+        "seconds": 38.3036703
+      },
+      {
+        "function": "verify_pwm_convergence",
+        "passed": true,
+        "seconds": 64.9689144
+      },
+      {
+        "function": "run_integrated_snapshots",
+        "passed": true,
+        "seconds": 20.8826515
+      }
+    ],
+    "model_count": 11,
+    "finished": "20261002T161433"
+  },
+  "saved_model_execution": {
+    "models_executed": 11,
+    "all_reached_stop_time": true,
+    "MATLAB": "9.13.0.2049777 (R2022b)",
+    "records": [
+      {
+        "model": "outputs/full_reproduction/clamp/GaN_Clamp_Wide_Range_Analog_State.slx",
+        "seconds": 5.1788153,
+        "stop_event": "ReachedStopTime",
+        "slx_sha256": "c0dc9d497a2bfe503f567168d239b359422b27aeebf2825097233d75a24e4bc8"
+      },
+      {
+        "model": "outputs/full_reproduction/clamp/GaN_Fig5_Clamp_Analog_State.slx",
+        "seconds": 0.6555861,
+        "stop_event": "ReachedStopTime",
+        "slx_sha256": "ef71ebb865876e475d7ea365410b435e6d01ed23c7db38d74895aee0df3b0f7f"
+      },
+      {
+        "model": "outputs/full_reproduction/integration/GaN_Behavioral_Electrothermal_Snapshot.slx",
+        "seconds": 4.9516059,
+        "stop_event": "ReachedStopTime",
+        "slx_sha256": "81a65d961592bdf847680c89d4205573d4bbd0ceb0d2890bcd855aa2a34c3799"
+      },
+      {
+        "model": "outputs/full_reproduction/ron_trapping/RonStatic_Fig10.slx",
+        "seconds": 0.3707241,
+        "stop_event": "ReachedStopTime",
+        "slx_sha256": "13de05611e4290a495554a6cf734d77b392c2ba794fb1da6a5bb51e1ed12ce5d"
+      },
+      {
+        "model": "outputs/full_reproduction/ron_trapping/RonTrap_fig11.slx",
+        "seconds": 0.4560829,
+        "stop_event": "ReachedStopTime",
+        "slx_sha256": "b1c0ec175a34d7c118f18dcf9a5d15c33a21d5ef7cb294eb8a4bcc65918bea1f"
+      },
+      {
+        "model": "outputs/full_reproduction/ron_trapping/RonTrap_fig12.slx",
+        "seconds": 0.2807722,
+        "stop_event": "ReachedStopTime",
+        "slx_sha256": "0bd1fd97cea646d071f432c3158dbcf853cb588113bc2a0d59f5e1d26588fc75"
+      },
+      {
+        "model": "outputs/full_reproduction/scrc/GaN_SCRC_Current_Sharing.slx",
+        "seconds": 0.2957152,
+        "stop_event": "ReachedStopTime",
+        "slx_sha256": "64a5b22bf8dc60b4270c2c4b688cc30862f8366d776687b9f482805278fac2f4"
+      },
+      {
+        "model": "outputs/full_reproduction/simulink/GaN_Cauer_Figure14.slx",
+        "seconds": 0.3915313,
+        "stop_event": "ReachedStopTime",
+        "slx_sha256": "dcb5e5b6a59705b5877e8471273b488eb2950b1cfdaba146e36e48193a614125"
+      },
+      {
+        "model": "outputs/full_reproduction/simulink/GaN_Full_Bridge_SPS.slx",
+        "seconds": 1.5664729,
+        "stop_event": "ReachedStopTime",
+        "slx_sha256": "bab8c73fc4b7975bdd78c4031f17d66348d6a630ddac8f76d94dd8505fb0299b"
+      },
+      {
+        "model": "outputs/full_reproduction/tec/TEC_DualBuck_PWM.slx",
+        "seconds": 20.650199,
+        "stop_event": "ReachedStopTime",
+        "slx_sha256": "dea845994ec6c50f4e09c575bff39a324193cec72d6457b9a31b8c0fb4402d27"
+      },
+      {
+        "model": "outputs/full_reproduction/tec/TEC_Electrothermal_ClosedLoop.slx",
+        "seconds": 2.0595296,
+        "stop_event": "ReachedStopTime",
+        "slx_sha256": "fd4730a614b7cdb34a169e3869999d4afcfc45fe2d627c9e80de0b5c645e1087"
+      }
+    ]
+  },
+  "portability_fixes_validated": [
+    "All three bridge include files are distributed",
+    "Static Ron input fixture is stored in its model workspace",
+    "Generated code uses short temporary paths on Windows"
+  ],
+  "clamp_pointwise_transient_equivalence_claimed": false,
+  "external_model_files_distributed": false,
+  "third_party_paper_pdf_distributed": false
+}

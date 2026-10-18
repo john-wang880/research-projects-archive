@@ -1,0 +1,32 @@
+[
+  {
+    "deck": "${PROJECT_ROOT}\\outputs\\full_reproduction\\clamp\\wide_50V_neg5V.cir",
+    "bus_V": 50,
+    "on_voltage_V": -5
+  },
+  {
+    "deck": "${PROJECT_ROOT}\\outputs\\full_reproduction\\clamp\\wide_50V_pos5V.cir",
+    "bus_V": 50,
+    "on_voltage_V": 5
+  },
+  {
+    "deck": "${PROJECT_ROOT}\\outputs\\full_reproduction\\clamp\\wide_150V_neg5V.cir",
+    "bus_V": 150,
+    "on_voltage_V": -5
+  },
+  {
+    "deck": "${PROJECT_ROOT}\\outputs\\full_reproduction\\clamp\\wide_150V_pos5V.cir",
+    "bus_V": 150,
+    "on_voltage_V": 5
+  },
+  {
+    "deck": "${PROJECT_ROOT}\\outputs\\full_reproduction\\clamp\\wide_400V_neg5V.cir",
+    "bus_V": 400,
+    "on_voltage_V": -5
+  },
+  {
+    "deck": "${PROJECT_ROOT}\\outputs\\full_reproduction\\clamp\\wide_400V_pos5V.cir",
+    "bus_V": 400,
+    "on_voltage_V": 5
+  }
+]

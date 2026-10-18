@@ -1,0 +1,12 @@
+PUBLIC MODEL 1/11: GaN_Clamp_Wide_Range_Analog_State
+PUBLIC MODEL 2/11: GaN_Fig5_Clamp_Analog_State
+PUBLIC MODEL 3/11: GaN_Behavioral_Electrothermal_Snapshot
+PUBLIC MODEL 4/11: RonStatic_Fig10
+PUBLIC MODEL 5/11: RonTrap_fig11
+PUBLIC MODEL 6/11: RonTrap_fig12
+PUBLIC MODEL 7/11: GaN_SCRC_Current_Sharing
+PUBLIC MODEL 8/11: GaN_Cauer_Figure14
+PUBLIC MODEL 9/11: GaN_Full_Bridge_SPS
+PUBLIC MODEL 10/11: TEC_DualBuck_PWM
+PUBLIC MODEL 11/11: TEC_Electrothermal_ClosedLoop
+PASS: all 11 public SLX models reached their requested terminal time.

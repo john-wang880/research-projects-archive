@@ -1,0 +1,32 @@
+* Current-mirror clamping mechanism of Gelagaev 2015 ref[10], reduced port model
+* NOT original 2024 earlier test-setup BOM; no fitting to 120 ns waveform
+* ideal matched source ports stand for high-output-resistance cascode mirror
+* official nonlinear high-voltage diodes retain charge/recovery behavior
+.include models/BAS21_LTspice_compat.lib
+.param IMIRROR=60m MISMATCH=0 VBUS=150 VON=0.48
+Vdut input 0 PWL(0 {VBUS} 1u {VBUS} 1.02u {VON} 2u {VON} 2.02u {VBUS} 3u {VBUS})
+Ileft 0 a {IMIRROR*(1+MISMATCH)}
+Iright 0 b {IMIRROR*(1-MISMATCH)}
+Da a input DI_BAS21
+Db b 0 DI_BAS21
+D1 a z1 DI_BAS21
+D2 z1 z2 DI_BAS21
+D3 z2 z3 DI_BAS21
+D4 z3 z4 DI_BAS21
+D5 z4 z5 DI_BAS21
+D6 z5 z6 DI_BAS21
+D7 z6 z7 DI_BAS21
+D8 z7 b DI_BAS21
+Rprobe a b 1Meg
+Cprobe a b 14p
+Cstray_a a 0 5p
+Cstray_b b 0 5p
+Bvout out 0 V=V(a,b)
+.tran 0 3u 0 0.2n
+.options plotwinsize=0 reltol=1e-5 abstol=1e-10
+.save V(input) V(out) V(a) V(b) I(Da) I(Db)
+.meas TRAN output_peak MAX V(out) FROM 0.95u TO 1.7u
+.meas TRAN output_min MIN V(out) FROM 0.95u TO 1.7u
+.meas TRAN plateau AVG V(out) FROM 1.4u TO 1.8u
+.meas TRAN off_plateau AVG V(out) FROM 0.8u TO 0.95u
+.end

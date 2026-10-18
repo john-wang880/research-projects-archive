@@ -1,0 +1,533 @@
+{
+  "static": {
+    "current_degree": 4,
+    "temperature_degree": 2,
+    "coefficient_order": "outer j=temperaturePower0..2; inner i=currentPower0..degree",
+    "normalization": {
+      "current": "Id/50",
+      "temperature": "(Tc-55)/40"
+    },
+    "coefficients_mOhm": [
+      59.19189947640355,
+      1.2582515710920177,
+      0.6138137581899695,
+      -0.9212708359005009,
+      3.8653416481657192,
+      16.650381489503793,
+      -0.293093424954353,
+      -1.5875159190221082,
+      0.14310637913834642,
+      3.9748760177435076,
+      0.754803488748224,
+      -0.3856815029316805,
+      0.16030076037665938,
+      1.498876825199348,
+      1.0383405228311384
+    ],
+    "training_temperatures_C": [
+      15,
+      35,
+      55,
+      75,
+      95
+    ],
+    "held_out_temperatures_C": [
+      25,
+      45,
+      65,
+      85
+    ],
+    "candidates": [
+      {
+        "current_degree": 2,
+        "point_holdout": {
+          "n": 87,
+          "rmse_mOhm": 0.5870559230956688,
+          "max_abs_mOhm": 2.004457966820297,
+          "mae_mOhm": 0.44961074246947347
+        }
+      },
+      {
+        "current_degree": 3,
+        "point_holdout": {
+          "n": 87,
+          "rmse_mOhm": 0.596029770429816,
+          "max_abs_mOhm": 2.3126471217354734,
+          "mae_mOhm": 0.45286740516579393
+        }
+      },
+      {
+        "current_degree": 4,
+        "point_holdout": {
+          "n": 87,
+          "rmse_mOhm": 0.4604232734255031,
+          "max_abs_mOhm": 1.812681654435167,
+          "mae_mOhm": 0.36724609587548357
+        }
+      },
+      {
+        "current_degree": 5,
+        "point_holdout": {
+          "n": 87,
+          "rmse_mOhm": 0.4470280984811915,
+          "max_abs_mOhm": 1.9148717292900557,
+          "mae_mOhm": 0.3501310494315987
+        }
+      }
+    ],
+    "training": {
+      "n": 170,
+      "rmse_mOhm": 0.4478538624550653,
+      "max_abs_mOhm": 2.120952825882455,
+      "mae_mOhm": 0.35338638182924537
+    },
+    "point_holdout": {
+      "n": 87,
+      "rmse_mOhm": 0.4604232734255031,
+      "max_abs_mOhm": 1.812681654435167,
+      "mae_mOhm": 0.36724609587548357
+    },
+    "whole_temperature_holdout": {
+      "n": 212,
+      "rmse_mOhm": 0.4907071827300259,
+      "max_abs_mOhm": 2.3369891109553578,
+      "mae_mOhm": 0.3815123028747044
+    },
+    "domain": "Tc15..95C; Id approx-50..50A; Fig10 lower freewheel protocol and Vgs6V; not extrapolated to arbitrary Vgs or trap state"
+  },
+  "trapping": {
+    "fig11": [
+      {
+        "condition": 50,
+        "all_training": {
+          "n": 398,
+          "rmse_mOhm": 0.047065899617153524,
+          "max_abs_mOhm": 0.17923547845892074,
+          "mae_mOhm": 0.038254539611484534
+        },
+        "all_holdout": {
+          "n": 270,
+          "rmse_mOhm": 0.05124682335843891,
+          "max_abs_mOhm": 0.2693428960819375,
+          "mae_mOhm": 0.04018441976291161
+        },
+        "model_selection": {
+          "n": 135,
+          "rmse_mOhm": 0.05015852023090541,
+          "max_abs_mOhm": 0.15060493342177494,
+          "mae_mOhm": 0.04177029730301351
+        },
+        "independent_blocked_time_test": {
+          "n": 135,
+          "rmse_mOhm": 0.05231249044834257,
+          "max_abs_mOhm": 0.2693428960819375,
+          "mae_mOhm": 0.038598542222809715
+        },
+        "nominal_text_13min_timing_all_points": {
+          "n": 668,
+          "rmse_mOhm": 1.1109476468670152,
+          "max_abs_mOhm": 10.455909776859421,
+          "mae_mOhm": 0.30874265095419356
+        }
+      },
+      {
+        "condition": 100,
+        "all_training": {
+          "n": 405,
+          "rmse_mOhm": 0.09067695083650132,
+          "max_abs_mOhm": 0.9882203212707665,
+          "mae_mOhm": 0.0571271013588926
+        },
+        "all_holdout": {
+          "n": 271,
+          "rmse_mOhm": 0.07594511562608211,
+          "max_abs_mOhm": 0.39449496407444684,
+          "mae_mOhm": 0.05487497138385086
+        },
+        "model_selection": {
+          "n": 135,
+          "rmse_mOhm": 0.07479449770016285,
+          "max_abs_mOhm": 0.39449496407444684,
+          "mae_mOhm": 0.05515573325081617
+        },
+        "independent_blocked_time_test": {
+          "n": 136,
+          "rmse_mOhm": 0.07707028589129311,
+          "max_abs_mOhm": 0.3864177751389519,
+          "mae_mOhm": 0.05459627394237794
+        },
+        "nominal_text_13min_timing_all_points": {
+          "n": 676,
+          "rmse_mOhm": 1.644894103112878,
+          "max_abs_mOhm": 16.093236050262092,
+          "mae_mOhm": 0.3727434100390067
+        }
+      },
+      {
+        "condition": 150,
+        "all_training": {
+          "n": 400,
+          "rmse_mOhm": 0.07759309867184866,
+          "max_abs_mOhm": 0.5514853769628161,
+          "mae_mOhm": 0.05304910911736023
+        },
+        "all_holdout": {
+          "n": 283,
+          "rmse_mOhm": 0.0631566331055321,
+          "max_abs_mOhm": 0.34829253594542564,
+          "mae_mOhm": 0.04838282145537342
+        },
+        "model_selection": {
+          "n": 145,
+          "rmse_mOhm": 0.0660300235490447,
+          "max_abs_mOhm": 0.34829253594542564,
+          "mae_mOhm": 0.049603414258835354
+        },
+        "independent_blocked_time_test": {
+          "n": 138,
+          "rmse_mOhm": 0.059989394288835526,
+          "max_abs_mOhm": 0.2034534141595401,
+          "mae_mOhm": 0.04710031452419964
+        },
+        "nominal_text_13min_timing_all_points": {
+          "n": 683,
+          "rmse_mOhm": 2.136828853695759,
+          "max_abs_mOhm": 18.171469106657632,
+          "mae_mOhm": 0.4478575223791191
+        }
+      },
+      {
+        "condition": 200,
+        "all_training": {
+          "n": 414,
+          "rmse_mOhm": 0.07624539161472306,
+          "max_abs_mOhm": 0.5179904023995903,
+          "mae_mOhm": 0.05216836875119356
+        },
+        "all_holdout": {
+          "n": 262,
+          "rmse_mOhm": 0.06560044956874758,
+          "max_abs_mOhm": 0.2666761101806969,
+          "mae_mOhm": 0.05197911855807351
+        },
+        "model_selection": {
+          "n": 131,
+          "rmse_mOhm": 0.07208176560466369,
+          "max_abs_mOhm": 0.2666761101806969,
+          "mae_mOhm": 0.057533821894831846
+        },
+        "independent_blocked_time_test": {
+          "n": 131,
+          "rmse_mOhm": 0.05840425527782978,
+          "max_abs_mOhm": 0.13810909236059388,
+          "mae_mOhm": 0.04642441522131517
+        },
+        "nominal_text_13min_timing_all_points": {
+          "n": 676,
+          "rmse_mOhm": 1.8262254150072899,
+          "max_abs_mOhm": 16.42632998057104,
+          "mae_mOhm": 0.34048181302920144
+        }
+      },
+      {
+        "condition": 250,
+        "all_training": {
+          "n": 402,
+          "rmse_mOhm": 0.10891224495776357,
+          "max_abs_mOhm": 1.0511216093564286,
+          "mae_mOhm": 0.05966589262749903
+        },
+        "all_holdout": {
+          "n": 273,
+          "rmse_mOhm": 0.08333376769520225,
+          "max_abs_mOhm": 0.6741194031683762,
+          "mae_mOhm": 0.05488330626169227
+        },
+        "model_selection": {
+          "n": 135,
+          "rmse_mOhm": 0.09920884715251531,
+          "max_abs_mOhm": 0.6741194031683762,
+          "mae_mOhm": 0.059076090820844876
+        },
+        "independent_blocked_time_test": {
+          "n": 138,
+          "rmse_mOhm": 0.06410644025562187,
+          "max_abs_mOhm": 0.23882596935712286,
+          "mae_mOhm": 0.050781669192956035
+        },
+        "nominal_text_13min_timing_all_points": {
+          "n": 675,
+          "rmse_mOhm": 1.3618395597865907,
+          "max_abs_mOhm": 13.62899805103934,
+          "mae_mOhm": 0.22736438823456437
+        }
+      },
+      {
+        "condition": 300,
+        "all_training": {
+          "n": 420,
+          "rmse_mOhm": 0.1320885998308225,
+          "max_abs_mOhm": 1.9202932268012418,
+          "mae_mOhm": 0.06279597145861883
+        },
+        "all_holdout": {
+          "n": 270,
+          "rmse_mOhm": 0.08143359126389425,
+          "max_abs_mOhm": 0.44709155578287607,
+          "mae_mOhm": 0.05823667959557489
+        },
+        "model_selection": {
+          "n": 140,
+          "rmse_mOhm": 0.07779732938143681,
+          "max_abs_mOhm": 0.3147271986668443,
+          "mae_mOhm": 0.05785896955547517
+        },
+        "independent_blocked_time_test": {
+          "n": 130,
+          "rmse_mOhm": 0.0851761350655994,
+          "max_abs_mOhm": 0.44709155578287607,
+          "mae_mOhm": 0.05864344425414382
+        },
+        "nominal_text_13min_timing_all_points": {
+          "n": 690,
+          "rmse_mOhm": 1.5019361444252408,
+          "max_abs_mOhm": 12.461998353263482,
+          "mae_mOhm": 0.2745878566378332
+        }
+      },
+      {
+        "condition": 350,
+        "all_training": {
+          "n": 412,
+          "rmse_mOhm": 0.08347426577654006,
+          "max_abs_mOhm": 0.31712072356999954,
+          "mae_mOhm": 0.06496143709703504
+        },
+        "all_holdout": {
+          "n": 284,
+          "rmse_mOhm": 0.0820691751701036,
+          "max_abs_mOhm": 0.2633480787095337,
+          "mae_mOhm": 0.061873701601635994
+        },
+        "model_selection": {
+          "n": 144,
+          "rmse_mOhm": 0.08119913506170881,
+          "max_abs_mOhm": 0.25260793923285263,
+          "mae_mOhm": 0.059484632125889426
+        },
+        "independent_blocked_time_test": {
+          "n": 140,
+          "rmse_mOhm": 0.08295455419832083,
+          "max_abs_mOhm": 0.2633480787095337,
+          "mae_mOhm": 0.06433103020526103
+        },
+        "nominal_text_13min_timing_all_points": {
+          "n": 696,
+          "rmse_mOhm": 1.3536576174439132,
+          "max_abs_mOhm": 11.11215455033605,
+          "mae_mOhm": 0.267009304392613
+        }
+      },
+      {
+        "condition": 400,
+        "all_training": {
+          "n": 419,
+          "rmse_mOhm": 0.09609368224462515,
+          "max_abs_mOhm": 0.4888335556270462,
+          "mae_mOhm": 0.06757781758206034
+        },
+        "all_holdout": {
+          "n": 282,
+          "rmse_mOhm": 0.08901686981808705,
+          "max_abs_mOhm": 0.3198622230449928,
+          "mae_mOhm": 0.06393566302760668
+        },
+        "model_selection": {
+          "n": 139,
+          "rmse_mOhm": 0.08243895030321685,
+          "max_abs_mOhm": 0.300134156863443,
+          "mae_mOhm": 0.057916821744328065
+        },
+        "independent_blocked_time_test": {
+          "n": 143,
+          "rmse_mOhm": 0.0949751452350875,
+          "max_abs_mOhm": 0.3198622230449928,
+          "mae_mOhm": 0.06978614511415025
+        },
+        "nominal_text_13min_timing_all_points": {
+          "n": 701,
+          "rmse_mOhm": 1.2112426942864887,
+          "max_abs_mOhm": 10.285185915395715,
+          "mae_mOhm": 0.26445429984797214
+        }
+      }
+    ],
+    "fig12": [
+      {
+        "condition": 55,
+        "all_training": {
+          "n": 403,
+          "rmse_mOhm": 0.11431232655609858,
+          "max_abs_mOhm": 0.6322177058458891,
+          "mae_mOhm": 0.06693427611672294
+        },
+        "all_holdout": {
+          "n": 261,
+          "rmse_mOhm": 0.16368328765530832,
+          "max_abs_mOhm": 1.2517145719438219,
+          "mae_mOhm": 0.083313510504061
+        },
+        "model_selection": {
+          "n": 128,
+          "rmse_mOhm": 0.2058929190930538,
+          "max_abs_mOhm": 1.2517145719438219,
+          "mae_mOhm": 0.0996418603887455
+        },
+        "independent_blocked_time_test": {
+          "n": 133,
+          "rmse_mOhm": 0.10853108839345484,
+          "max_abs_mOhm": 0.4935240276356012,
+          "mae_mOhm": 0.06759900835940222
+        },
+        "nominal_text_13min_timing_all_points": {
+          "n": 664,
+          "rmse_mOhm": 3.293145479450139,
+          "max_abs_mOhm": 27.488983613720393,
+          "mae_mOhm": 0.62203061010739
+        }
+      },
+      {
+        "condition": 45,
+        "all_training": {
+          "n": 370,
+          "rmse_mOhm": 0.11791967925452004,
+          "max_abs_mOhm": 0.6555018089151474,
+          "mae_mOhm": 0.07023323472499005
+        },
+        "all_holdout": {
+          "n": 236,
+          "rmse_mOhm": 0.11949914281900378,
+          "max_abs_mOhm": 0.5553257460809107,
+          "mae_mOhm": 0.07835015297782187
+        },
+        "model_selection": {
+          "n": 116,
+          "rmse_mOhm": 0.13221709591327419,
+          "max_abs_mOhm": 0.5553257460809107,
+          "mae_mOhm": 0.08199448210544298
+        },
+        "independent_blocked_time_test": {
+          "n": 120,
+          "rmse_mOhm": 0.10576124208701795,
+          "max_abs_mOhm": 0.3673216779535551,
+          "mae_mOhm": 0.07482730148778813
+        },
+        "nominal_text_13min_timing_all_points": {
+          "n": 606,
+          "rmse_mOhm": 3.135713072836924,
+          "max_abs_mOhm": 24.62746341445972,
+          "mae_mOhm": 0.6482062139542446
+        }
+      },
+      {
+        "condition": 35,
+        "all_training": {
+          "n": 368,
+          "rmse_mOhm": 0.0617579493809299,
+          "max_abs_mOhm": 0.5275276541251799,
+          "mae_mOhm": 0.042382506419532937
+        },
+        "all_holdout": {
+          "n": 237,
+          "rmse_mOhm": 0.05786707853945728,
+          "max_abs_mOhm": 0.24278560643905678,
+          "mae_mOhm": 0.0438784512749788
+        },
+        "model_selection": {
+          "n": 125,
+          "rmse_mOhm": 0.0557725497811692,
+          "max_abs_mOhm": 0.2264025534548182,
+          "mae_mOhm": 0.04187510604729766
+        },
+        "independent_blocked_time_test": {
+          "n": 112,
+          "rmse_mOhm": 0.06011861392528468,
+          "max_abs_mOhm": 0.24278560643905678,
+          "mae_mOhm": 0.046114327645158645
+        },
+        "nominal_text_13min_timing_all_points": {
+          "n": 605,
+          "rmse_mOhm": 2.845800041459842,
+          "max_abs_mOhm": 22.016126710248813,
+          "mae_mOhm": 0.5814807510141313
+        }
+      },
+      {
+        "condition": 25,
+        "all_training": {
+          "n": 391,
+          "rmse_mOhm": 0.07859241108031485,
+          "max_abs_mOhm": 0.5519820454363469,
+          "mae_mOhm": 0.053907017096571634
+        },
+        "all_holdout": {
+          "n": 271,
+          "rmse_mOhm": 0.06348761381108167,
+          "max_abs_mOhm": 0.35168853159807156,
+          "mae_mOhm": 0.048498909472427965
+        },
+        "model_selection": {
+          "n": 137,
+          "rmse_mOhm": 0.06684674241272974,
+          "max_abs_mOhm": 0.35168853159807156,
+          "mae_mOhm": 0.05019743285872261
+        },
+        "independent_blocked_time_test": {
+          "n": 134,
+          "rmse_mOhm": 0.05985871306909545,
+          "max_abs_mOhm": 0.20174037593747585,
+          "mae_mOhm": 0.04676235944315657
+        },
+        "nominal_text_13min_timing_all_points": {
+          "n": 662,
+          "rmse_mOhm": 2.1707339657616687,
+          "max_abs_mOhm": 18.174408274736052,
+          "mae_mOhm": 0.46054905129903356
+        }
+      },
+      {
+        "condition": 15,
+        "all_training": {
+          "n": 337,
+          "rmse_mOhm": 0.04200212452751076,
+          "max_abs_mOhm": 0.29076726575861755,
+          "mae_mOhm": 0.03102669437293648
+        },
+        "all_holdout": {
+          "n": 228,
+          "rmse_mOhm": 0.11309022019456656,
+          "max_abs_mOhm": 1.097289800205985,
+          "mae_mOhm": 0.045537954661773
+        },
+        "model_selection": {
+          "n": 110,
+          "rmse_mOhm": 0.15552444313953118,
+          "max_abs_mOhm": 1.097289800205985,
+          "mae_mOhm": 0.05662934559569941
+        },
+        "independent_blocked_time_test": {
+          "n": 118,
+          "rmse_mOhm": 0.046515803447999646,
+          "max_abs_mOhm": 0.12693812460106813,
+          "mae_mOhm": 0.03519852243523144
+        },
+        "nominal_text_13min_timing_all_points": {
+          "n": 565,
+          "rmse_mOhm": 2.1660431426139355,
+          "max_abs_mOhm": 17.064265746856833,
+          "mae_mOhm": 0.4917673256527347
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "method": "Independent NumPy RK4 with exact discontinuity boundaries;1ns vs2ns convergence check",
+  "R_K_per_W": [
+    0.015,
+    0.23,
+    0.24,
+    0.015
+  ],
+  "C_J_per_K": [
+    8e-05,
+    0.00074,
+    0.0065,
+    0.002
+  ],
+  "initial_temperature_rise_K": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "case_temperature_fixed": true,
+  "Ron_ohm": 0.08,
+  "ramp_peak_A": 50,
+  "cases": {
+    "conventional": {
+      "mean_33p5_to_38p5_us_K": 5.2366847061396165,
+      "peak_38p5_us_K": 6.123210472042239,
+      "vs_native_pdf_curve_rmse_K": 0.014987040000163937,
+      "vs_native_pdf_curve_max_abs_K": 0.026970582357467965,
+      "timestep_1ns_vs_2ns_max_abs_K": 6.544185100487709e-07
+    },
+    "proposed": {
+      "mean_33p5_to_38p5_us_K": 2.5273746128505463,
+      "peak_38p5_us_K": 3.632014035256117,
+      "vs_native_pdf_curve_rmse_K": 0.009408400960817286,
+      "vs_native_pdf_curve_max_abs_K": 0.02489156995754993,
+      "timestep_1ns_vs_2ns_max_abs_K": 1.0407052772657376e-06
+    }
+  },
+  "mean_reduction_percent": 51.73712463751367
+}

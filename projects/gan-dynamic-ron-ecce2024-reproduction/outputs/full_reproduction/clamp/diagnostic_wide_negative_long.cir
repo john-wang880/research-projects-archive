@@ -1,0 +1,34 @@
+* Fig.5 physical clamp, public topology and representative official MOSFETs
+* Prevent negative DUT body-diode short: BTB OFF 60 ns BEFORE DUT voltage fall
+* Physical gate sequencing sensitivity, same official model coefficients
+.include models/stn1nk60z.lib
+.include models/DMG2302UK_official.lib
+.param VBUS=150 VON=-5 RDRV=20 CPROBE=14p
+* event at 1 us: DUT drain voltage falls in 20 ns, 10 A -> 48 mOhm illustration
+Vdut input 0 PWL(0 {VBUS} 1u {VBUS} 1.02u {VON} 8u {VON} 8.02u {VBUS} 10u {VBUS})
+Vdrive_block drv_block out PWL(0 0 1.05u 0 1.06u 10 7.94u 10 7.95u 0 10u 0)
+Rgate_block drv_block gate_block {RDRV}
+Xblocking input gate_block out STN1NK60Z
+Vdrive_btb drv_btb middle PWL(0 4.5 0.93u 4.5 0.94u 0 7.96u 0 7.97u 4.5 10u 4.5)
+Rgate_top drv_btb gate_top 300
+Rgate_bot drv_btb gate_bot 300
+Xbtb_top out gate_top middle DMG2302UK
+Xbtb_bot 0 gate_bot middle DMG2302UK
+* Bidirectional TVS reduced model: nominal ~8 V, capacitance 3 pF
+* TI ESDS452 representative V_RWM=5.5 V, V_BRtyp=8 V, R_dyn=0.29 Ohm
+Dtvsp out tvs_mid DTVS
+Dtvsm 0 tvs_mid DTVS
+.model DTVS D(Is=1p N=1.25 Rs=0.145 BV=7.3 IBV=1m Cjo=6p)
+Rprobe out 0 1Meg
+Cprobe out 0 {CPROBE}
+* Explicit additional PCB/probe strays: illustration, not known author layout
+Cstray out 0 5p
+Rmid_leak middle 0 100Meg
+.tran 0 10u 0 1n
+.options plotwinsize=0 reltol=1e-5 abstol=1e-10
+.save V(input) V(out) V(gate_block,out) V(gate_top,middle) I(Vdut) I(Dtvsp) I(Dtvsm)
+.meas TRAN output_peak MAX V(out) FROM 0.95u TO 1.7u
+.meas TRAN output_min MIN V(out) FROM 0.95u TO 1.7u
+.meas TRAN off_peak MAX V(out) FROM 1.9u TO 2.3u
+.meas TRAN plateau AVG V(out) FROM 1.4u TO 1.8u
+.end

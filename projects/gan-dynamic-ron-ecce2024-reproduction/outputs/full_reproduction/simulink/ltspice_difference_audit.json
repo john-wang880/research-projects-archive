@@ -1,0 +1,158 @@
+{
+  "proposed": {
+    "fit_effectiveL_H": 9.000000018004206e-05,
+    "fit_seriesR_Ohm": 0.0010000019545152628,
+    "fit_offsetV": 5.996127271527059e-10,
+    "fixedL_fit_seriesR_Ohm": 0.0010000015657336964,
+    "fixedL_fit_offsetV": 3.0130659963303186e-07,
+    "low_path_resistance_Ohm_mean": 0.07999953957520328,
+    "high_path_resistance_Ohm_mean": 0.07999968241149336,
+    "analytic_chargeEndCurrent_A": 52.42591502974742,
+    "analytic_chargeEndBus_V": 148.2763658665852,
+    "gate_threshold_crossings_s": {
+      "v(g_dut)": [
+        3.5524999999999996e-05,
+        4.0485e-05
+      ],
+      "v(g_ls1)": [
+        2.0249999999999997e-06,
+        3.4485e-05
+      ],
+      "v(g_hs1)": [
+        2.499999956129175e-14,
+        1.9849999999999996e-06,
+        3.4525e-05,
+        3.5485e-05,
+        4.0525e-05
+      ],
+      "v(g_hs2)": [
+        2.499999956129175e-14,
+        3.5485e-05,
+        4.0525e-05
+      ],
+      "v(g_ls2)": [
+        3.5524999999999996e-05,
+        4.0485e-05
+      ]
+    },
+    "integrated_voltage_departure_from_ideal_command_A_at37us": -0.0967904776449948,
+    "acceptedNative_LTspice_plateau_RMS_error_A": 0.08751152356731534,
+    "acceptedNative_LTspice_plateau_RMS_relative_percent": 0.1683257413189588,
+    "samples": {
+      "3e-06": {
+        "current": 1.6235234055452783,
+        "Vleft": 0.129875432946319,
+        "Vright": 149.86829917371423,
+        "Vbus": 149.9981767362511
+      },
+      "1e-05": {
+        "current": 13.194123868631594,
+        "Vleft": 1.0555231836335104,
+        "Vright": 148.8387502697897,
+        "Vbus": 149.89427555504952
+      },
+      "2e-05": {
+        "current": 29.446433722896142,
+        "Vleft": 2.355707581735916,
+        "Vright": 147.11159805433408,
+        "Vbus": 149.46730769442044
+      },
+      "3e-05": {
+        "current": 45.345750403493,
+        "Vleft": 3.627652548533799,
+        "Vright": 145.0911202174983,
+        "Vbus": 148.71877477734128
+      },
+      "3.44e-05": {
+        "current": 52.22216469642804,
+        "Vleft": 4.177765537466319,
+        "Vright": 144.11165412086635,
+        "Vbus": 148.28942164779454
+      },
+      "3.7e-05": {
+        "current": 52.07643510394255,
+        "Vleft": 4.686879554432479,
+        "Vright": -3.1022570250404966,
+        "Vbus": 148.28447557989244
+      }
+    }
+  },
+  "conventional": {
+    "fit_effectiveL_H": 9.000000019029954e-05,
+    "fit_seriesR_Ohm": 0.0010000019533110544,
+    "fit_offsetV": -6.002733347347977e-10,
+    "fixedL_fit_seriesR_Ohm": 0.0010000015211872738,
+    "fixedL_fit_offsetV": 3.1723918940959387e-07,
+    "low_path_resistance_Ohm_mean": 0.08999946003214129,
+    "high_path_resistance_Ohm_mean": 0.0799996825974401,
+    "analytic_chargeEndCurrent_A": 52.33228226530154,
+    "analytic_chargeEndBus_V": 148.27841804740964,
+    "gate_threshold_crossings_s": {
+      "v(g_dut)": [
+        2.0249999999999997e-06,
+        3.4485e-05,
+        3.5524999999999996e-05,
+        4.0485e-05
+      ],
+      "v(g_ls1)": [],
+      "v(g_hs1)": [
+        2.499999956129175e-14,
+        1.9849999999999996e-06,
+        3.4525e-05,
+        3.5485e-05,
+        4.0525e-05
+      ],
+      "v(g_hs2)": [
+        2.499999956129175e-14,
+        3.5485e-05,
+        4.0525e-05
+      ],
+      "v(g_ls2)": [
+        3.5524999999999996e-05,
+        4.0485e-05
+      ]
+    },
+    "integrated_voltage_departure_from_ideal_command_A_at37us": -0.09598669766670002,
+    "acceptedNative_LTspice_plateau_RMS_error_A": 0.08750247397373838,
+    "acceptedNative_LTspice_plateau_RMS_relative_percent": 0.16860997214077636,
+    "samples": {
+      "3e-06": {
+        "current": 1.623428860285238,
+        "Vleft": 0.1461010210605191,
+        "Vright": 149.86830682137074,
+        "Vbus": 149.99817682075124
+      },
+      "1e-05": {
+        "current": 13.188287329192091,
+        "Vleft": 1.1869379714427917,
+        "Vright": 148.8392484294055,
+        "Vbus": 149.89430679542076
+      },
+      "2e-05": {
+        "current": 29.41719913701603,
+        "Vleft": 2.647539610676455,
+        "Vright": 147.11428952885535,
+        "Vbus": 149.4676604112305
+      },
+      "3e-05": {
+        "current": 45.27593028668085,
+        "Vleft": 4.074825016938357,
+        "Vright": 145.0980211548264,
+        "Vbus": 148.72009012008007
+      },
+      "3.44e-05": {
+        "current": 52.129250613976325,
+        "Vleft": 4.691623680043708,
+        "Vright": 144.12111633056276,
+        "Vbus": 148.29145074821284
+      },
+      "3.7e-05": {
+        "current": 51.98331412693455,
+        "Vleft": 4.6784986659876955,
+        "Vright": -3.100491789954457,
+        "Vbus": 148.28651325011174
+      }
+    }
+  },
+  "conclusion": "Initial approximately2.4% discrepancy was a solver error of ode23tb/ode15s SPS integration. Accepted ode45 physical network, explicit1mOhm inductor series resistance, and5ns/2.5ns check reduce cross-simulator plateau disagreement to below0.17%. Remaining difference is mainly omittedLTspice gate deadtime and commutation/capacitance paths, supported by voltage integral budget."
+}

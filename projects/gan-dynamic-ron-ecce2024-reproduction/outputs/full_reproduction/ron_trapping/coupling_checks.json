@@ -1,0 +1,1 @@
+{"voltage_cases":[50,100,150,200,250,300,350,400],"release_continuity_bound_Ohm":1E-6,"temperature_cases":[15,25,35,45,55],"zero_duration_no_increment":true,"zero_historical_stress_no_increment":true,"scalar_pre_capture_release_queries":true,"unsupported_2D_grid_rejected":true}

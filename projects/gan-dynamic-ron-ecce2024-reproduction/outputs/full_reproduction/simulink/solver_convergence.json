@@ -1,0 +1,11 @@
+{
+  "solver": "ode45",
+  "steps_s": [
+    5E-9,
+    2.5E-9
+  ],
+  "chargingCurrentMaximumDifference_A": 0.00634637066240451,
+  "coarseChargeEnd_A": -52.393594944779316,
+  "fineChargeEnd_A": -52.399522223783123,
+  "comment": "ode23tb/ode15s produced inaccurate SPS switching results in this model; accepted ode45 also agrees with ode23t and closed-form RLC solution."
+}

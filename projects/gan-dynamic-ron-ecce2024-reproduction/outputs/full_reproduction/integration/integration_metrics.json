@@ -1,0 +1,154 @@
+{
+  "cases": [
+    {
+      "label": "positive30_initial",
+      "targetCurrent_A": 30,
+      "surfaceTemperatureInput_C": 25,
+      "caseTemperature_C": 25,
+      "historicalStressVoltage_V": 150,
+      "historyTime_min": 0,
+      "stressOn_min": 0,
+      "stressOff_min": 13.58,
+      "setRon_Ohm": 0.048717650106481235,
+      "extractedRon_Ohm": 0.048717650104107793,
+      "extractionError_Ohm": 2.3734417209375636E-12,
+      "meanCurrent_A": 29.320196540488972,
+      "measurementMeanPulseRise_K": 0.52935209736794664,
+      "peakPulseRise_K": 0.75825531068297825,
+      "energyBalanceRelativeResidual": 1.1516032883951692E-15,
+      "calibratedTrapIncrement_mOhm": 0,
+      "family": "fig11",
+      "measurementWindow_s": [
+        2.1000000000000002E-5,
+        2.6000000000000002E-5
+      ]
+    },
+    {
+      "label": "positive30_capture",
+      "targetCurrent_A": 30,
+      "surfaceTemperatureInput_C": 25,
+      "caseTemperature_C": 25,
+      "historicalStressVoltage_V": 150,
+      "historyTime_min": 5,
+      "stressOn_min": 0,
+      "stressOff_min": 13.58,
+      "setRon_Ohm": 0.073562855340862779,
+      "extractedRon_Ohm": 0.073562855335451441,
+      "extractionError_Ohm": 5.4113380443254755E-12,
+      "meanCurrent_A": 29.300014818676708,
+      "measurementMeanPulseRise_K": 0.798436022479598,
+      "peakPulseRise_K": 1.1427596178821708,
+      "energyBalanceRelativeResidual": 1.9526573690698002E-15,
+      "calibratedTrapIncrement_mOhm": 24.845205234381549,
+      "family": "fig11",
+      "measurementWindow_s": [
+        2.1000000000000002E-5,
+        2.6000000000000002E-5
+      ]
+    },
+    {
+      "label": "positive30_recovery",
+      "targetCurrent_A": 30,
+      "surfaceTemperatureInput_C": 25,
+      "caseTemperature_C": 25,
+      "historicalStressVoltage_V": 150,
+      "historyTime_min": 20,
+      "stressOn_min": 0,
+      "stressOff_min": 13.58,
+      "setRon_Ohm": 0.048877671854300524,
+      "extractedRon_Ohm": 0.048877671851911796,
+      "extractionError_Ohm": 2.3887281042078712E-12,
+      "meanCurrent_A": 29.320066496875786,
+      "measurementMeanPulseRise_K": 0.53108709212782812,
+      "peakPulseRise_K": 0.76073653722316914,
+      "energyBalanceRelativeResidual": 1.9969041875903074E-15,
+      "calibratedTrapIncrement_mOhm": 0.16002174781928721,
+      "family": "fig11",
+      "measurementWindow_s": [
+        2.1000000000000002E-5,
+        2.6000000000000002E-5
+      ]
+    },
+    {
+      "label": "negative30_capture",
+      "targetCurrent_A": -30,
+      "surfaceTemperatureInput_C": 25,
+      "caseTemperature_C": 25,
+      "historicalStressVoltage_V": 150,
+      "historyTime_min": 5,
+      "stressOn_min": 0,
+      "stressOff_min": 13.58,
+      "setRon_Ohm": 0.072129632786998715,
+      "extractedRon_Ohm": 0.072129632781795683,
+      "extractionError_Ohm": 5.2030324493301805E-12,
+      "meanCurrent_A": -29.35364169061868,
+      "measurementMeanPulseRise_K": 0.78573583881603015,
+      "peakPulseRise_K": 1.1246356969158615,
+      "energyBalanceRelativeResidual": 1.4887956381152023E-15,
+      "calibratedTrapIncrement_mOhm": 24.845205234381549,
+      "family": "fig11",
+      "measurementWindow_s": [
+        2E-5,
+        2.5E-5
+      ]
+    },
+    {
+      "label": "positive30_hot55",
+      "targetCurrent_A": 30,
+      "surfaceTemperatureInput_C": 55,
+      "caseTemperature_C": 55,
+      "historicalStressVoltage_V": 150,
+      "historyTime_min": 5,
+      "stressOn_min": 0,
+      "stressOff_min": 13.58,
+      "setRon_Ohm": 0.090289681541389388,
+      "extractedRon_Ohm": 0.090289681533236771,
+      "extractionError_Ohm": 8.1526174700030651E-12,
+      "meanCurrent_A": 29.286437882161795,
+      "measurementMeanPulseRise_K": 0.9792617933412946,
+      "peakPulseRise_K": 1.4007927060588579,
+      "energyBalanceRelativeResidual": 2.1843445886946832E-15,
+      "calibratedTrapIncrement_mOhm": 29.819904392334468,
+      "family": "fig12",
+      "measurementWindow_s": [
+        2.1000000000000002E-5,
+        2.6000000000000002E-5
+      ]
+    },
+    {
+      "label": "positive30_stress400",
+      "targetCurrent_A": 30,
+      "surfaceTemperatureInput_C": 25,
+      "caseTemperature_C": 25,
+      "historicalStressVoltage_V": 400,
+      "historyTime_min": 5,
+      "stressOn_min": 0,
+      "stressOff_min": 13.58,
+      "setRon_Ohm": 0.05369758544228017,
+      "extractedRon_Ohm": 0.053697585439396615,
+      "extractionError_Ohm": 2.8835545062833035E-12,
+      "meanCurrent_A": 29.642094109559135,
+      "measurementMeanPulseRise_K": 0.59649175399505772,
+      "peakPulseRise_K": 0.85412382149220811,
+      "energyBalanceRelativeResidual": 1.7597205199439964E-15,
+      "calibratedTrapIncrement_mOhm": 4.9799353357989329,
+      "family": "fig11",
+      "measurementWindow_s": [
+        9.7500000000000015E-6,
+        1.4750000000000003E-5
+      ]
+    }
+  ],
+  "modelClass": "Public-curve calibrated behavioral coupling demonstration",
+  "electricalEngine": "Native Simscape Electrical SPS full bridge, ode45",
+  "thermalEngine": "Exact four-capacitance Cauer ladder pulse-increment diagnostic",
+  "couplingDirection": "Behavioral frozen-Ron snapshot -> electrical pulse -> thermal increment",
+  "limits": [
+    "Ron is configured from public Fig10-12 calibrations, so this is not an independent prediction of trapping physics.",
+    "Fig10 surface was measured versus case temperature and may retain5us pulse self-heating; treating its temperature coordinate as instantaneous junction temperature is an unvalidated assumption.",
+    "No thermal feedback is applied to the fitted Fig10 surface here, to avoid counting its residual self-heating twice.",
+    "A30A calibrated trap-resistance increment is additively combined with signed-current static resistance; separability is an explicit behavioral assumption.",
+    "Negative current uses synchronized gated on-state conduction, not a gate-dependent self-commutated reverse-conduction compact model.",
+    "No current-temperature-trap iteration was tuned to match Table I experimental means or standard deviations."
+  ]
+}

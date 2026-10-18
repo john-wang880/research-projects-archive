@@ -1,0 +1,13 @@
+* conventional DPT
+.include common.inc
+CDC bus 0 {CDCVAL} IC={VDC}
+S_HS1 bus left g_hs1 0 SWA
+S_HS2 bus right g_hs2 0 SWA
+LLOAD right left {LLOAD}
+S_DUT left channel_dut g_dut 0 SWD
+VDUT channel_dut source_dut 0
+RSHUNT source_dut 0 {RSHUNT}
+S_LS1 left 0 g_ls1 0 SWA
+S_LS2 right 0 g_ls2 0 SWA
+.include conventional_gates.inc
+.end

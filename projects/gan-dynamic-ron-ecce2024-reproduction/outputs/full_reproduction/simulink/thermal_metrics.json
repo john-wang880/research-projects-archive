@@ -1,0 +1,35 @@
+{
+  "model": "GaN_Cauer_Figure14.slx",
+  "meanConventional_K": 5.2366846380300158,
+  "meanProposed_K": 2.527374501775566,
+  "meanReduction_percent": 51.737126130888477,
+  "peakConventional_K": 6.1232104711485871,
+  "peakProposed_K": 3.6320140331061381,
+  "paperPrintedMeans_K": [
+    4.7,
+    1.8
+  ],
+  "paperPrintedReduction_percent": 62,
+  "zeroInitialRise": true,
+  "measurementWindow_us": [
+    33.5,
+    38.5
+  ],
+  "topology": "Four-capacitance Cauer ladder; R4 to fixed case",
+  "R_K_per_W": [
+    0.015,
+    0.23,
+    0.24,
+    0.015
+  ],
+  "C_J_per_K": [
+    8E-5,
+    0.00074,
+    0.0065,
+    0.002
+  ],
+  "matlabExactReferenceMaxError_K": [
+    2.6684448307001674E-5,
+    2.7134630555810529E-5
+  ]
+}

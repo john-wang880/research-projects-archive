@@ -1,0 +1,5 @@
+V_GATE_hs1 g_hs1 0 PWL(0 6 {T0-TD} 6 {T0-TD+TR} 0 {T1+TD} 0 {T1+TD+TR} 6 {T2-TD} 6 {T2-TD+TR} 0 {T3+TD} 0 {T3+TD+TR} 6 {TSTOP} 6)
+V_GATE_hs2 g_hs2 0 PWL(0 6 {T2-TD} 6 {T2-TD+TR} 0 {T3+TD} 0 {T3+TD+TR} 6 {TSTOP} 6)
+V_GATE_dut g_dut 0 PWL(0 0 {T2+TD} 0 {T2+TD+TR} 6 {T3-TD} 6 {T3-TD+TR} 0 {TSTOP} 0)
+V_GATE_ls1 g_ls1 0 PWL(0 0 {T0+TD} 0 {T0+TD+TR} 6 {T1-TD} 6 {T1-TD+TR} 0 {TSTOP} 0)
+V_GATE_ls2 g_ls2 0 PWL(0 0 {T2+TD} 0 {T2+TD+TR} 6 {T3-TD} 6 {T3-TD+TR} 0 {TSTOP} 0)

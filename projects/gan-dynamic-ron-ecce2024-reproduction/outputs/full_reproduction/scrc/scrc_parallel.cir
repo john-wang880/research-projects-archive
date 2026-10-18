@@ -1,0 +1,23 @@
+* Mechanism-level GaN reverse current sharing, NOT a GS66508B vendor model.
+* GS66508B Rev200402 explains Vgd threshold and increased reverse drop with negative Vgs.
+* VTH=1.7V; RD=RA=80mOhm are explicit nominal assumptions.
+.param IT=30 VG_D=0 GAP=3 VTH_D=1.7 VTH_A=1.7 RD=80m RA=80m RSH=10m
+.param FD={max(VTH_D-VG_D,0)} FA={max(VTH_A-(VG_D-GAP),0)}
+I_LOAD drain 0 PWL(0 0 1u 0 1.01u {IT} 6u {IT} 6.01u 0 8u 0)
+R_SHUNT 0 source_dut {RSH}
+B_DUT source_dut drain I=max((V(source_dut,drain)-{FD})/{RD},0)
+B_LS1 0 drain I=max((V(0,drain)-{FA})/{RA},0)
+C_NODE drain 0 200p IC=0
+R_LEAK drain 0 1G
+.options plotwinsize=0 reltol=1e-8 abstol=1e-10 vntol=1e-9 numdgt=12
+.tran 0 8u 0 2n uic
+.step param IT list 10 30 50
+.step param VG_D list -3 0 6
+.step param GAP list 0 .5 1 2 3 4.5 5 6
+.save V(drain) V(source_dut) I(B_DUT) I(B_LS1) I(I_LOAD)
+.meas tran dut_reverse_mean AVG I(B_DUT) FROM 2u TO 5.8u
+.meas tran ls1_reverse_mean AVG I(B_LS1) FROM 2u TO 5.8u
+.meas tran dut_vsd_mean AVG V(source_dut,drain) FROM 2u TO 5.8u
+.meas tran proper_effective_ron PARAM dut_vsd_mean/dut_reverse_mean
+.meas tran wrong_total_ron PARAM dut_vsd_mean/IT
+.end

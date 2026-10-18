@@ -1,0 +1,36 @@
+{
+  "device": "GS66508B",
+  "checked_date": "2026-10-01",
+  "electrical_spice_model_status": "No downloadable official model was verified in this run. No substitute device model was staged.",
+  "netlist_pin_order": null,
+  "pin_order_reason": "The exact .SUBCKT declaration is unavailable; the vendor guide's terminal list must not be treated as netlist pin order.",
+  "local_checked_paths": [
+    "D:/ltspice_model",
+    "${USER_LOCAL_PATH}",
+    "${USER_LOCAL_PATH}"
+  ],
+  "local_result": "No GS66508B model filename or GS66508B text hit in .lib/.cir/.sub/.asy/.txt files.",
+  "official_product_url": "https://www.infineon.com/part/GS66508B-TR",
+  "official_product_status": "end of life / discontinued",
+  "official_documents_api": "https://www.infineon.com/dataApi/en/part.product-document.en.json?path=/root/ifxcontainer_809656638/ifxcontainer_1270043983/documents&ispnId=65872&limit=500&offset=0",
+  "official_documents_result": "2 records: datasheet and CoolGaN operation whitepaper; no SPICE model record.",
+  "official_design_resources_api": "https://www.infineon.com/dataApi/en/part.designresources.en.GS66508B-TR.json?path=/root/ifxcontainer_809656638/ifxcontainer_1270043983/designresources",
+  "official_design_resources_result": "Online thermal/converter simulations, interactive product sheet, and training; no downloadable SPICE model.",
+  "datasheet_url": "https://www.infineon.com/assets/row/public/documents/24/49/infineon-gs66508b-datasheet-en.pdf",
+  "vendor_model_guide_url": "https://community.infineon.com/gfawx74859/attachments/gfawx74859/jphemt/291/1/Spice%20Model%20User%20Guide_190729.pdf",
+  "vendor_model_guide_revision": "190729",
+  "vendor_guide_features": {
+    "L1": "G, D, S and SS when applicable; temperature-dependent IV and voltage-dependent capacitance; no internal thermal network or package stray inductance.",
+    "L3": "L1 features plus package stray inductance and Cauer thermal network; includes Tc and Tj thermal terminals.",
+    "thermal_units": "Thermal-node voltage represents temperature in degrees Celsius; thermal resistance in degrees Celsius per watt.",
+    "trapping": "The guide does not claim a trapping or dynamic-Ron history model. Without the actual model file, its trap coverage cannot be verified."
+  },
+  "cauer_data_from_datasheet": {
+    "R_K_per_W": [0.015, 0.23, 0.24, 0.015],
+    "C_J_per_K": [0.00008, 0.00074, 0.0065, 0.002],
+    "sum_R_K_per_W": 0.5,
+    "topology": "Junction -> R1 -> node2 -> R2 -> node3 -> R3 -> node4 -> R4 -> case; C1 at junction and C2/C3/C4 at successive nodes, each capacitor to the thermal reference."
+  },
+  "reproduction_use": "Paper Figure 14 explicitly uses a constant 80 milliohm resistance and a thermal model. This source-grounded baseline can proceed without an electrical vendor SPICE model.",
+  "downloaded_electrical_model_sha256": null
+}

@@ -1,0 +1,97 @@
+{
+  "method": "Four-stage Cauer, fixed case, zero initial rise, piecewise-linear I_D^2 R loss",
+  "inputCase": "Figure-input reconstruction, not an LTspice-derived circuit current",
+  "sourcePaperDOI": "10.1109/ECCEEurope62508.2024.10751914",
+  "thermalSource": "GS66508B datasheet Rev 200402, printed page 14",
+  "conventionalCurrentSource": "${PROJECT_ROOT}\\outputs\\reproduction\\matlab\\figure14_input_reconstruction\\figure14_conventional_current.csv",
+  "proposedCurrentSource": "${PROJECT_ROOT}\\outputs\\reproduction\\matlab\\figure14_input_reconstruction\\figure14_proposed_current.csv",
+  "measurementStart_s": 3.35E-5,
+  "measurementEnd_s": 3.85E-5,
+  "caseTemperature_C": 25,
+  "assumedRdsOn_ohm": 0.08,
+  "Cauer_R_K_per_W": [
+    0.015,
+    0.23,
+    0.24,
+    0.015
+  ],
+  "Cauer_C_J_per_K": [
+    8E-5,
+    0.00074,
+    0.0065,
+    0.002
+  ],
+  "initialTemperatureRise_K": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "conventional": {
+    "measurementMeanDeltaTj_K": 5.2366847008095263,
+    "measurementMeanTj_C": 30.236684700809526,
+    "globalPeakDeltaTj_K": 6.1232105775560433,
+    "globalPeakTime_s": 3.85E-5,
+    "measurementPeakDeltaTj_K": 6.1232105775560433,
+    "measurementMeanCurrent_A": 49.999995000000027,
+    "totalConductionEnergy_J": 0.0031666668692307519,
+    "measurementConductionEnergy_J": 0.0009999998999999796,
+    "peakConductionPower_W": 200,
+    "maximumAbsoluteEnergyBalanceResidual_J": 4.7335218647444896E-17,
+    "maximumRelativeEnergyBalanceResidual": 1.4947962827218257E-14
+  },
+  "proposed": {
+    "measurementMeanDeltaTj_K": 2.5273742869393994,
+    "measurementMeanTj_C": 27.5273742869394,
+    "globalPeakDeltaTj_K": 3.6320139040164365,
+    "globalPeakTime_s": 3.85E-5,
+    "measurementPeakDeltaTj_K": 3.6320139040164365,
+    "measurementMeanCurrent_A": 49.999995000000027,
+    "totalConductionEnergy_J": 0.0009999999999999894,
+    "measurementConductionEnergy_J": 0.0009999998999999898,
+    "peakConductionPower_W": 200,
+    "maximumAbsoluteEnergyBalanceResidual_J": 4.7021811455103039E-18,
+    "maximumRelativeEnergyBalanceResidual": 4.7021811455103536E-15
+  },
+  "meanTemperatureReduction_percent": 51.737130812005951,
+  "totalConductionEnergyReduction_percent": 68.421054651608813,
+  "paperReference": {
+    "meanConventional_K": 4.7,
+    "meanProposed_K": 1.8,
+    "meanReduction_percent": 62,
+    "peakConventional_K": 6.1,
+    "peakProposed_K": 3.6
+  },
+  "reproductionLimits": [
+    "Current input reconstructs the simplified 50 A Figure 14 pattern; the original simulation project is unpublished.",
+    "Only I_D^2 times constant 80 mOhm conduction loss is included, matching the paper method.",
+    "Zero initial thermal rise and fixed case 25 C are explicit local assumptions.",
+    "Minutes-scale trapping and experimental resistance statistics are not reproduced."
+  ],
+  "template": {
+    "currentPeak_A": 50,
+    "chargeStart_s": 0,
+    "chargeEnd_s": 3.25E-5,
+    "freewheelDuration_s": 1E-6,
+    "measurementDuration_s": 5E-6,
+    "edgeApproximation_s": 1E-12
+  },
+  "originalPlotVerification": {
+    "source": "Original PDF vector trace, extracted independently",
+    "measurementMeanConventional_K": 5.2223079132968566,
+    "measurementMeanProposed_K": 2.519570315081554,
+    "meanReduction_percent": 51.7537005302519,
+    "peakConventional_K": 6.1133783488154867,
+    "peakProposed_K": 3.6300486074519185,
+    "conventionalWaveformRmsDifference_K": 0.007262352270236104,
+    "proposedWaveformRmsDifference_K": 0.0036329447791304597,
+    "comment": "The plotted 5 us interval means differ from the printed 4.7 K/1.8 K/62% annotations."
+  },
+  "printedMeanDiscrepancy": {
+    "printedMeanConventional_K": 4.7,
+    "printedMeanProposed_K": 1.8,
+    "printedReduction_percent": 62,
+    "locallyComputedReduction_percent": 51.737130812005951,
+    "conclusion": "Keep the stated 33.5-38.5 us measurement window; do not tune the window to match 62%."
+  }
+}

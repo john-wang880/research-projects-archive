@@ -1,0 +1,20 @@
+[
+  {
+    "file": "../../ECCE_Europe_2024_GaN_Dynamic_Ron_Fulltext.pdf",
+    "url": "https://publikationen.bibliothek.kit.edu/1000176527/155655990",
+    "doi": "10.1109/ECCEEurope62508.2024.10751914",
+    "sha256": "0df6d7ddf4b4bbde241b4690f0f73ed644e232a0214c3041e4f1ca166e694e3c",
+    "pages": 8
+  },
+  {
+    "file": "GS66508B_Rev200402.pdf",
+    "url": "https://www.infineon.com/assets/row/public/documents/24/49/infineon-gs66508b-datasheet-en.pdf",
+    "sha256": "d86f5c6c74b87678cd11f664d65ccfd8c40e3c6ae95ce8a5d79ceb1a518fa18f"
+  },
+  {
+    "file": "../tec/QC31_official_specification_table.pdf",
+    "url": "https://www.quick-ohm.de/pdf/peltier-element/Information_TEC.pdf",
+    "sha256": "139eaef88d435a3ec3035dcbd08906636d1d610b29693b9a853767967610a474",
+    "relevant_page": 7
+  }
+]
