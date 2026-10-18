@@ -1,0 +1,59 @@
+name: Import recent TCAD simulations
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  import-tcad-projects:
+    if: ${{ !contains(github.event.head_commit.message, '[tcad-import]') }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out destination repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Copy the two recent TCAD projects
+        shell: bash
+        run: |
+          set -euo pipefail
+          git clone --depth 1 https://github.com/Greatlovers/TCAD.git /tmp/source-tcad
+          mkdir -p training
+          cp -a /tmp/source-tcad/training/CS-SJ-IGBT training/
+          cp -a /tmp/source-tcad/training/RC-IGBT training/
+          cat > README.md <<'EOF'
+          # TCAD Simulation Archive
+
+          This repository contains two recent Sentaurus TCAD projects copied from [Greatlovers/TCAD](https://github.com/Greatlovers/TCAD) on 2026-10-18. The original repository remains unchanged.
+
+          ## Projects
+
+          - **CS-SJ-IGBT** — 650 V trench field-stop charge-storage super-junction IGBT reproduction. See [project README](training/CS-SJ-IGBT/README.md), [Workbench export](training/CS-SJ-IGBT/CS-SJ-IGBT.gzp), and [results dashboard](training/CS-SJ-IGBT/figures/fig_07_results_dashboard.png).
+          - **RC-IGBT** — reverse-conducting IGBT Sentaurus project. See [project README](training/RC-IGBT/README.md), [sanitized Workbench package](training/RC-IGBT/RC-IGBT_swb_project_sanitized.zip), and [PDF guide](training/RC-IGBT/rc_igbt_project_documentation.pdf).
+
+          ## Requirements and notices
+
+          Rerunning the projects requires a valid local Sentaurus/Synopsys installation and license. The CS-SJ-IGBT project includes limited paper excerpts for technical comparison; third-party rights remain with their respective owners. This archive does not grant rights to third-party software or paper content.
+
+          ## Source
+
+          Original public repository: https://github.com/Greatlovers/TCAD
+          EOF
+
+      - name: Commit imported projects
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md training/CS-SJ-IGBT training/RC-IGBT
+          if git diff --cached --quiet; then
+            echo "No project changes to commit."
+            exit 0
+          fi
+          git commit -m "Import two recent TCAD simulation projects [tcad-import]"
+          git push origin HEAD:main
